@@ -1,4 +1,4 @@
-package SampleJavaPlayer;
+package original;
 
 /**
  * Class for generating the action commands.

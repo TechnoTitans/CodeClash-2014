@@ -1,4 +1,4 @@
-package SampleJavaPlayer;
+package original;
 
 import java.util.Random;
 

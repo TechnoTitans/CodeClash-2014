@@ -1,4 +1,4 @@
-package SampleJavaPlayer;
+package original;
 
 /**
  * This class holds useful global constants.

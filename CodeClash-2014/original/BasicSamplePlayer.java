@@ -1,4 +1,4 @@
-package SampleJavaPlayer;
+package original;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;

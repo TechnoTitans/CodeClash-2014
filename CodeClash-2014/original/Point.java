@@ -1,4 +1,4 @@
-package SampleJavaPlayer;
+package original;
 
 /**
  * A point on the grid.
