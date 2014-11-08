@@ -18,4 +18,6 @@ public class Navigation {
 	{
 		return (cpos.getX()==target.getX() && cpos.getY()==target.getY());
 	}
+	
+	
 }

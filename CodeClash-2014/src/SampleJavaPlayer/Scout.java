@@ -15,7 +15,7 @@ public class Scout extends Child{
 	private int flagColor; //needs to receive team color data
 	
 	public Scout (int scoutNumber){
-		super(scoutNumber);
+		super(Constants.RED);
 		this.scoutNumber = scoutNumber;
 	}
 	

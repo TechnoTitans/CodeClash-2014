@@ -1,0 +1,4693 @@
+3
+snapshot
+0 0
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . T . . . . . . . . . . . . P100 . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . S . . . . T . . . . S . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . V . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . P50 W . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . V W W . . . T . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . A . . . . . . T . T . T . . . . . . A . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . T . . . W W V . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . W P50 . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . V . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . S . . . . T . . . . S . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . P100 . . . . . . . . . . . . T . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0 2 S U b 50
+1 2 S U b 50
+2 1 S U b 50
+2 0 S U b 50
+30 28 S U b 50
+29 28 S U b 50
+28 29 S U b 50
+28 30 S U b 50
+alert 0 4 "must move somewhere"
+alert 0 7 "must move somewhere"
+moveReport 0
+move 2 3
+move 0 4
+plant 1 0
+move 0 1
+idle
+move 26 28
+move 29 30
+idle
+updateChild 100 2 S U b 25
+updateMap 100 1 0 R
+moveChild 100 233 5 29 28 28 28
+moveChild 100 300 0 0 2 1 3
+moveChild 100 300 1 1 2 0 3
+moveChild 100 300 3 2 0 1 1
+moveChild 233 366 5 28 28 27 28
+moveChild 366 500 5 27 28 26 28
+moveChild 300 500 0 1 3 2 3
+moveChild 300 500 1 0 3 0 4
+moveChild 300 500 3 1 1 0 1
+moveChild 100 500 6 28 29 29 30
+snap 500 12 0
+alert 500 1 "must move somewhere"
+moveReport 500
+move 5 3
+idle
+move 4 0
+move 2 0
+idle
+move 23 28
+plant 30 30
+launch 30 20
+updateChild 600 6 S U b 25
+updateMap 600 30 30 B
+updateChild 600 7 S U b 49
+movePaintball 600 640 blue 28.000000 30.000000 28.200000 29.000000
+movePaintball 640 680 blue 28.200000 29.000000 28.400000 28.000000
+movePaintball 680 720 blue 28.400000 28.000000 28.600000 27.000000
+moveChild 600 733 0 2 3 3 3
+moveChild 600 733 5 26 28 25 28
+movePaintball 720 760 blue 28.600000 27.000000 28.800000 26.000000
+alert 400 3 "Move blocked"
+movePaintball 760 800 blue 28.800000 26.000000 29.000000 25.000000
+moveChild 600 800 2 2 1 3 0
+movePaintball 800 840 blue 29.000000 25.000000 29.200000 24.000000
+moveChild 733 866 0 3 3 4 3
+moveChild 733 866 5 25 28 24 28
+movePaintball 840 880 blue 29.200000 24.000000 29.400000 23.000000
+movePaintball 880 920 blue 29.400000 23.000000 29.600000 22.000000
+movePaintball 920 960 blue 29.600000 22.000000 29.800000 21.000000
+movePaintball 960 1000 blue 29.800000 21.000000 30.000000 20.000000
+moveChild 866 1000 0 4 3 5 3
+moveChild 866 1000 5 24 28 23 28
+moveChild 800 1000 2 3 0 4 0
+snap 1000 12 12
+alert 1000 3 "must move somewhere"
+moveReport 1000
+plant 4 2
+move 1 2
+move 6 0
+idle
+move 27 28
+drop 22 28 17
+launch 14 21
+move 29 28
+updateChild 1000 5 S U b 33
+updateMap 1000 22 28 P17
+updateChild 1100 0 S U b 25
+updateMap 1100 4 2 R
+updateChild 1100 6 S U b 24
+movePaintball 1100 1126 blue 29.000000 30.000000 28.000000 29.400000
+movePaintball 1126 1153 blue 28.000000 29.400000 27.000000 28.800000
+movePaintball 1153 1180 blue 27.000000 28.800000 26.000000 28.200000
+movePaintball 1180 1206 blue 26.000000 28.200000 25.000000 27.600000
+movePaintball 1206 1233 blue 25.000000 27.600000 24.000000 27.000000
+moveChild 1100 1233 4 30 28 29 28
+movePaintball 1233 1260 blue 24.000000 27.000000 23.000000 26.400000
+movePaintball 1260 1286 blue 23.000000 26.400000 22.000000 25.800000
+moveChild 1100 1300 1 0 4 1 3
+moveChild 1100 1300 2 4 0 5 0
+moveChild 1100 1300 7 28 30 29 29
+movePaintball 1286 1313 blue 22.000000 25.800000 21.000000 25.200000
+movePaintball 1313 1340 blue 21.000000 25.200000 20.000000 24.600000
+movePaintball 1340 1366 blue 20.000000 24.600000 19.000000 24.000000
+moveChild 1233 1366 4 29 28 28 28
+movePaintball 1366 1393 blue 19.000000 24.000000 18.000000 23.400000
+movePaintball 1393 1420 blue 18.000000 23.400000 17.000000 22.800000
+movePaintball 1420 1446 blue 17.000000 22.800000 16.000000 22.200000
+movePaintball 1446 1473 blue 16.000000 22.200000 15.000000 21.600000
+movePaintball 1473 1500 blue 15.000000 21.600000 14.000000 21.000000
+moveChild 1366 1500 4 28 28 27 28
+moveChild 1300 1500 1 1 3 1 2
+moveChild 1300 1500 2 5 0 6 0
+moveChild 1300 1500 7 29 29 29 28
+snap 1500 24 12
+moveReport 1500
+move 5 6
+plant 0 1
+launch 20 10
+move 0 2
+plant 28 29
+move 24 26
+drop 29 29 10
+move 26 28
+updateChild 1500 6 S U b 14
+updateMap 1500 29 29 P10
+updateChild 1600 4 S U b 25
+updateMap 1600 28 29 B
+alert 1600 1 "cannot plant flag in space occupied by a child"
+updateChild 1600 2 S U b 24
+movePaintball 1600 1628 red 6.000000 0.000000 7.000000 0.714286
+movePaintball 1628 1657 red 7.000000 0.714286 8.000000 1.428571
+movePaintball 1657 1685 red 8.000000 1.428571 9.000000 2.142857
+movePaintball 1685 1714 red 9.000000 2.142857 10.000000 2.857143
+moveChild 1600 1733 0 5 3 5 4
+moveChild 1600 1733 7 29 28 28 28
+movePaintball 1714 1742 red 10.000000 2.857143 11.000000 3.571429
+movePaintball 1742 1771 red 11.000000 3.571429 12.000000 4.285714
+movePaintball 1771 1800 red 12.000000 4.285714 13.000000 5.000000
+moveChild 1600 1800 5 23 28 24 27
+movePaintball 1800 1828 red 13.000000 5.000000 14.000000 5.714286
+movePaintball 1828 1857 red 14.000000 5.714286 15.000000 6.428571
+alert 1600 7 "Move blocked"
+moveChild 1733 1866 0 5 4 5 5
+movePaintball 1857 1885 red 15.000000 6.428571 16.000000 7.142857
+movePaintball 1885 1914 red 16.000000 7.142857 17.000000 7.857143
+movePaintball 1914 1942 red 17.000000 7.857143 18.000000 8.571429
+movePaintball 1942 1971 red 18.000000 8.571429 19.000000 9.285714
+movePaintball 1971 2000 red 19.000000 9.285714 20.000000 10.000000
+moveChild 1866 2000 0 5 5 5 6
+moveChild 1800 2000 5 24 27 24 26
+moveChild 1600 2000 3 0 1 0 2
+snap 2000 24 24
+moveReport 2000
+plant 4 5
+move 4 2
+plant 5 0
+crouch
+move 28 26
+move 23 24
+move 30 29
+move 28 30
+updateChild 2050 3 C U b 50
+updateChild 2100 0 S U b 0
+updateMap 2100 4 5 R
+alert 2100 2 "child does not have enough paintballs to plant a flag"
+moveChild 2100 2233 1 1 2 2 2
+alert 1900 7 "Move blocked"
+moveChild 2100 2300 4 27 28 28 27
+moveChild 2100 2300 5 24 26 23 25
+moveChild 2233 2366 1 2 2 3 2
+alert 2233 1 "Move blocked"
+moveChild 2300 2500 4 28 27 28 26
+moveChild 2300 2500 5 23 25 23 24
+moveChild 2100 2500 6 29 30 30 29
+snap 2500 36 24
+moveReport 2500
+move 7 5
+move 5 3
+move 6 3
+move 1 2
+move 30 26
+launch 15 30
+pickup 29 29
+move 26 28
+updateChild 2550 6 S U b 24
+updateMap 2550 29 29 .
+updateChild 2600 5 S U b 32
+movePaintball 2600 2650 blue 23.000000 24.000000 22.000000 24.750000
+movePaintball 2650 2700 blue 22.000000 24.750000 21.000000 25.500000
+moveChild 2600 2733 2 6 0 6 1
+movePaintball 2700 2750 blue 21.000000 25.500000 20.000000 26.250000
+movePaintball 2750 2800 blue 20.000000 26.250000 19.000000 27.000000
+moveChild 2600 2800 0 5 6 6 5
+moveChild 2600 2800 4 28 26 29 26
+moveChild 2600 2800 1 3 2 4 3
+moveChild 2600 2800 7 28 28 27 28
+movePaintball 2800 2850 blue 19.000000 27.000000 18.000000 27.750000
+moveChild 2733 2866 2 6 1 6 2
+movePaintball 2850 2900 blue 18.000000 27.750000 17.000000 28.500000
+movePaintball 2900 2950 blue 17.000000 28.500000 16.000000 29.250000
+movePaintball 2950 3000 blue 16.000000 29.250000 15.000000 30.000000
+moveChild 2866 3000 2 6 2 6 3
+moveChild 2800 3000 0 6 5 7 5
+moveChild 2800 3000 4 29 26 30 26
+moveChild 2800 3000 1 4 3 5 3
+moveChild 2800 3000 7 27 28 26 28
+moveChild 2600 3000 3 0 2 1 2
+snap 3000 36 24
+alert 3000 6 "must move somewhere"
+moveReport 3000
+launch 0 12
+move 6 1
+move 3 3
+move 1 1
+move 27 26
+move 21 25
+idle
+launch 14 16
+alert 3100 0 "child is out of paintballs"
+updateChild 3100 7 S U b 48
+movePaintball 3100 3133 blue 26.000000 28.000000 25.000000 27.000000
+movePaintball 3133 3166 blue 25.000000 27.000000 24.000000 26.000000
+movePaintball 3166 3200 blue 24.000000 26.000000 23.000000 25.000000
+alert 2966 2 "Move blocked"
+movePaintball 3200 3233 blue 23.000000 25.000000 22.000000 24.000000
+moveChild 3100 3233 4 30 26 29 26
+movePaintball 3233 3266 blue 22.000000 24.000000 21.000000 23.000000
+movePaintball 3266 3300 blue 21.000000 23.000000 20.000000 22.000000
+moveChild 3100 3300 1 5 3 6 2
+moveChild 3100 3300 5 23 24 22 25
+movePaintball 3300 3333 blue 20.000000 22.000000 19.000000 21.000000
+movePaintball 3333 3366 blue 19.000000 21.000000 18.000000 20.000000
+moveChild 3233 3366 4 29 26 28 26
+movePaintball 3366 3400 blue 18.000000 20.000000 17.000000 19.000000
+movePaintball 3400 3433 blue 17.000000 19.000000 16.000000 18.000000
+movePaintball 3433 3466 blue 16.000000 18.000000 15.000000 17.000000
+paintballHit 3466 blue 15 17
+moveChild 3366 3500 4 28 26 27 26
+moveChild 3300 3500 1 6 2 6 1
+moveChild 3300 3500 5 22 25 21 25
+moveChild 3100 3500 3 1 2 1 1
+snap 3500 36 24
+moveReport 3500
+move 4 5
+drop 5 1 15
+move 4 4
+move 0 1
+move 24 26
+drop 21 24 2
+drop 30 28 1
+move 25 30
+updateChild 3500 1 S U b 35
+updateMap 3500 5 1 P15
+updateChild 3500 5 S U b 30
+updateMap 3500 21 24 P2
+updateChild 3500 6 S U b 23
+updateMap 3500 30 28 P1
+moveChild 3600 3733 0 7 5 6 5
+moveChild 3600 3733 4 27 26 26 26
+moveChild 3600 3800 2 6 3 5 4
+moveChild 3600 3800 7 26 28 25 29
+moveChild 3733 3866 0 6 5 5 5
+moveChild 3733 3866 4 26 26 25 26
+alert 3733 0 "Move blocked"
+moveChild 3866 4000 4 25 26 24 26
+moveChild 3800 4000 2 5 4 4 4
+moveChild 3800 4000 7 25 29 25 30
+moveChild 3600 4000 3 1 1 0 1
+snap 4000 36 24
+moveReport 4000
+launch 11 23
+move 6 0
+move 4 1
+launch 0 0
+drop 23 26 8
+launch 30 30
+move 29 30
+move 24 28
+updateChild 4000 4 S U b 17
+updateMap 4000 23 26 P8
+alert 4100 0 "child is out of paintballs"
+updateChild 4100 5 S U b 29
+alert 4100 3 "child must be standing to launch"
+movePaintball 4100 4144 blue 21.000000 25.000000 22.000000 25.555556
+movePaintball 4144 4188 blue 22.000000 25.555556 23.000000 26.111111
+movePaintball 4188 4233 blue 23.000000 26.111111 24.000000 26.666667
+moveChild 4100 4233 2 4 4 4 3
+movePaintball 4233 4277 blue 24.000000 26.666667 25.000000 27.222222
+moveChild 4100 4300 7 25 30 24 29
+movePaintball 4277 4322 blue 25.000000 27.222222 26.000000 27.777778
+alert 4100 2 "Move blocked"
+movePaintball 4322 4366 blue 26.000000 27.777778 27.000000 28.333333
+movePaintball 4366 4411 blue 27.000000 28.333333 28.000000 28.888889
+paintballHit 4411 blue 28 29
+moveChild 4300 4500 7 24 29 24 28
+moveChild 4100 4500 1 6 1 6 0
+moveChild 4100 4500 6 30 29 29 30
+snap 4500 36 24
+alert 4500 1 "must move somewhere"
+moveReport 4500
+move 2 5
+idle
+move 7 3
+stand
+move 25 24
+move 19 26
+move 27 30
+move 24 25
+updateChild 4550 3 S U b 50
+alert 4466 0 "Move blocked"
+moveChild 4600 4733 2 4 3 5 3
+moveChild 4600 4733 7 24 28 24 27
+moveChild 4600 4800 4 24 26 25 25
+moveChild 4600 4800 5 21 25 20 26
+moveChild 4600 4800 6 29 30 28 30
+moveChild 4733 4866 2 5 3 6 3
+moveChild 4733 4866 7 24 27 24 26
+moveChild 4866 5000 2 6 3 7 3
+moveChild 4866 5000 7 24 26 24 25
+moveChild 4800 5000 4 25 25 25 24
+moveChild 4800 5000 5 20 26 19 26
+moveChild 4800 5000 6 28 30 27 30
+snap 5000 36 24
+moveReport 5000
+move 7 6
+move 8 1
+move 9 2
+move 0 4
+drop 25 25 2
+plant 20 27
+move 27 27
+drop 23 25 4
+updateChild 5000 4 S U b 15
+updateMap 5000 25 25 P2
+updateChild 5000 7 S U b 44
+updateMap 5000 23 25 P4
+updateChild 5100 5 S U b 4
+updateMap 5100 20 27 B
+moveChild 5100 5233 6 27 30 27 29
+moveChild 5100 5233 3 0 1 0 2
+moveChild 5100 5300 0 5 5 6 6
+moveChild 5100 5300 1 6 0 7 1
+moveChild 5100 5300 2 7 3 8 2
+moveChild 5233 5366 6 27 29 27 28
+moveChild 5233 5366 3 0 2 0 3
+moveChild 5366 5500 6 27 28 27 27
+moveChild 5366 5500 3 0 3 0 4
+moveChild 5300 5500 0 6 6 7 6
+moveChild 5300 5500 1 7 1 8 1
+moveChild 5300 5500 2 8 2 9 2
+snap 5500 36 36
+moveReport 5500
+move 5 7
+move 8 4
+move 10 4
+drop 0 5 12
+launch 27 30
+move 16 26
+move 28 25
+move 23 23
+updateChild 5500 3 S U b 38
+updateMap 5500 0 5 P12
+updateChild 5600 4 S U b 14
+movePaintball 5600 5666 blue 25.000000 24.000000 25.333333 25.000000
+movePaintball 5666 5733 blue 25.333333 25.000000 25.666667 26.000000
+moveChild 5600 5733 1 8 1 8 2
+moveChild 5600 5733 5 19 26 18 26
+movePaintball 5733 5800 blue 25.666667 26.000000 26.000000 27.000000
+moveChild 5600 5800 0 7 6 6 7
+moveChild 5600 5800 2 9 2 10 3
+moveChild 5600 5800 6 27 27 28 26
+moveChild 5600 5800 7 24 25 23 24
+movePaintball 5800 5866 blue 26.000000 27.000000 26.333333 28.000000
+moveChild 5733 5866 1 8 2 8 3
+moveChild 5733 5866 5 18 26 17 26
+movePaintball 5866 5933 blue 26.333333 28.000000 26.666667 29.000000
+movePaintball 5933 6000 blue 26.666667 29.000000 27.000000 30.000000
+moveChild 5866 6000 1 8 3 8 4
+moveChild 5866 6000 5 17 26 16 26
+moveChild 5800 6000 0 6 7 5 7
+moveChild 5800 6000 2 10 3 10 4
+moveChild 5800 6000 6 28 26 28 25
+moveChild 5800 6000 7 23 24 23 23
+snap 6000 36 36
+moveReport 6000
+move 6 9
+move 10 5
+plant 9 3
+move 0 5
+crouch
+move 17 28
+drop 28 26 5
+move 24 21
+updateChild 6000 6 S U b 18
+updateMap 6000 28 26 P5
+updateChild 6050 4 C U b 14
+alert 6100 2 "child does not have enough paintballs to plant a flag"
+moveChild 6100 6300 0 5 7 6 8
+moveChild 6100 6300 1 8 4 9 5
+moveChild 6100 6300 5 16 26 17 27
+moveChild 6100 6300 7 23 23 24 22
+alert 5700 3 "Move blocked"
+moveChild 6300 6500 0 6 8 6 9
+moveChild 6300 6500 1 9 5 10 5
+moveChild 6300 6500 5 17 27 17 28
+moveChild 6300 6500 7 24 22 24 21
+snap 6500 36 36
+moveReport 6500
+idle
+move 11 3
+launch 7 0
+plant 0 3
+pickup 25 25
+move 20 28
+move 28 28
+plant 25 22
+updateChild 6550 4 C U b 16
+updateMap 6550 25 25 .
+updateChild 6600 3 S U b 13
+updateMap 6600 0 3 R
+updateChild 6600 7 S U b 19
+updateMap 6600 25 22 B
+updateChild 6600 2 S U b 23
+movePaintball 6600 6700 red 10.000000 4.000000 9.250000 3.000000
+alert 6466 6 "Move blocked"
+moveChild 6600 6733 5 17 28 18 28
+movePaintball 6700 6800 red 9.250000 3.000000 8.500000 2.000000
+moveChild 6600 6800 1 10 5 11 4
+moveChild 6733 6866 5 18 28 19 28
+movePaintball 6800 6900 red 8.500000 2.000000 7.750000 1.000000
+movePaintball 6900 7000 red 7.750000 1.000000 7.000000 0.000000
+moveChild 6866 7000 5 19 28 20 28
+moveChild 6800 7000 1 11 4 11 3
+snap 7000 48 48
+moveReport 7000
+pickup 6 10
+idle
+idle
+pickup 0 5
+drop 26 24 6
+move 19 26
+plant 29 26
+pickup 24 20
+updateChild 7000 4 C U b 10
+updateMap 7000 26 24 P6
+updateChild 7050 0 S U d 0
+updateMap 7050 6 10 .
+updateChild 7050 3 S U b 25
+updateMap 7050 0 5 .
+updateChild 7050 7 S U d 19
+updateMap 7050 24 20 .
+alert 7100 6 "child does not have enough paintballs to plant a flag"
+moveChild 7100 7300 5 20 28 19 27
+moveChild 7300 7500 5 19 27 19 26
+snap 7500 48 48
+moveReport 7500
+move 7 11
+move 11 6
+launch 20 18
+drop 0 5 1
+drop 26 24 4
+move 17 25
+launch 30 18
+launch 30 16
+updateChild 7500 4 C U b 6
+updateMap 7500 26 24 P10
+updateChild 7500 3 S U b 24
+updateMap 7500 0 5 P1
+updateChild 7600 2 S U b 22
+updateChild 7600 6 S U b 17
+updateChild 7600 7 S U d 18
+movePaintball 7600 7628 red 10.000000 4.000000 10.714286 5.000000
+movePaintball 7628 7657 red 10.714286 5.000000 11.428571 6.000000
+movePaintball 7600 7657 blue 28.000000 25.000000 28.285714 24.000000
+movePaintball 7600 7666 blue 24.000000 21.000000 25.000000 20.166667
+movePaintball 7657 7685 red 11.428571 6.000000 12.142857 7.000000
+movePaintball 7685 7714 red 12.142857 7.000000 12.857143 8.000000
+movePaintball 7657 7714 blue 28.285714 24.000000 28.571429 23.000000
+movePaintball 7666 7733 blue 25.000000 20.166667 26.000000 19.333333
+moveChild 7600 7733 1 11 3 11 4
+movePaintball 7714 7742 red 12.857143 8.000000 13.571429 9.000000
+movePaintball 7742 7771 red 13.571429 9.000000 14.285714 10.000000
+movePaintball 7714 7771 blue 28.571429 23.000000 28.857143 22.000000
+movePaintball 7771 7800 red 14.285714 10.000000 15.000000 11.000000
+movePaintball 7733 7800 blue 26.000000 19.333333 27.000000 18.500000
+moveChild 7600 7800 0 6 9 7 10
+moveChild 7600 7800 5 19 26 18 25
+movePaintball 7800 7828 red 15.000000 11.000000 15.714286 12.000000
+movePaintball 7771 7828 blue 28.857143 22.000000 29.142857 21.000000
+movePaintball 7828 7857 red 15.714286 12.000000 16.428571 13.000000
+movePaintball 7800 7866 blue 27.000000 18.500000 28.000000 17.666667
+moveChild 7733 7866 1 11 4 11 5
+movePaintball 7857 7885 red 16.428571 13.000000 17.142857 14.000000
+movePaintball 7828 7885 blue 29.142857 21.000000 29.428571 20.000000
+movePaintball 7885 7914 red 17.142857 14.000000 17.857143 15.000000
+movePaintball 7866 7933 blue 28.000000 17.666667 29.000000 16.833333
+movePaintball 7914 7942 red 17.857143 15.000000 18.571429 16.000000
+movePaintball 7885 7942 blue 29.428571 20.000000 29.714286 19.000000
+movePaintball 7942 7971 red 18.571429 16.000000 19.285714 17.000000
+movePaintball 7971 8000 red 19.285714 17.000000 20.000000 18.000000
+movePaintball 7942 8000 blue 29.714286 19.000000 30.000000 18.000000
+movePaintball 7933 8000 blue 29.000000 16.833333 30.000000 16.000000
+moveChild 7866 8000 1 11 5 11 6
+moveChild 7800 8000 0 7 10 7 11
+moveChild 7800 8000 5 18 25 17 25
+snap 8000 48 48
+moveReport 8000
+plant 6 10
+move 13 5
+launch 3 21
+launch 0 3
+pickup 26 24
+launch 27 11
+idle
+move 22 20
+updateChild 8050 4 C U b 16
+updateMap 8050 26 24 .
+alert 8100 0 "child does not have enough paintballs to plant a flag"
+updateChild 8100 5 S U b 3
+updateChild 8100 2 S U b 21
+updateChild 8100 3 S U b 23
+movePaintball 8100 8123 red 10.000000 4.000000 9.588235 5.000000
+movePaintball 8100 8128 blue 17.000000 25.000000 17.714286 24.000000
+movePaintball 8123 8147 red 9.588235 5.000000 9.176471 6.000000
+movePaintball 8128 8157 blue 17.714286 24.000000 18.428571 23.000000
+movePaintball 8147 8170 red 9.176471 6.000000 8.764706 7.000000
+movePaintball 8157 8185 blue 18.428571 23.000000 19.142857 22.000000
+movePaintball 8170 8194 red 8.764706 7.000000 8.352941 8.000000
+movePaintball 8185 8214 blue 19.142857 22.000000 19.857143 21.000000
+movePaintball 8194 8217 red 8.352941 8.000000 7.941176 9.000000
+movePaintball 8217 8241 red 7.941176 9.000000 7.529412 10.000000
+movePaintball 8214 8242 blue 19.857143 21.000000 20.571429 20.000000
+movePaintball 8241 8264 red 7.529412 10.000000 7.117647 11.000000
+paintballHit 8242 red 7 11
+updateChild 8242 0 S U d 0
+movePaintball 8242 8271 blue 20.571429 20.000000 21.285714 19.000000
+movePaintball 8271 8300 blue 21.285714 19.000000 22.000000 18.000000
+moveChild 8100 8300 1 11 6 12 5
+moveChild 8100 8300 7 24 21 23 20
+movePaintball 8300 8328 blue 22.000000 18.000000 22.714286 17.000000
+movePaintball 8328 8357 blue 22.714286 17.000000 23.428571 16.000000
+movePaintball 8357 8385 blue 23.428571 16.000000 24.142857 15.000000
+paintballHit 8382 blue 24 15
+moveChild 8300 8500 1 12 5 13 5
+moveChild 8300 8500 7 23 20 22 20
+movePaintball 8100 8500 red 0.000000 4.000000 0.000000 3.000000
+snap 8500 37 48
+alert 8500 4 "must try to drop at least one paintball"
+moveReport 8500
+move 4 11
+move 15 4
+move 11 2
+move 0 2
+idle
+move 17 22
+launch 7 22
+launch 30 15
+updateChild 8600 6 S U b 16
+updateChild 8600 7 S U d 17
+movePaintball 8600 8619 blue 28.000000 25.000000 27.000000 24.857143
+movePaintball 8619 8638 blue 27.000000 24.857143 26.000000 24.714286
+movePaintball 8600 8650 blue 22.000000 20.000000 23.000000 19.375000
+movePaintball 8638 8657 blue 26.000000 24.714286 25.000000 24.571429
+movePaintball 8657 8676 blue 25.000000 24.571429 24.000000 24.428571
+movePaintball 8676 8695 blue 24.000000 24.428571 23.000000 24.285714
+movePaintball 8650 8700 blue 23.000000 19.375000 24.000000 18.750000
+movePaintball 8695 8714 blue 23.000000 24.285714 22.000000 24.142857
+movePaintball 8714 8733 blue 22.000000 24.142857 21.000000 24.000000
+moveChild 8600 8733 0 7 11 6 11
+moveChild 8600 8733 5 17 25 17 24
+movePaintball 8700 8750 blue 24.000000 18.750000 25.000000 18.125000
+movePaintball 8733 8752 blue 21.000000 24.000000 20.000000 23.857143
+movePaintball 8752 8771 blue 20.000000 23.857143 19.000000 23.714286
+movePaintball 8771 8790 blue 19.000000 23.714286 18.000000 23.571429
+alert 8400 3 "Move blocked"
+movePaintball 8750 8800 blue 25.000000 18.125000 26.000000 17.500000
+moveChild 8600 8800 1 13 5 14 4
+moveChild 8600 8800 2 10 4 11 3
+movePaintball 8790 8809 blue 18.000000 23.571429 17.000000 23.428571
+movePaintball 8809 8828 blue 17.000000 23.428571 16.000000 23.285714
+movePaintball 8828 8847 blue 16.000000 23.285714 15.000000 23.142857
+movePaintball 8800 8850 blue 26.000000 17.500000 27.000000 16.875000
+movePaintball 8847 8866 blue 15.000000 23.142857 14.000000 23.000000
+moveChild 8733 8866 0 6 11 5 11
+moveChild 8733 8866 5 17 24 17 23
+movePaintball 8866 8885 blue 14.000000 23.000000 13.000000 22.857143
+movePaintball 8850 8900 blue 27.000000 16.875000 28.000000 16.250000
+movePaintball 8885 8904 blue 13.000000 22.857143 12.000000 22.714286
+movePaintball 8904 8923 blue 12.000000 22.714286 11.000000 22.571429
+movePaintball 8923 8942 blue 11.000000 22.571429 10.000000 22.428571
+movePaintball 8900 8950 blue 28.000000 16.250000 29.000000 15.625000
+movePaintball 8942 8961 blue 10.000000 22.428571 9.000000 22.285714
+movePaintball 8961 8980 blue 9.000000 22.285714 8.000000 22.142857
+movePaintball 8980 9000 blue 8.000000 22.142857 7.000000 22.000000
+movePaintball 8950 9000 blue 29.000000 15.625000 30.000000 15.000000
+moveChild 8866 9000 0 5 11 4 11
+moveChild 8866 9000 5 17 23 17 22
+moveChild 8800 9000 1 14 4 15 4
+moveChild 8800 9000 2 11 3 11 2
+snap 9000 37 48
+moveReport 9000
+launch 18 21
+move 14 2
+move 12 4
+move 1 6
+move 26 24
+move 18 20
+pickup 28 26
+launch 0 18
+updateChild 9050 6 S U b 21
+updateMap 9050 28 26 .
+alert 9100 0 "child is out of paintballs"
+updateChild 9100 7 S U d 16
+movePaintball 9100 9118 blue 22.000000 20.000000 21.000000 19.909091
+movePaintball 9118 9136 blue 21.000000 19.909091 20.000000 19.818182
+movePaintball 9136 9154 blue 20.000000 19.818182 19.000000 19.727273
+movePaintball 9154 9172 blue 19.000000 19.727273 18.000000 19.636364
+movePaintball 9172 9190 blue 18.000000 19.636364 17.000000 19.545455
+movePaintball 9190 9209 blue 17.000000 19.545455 16.000000 19.454545
+movePaintball 9209 9227 blue 16.000000 19.454545 15.000000 19.363636
+movePaintball 9227 9245 blue 15.000000 19.363636 14.000000 19.272727
+movePaintball 9245 9263 blue 14.000000 19.272727 13.000000 19.181818
+movePaintball 9263 9281 blue 13.000000 19.181818 12.000000 19.090909
+movePaintball 9281 9300 blue 12.000000 19.090909 11.000000 19.000000
+moveChild 9100 9300 1 15 4 14 3
+moveChild 9100 9300 5 17 22 18 21
+moveChild 9100 9300 2 11 2 12 3
+moveChild 9100 9300 3 0 4 1 5
+movePaintball 9300 9318 blue 11.000000 19.000000 10.000000 18.909091
+movePaintball 9318 9336 blue 10.000000 18.909091 9.000000 18.818182
+movePaintball 9336 9354 blue 9.000000 18.818182 8.000000 18.727273
+movePaintball 9354 9372 blue 8.000000 18.727273 7.000000 18.636364
+movePaintball 9372 9390 blue 7.000000 18.636364 6.000000 18.545455
+movePaintball 9390 9409 blue 6.000000 18.545455 5.000000 18.454545
+movePaintball 9409 9427 blue 5.000000 18.454545 4.000000 18.363636
+movePaintball 9427 9445 blue 4.000000 18.363636 3.000000 18.272727
+movePaintball 9445 9463 blue 3.000000 18.272727 2.000000 18.181818
+movePaintball 9463 9481 blue 2.000000 18.181818 1.000000 18.090909
+movePaintball 9481 9500 blue 1.000000 18.090909 0.000000 18.000000
+moveChild 9300 9500 1 14 3 14 2
+moveChild 9300 9500 5 18 21 18 20
+moveChild 9300 9500 2 12 3 12 4
+moveChild 9300 9500 3 1 5 1 6
+moveChild 9100 9500 4 25 24 26 24
+snap 9500 37 48
+moveReport 9500
+move 4 8
+move 16 3
+drop 13 4 4
+move 0 6
+move 25 24
+move 21 20
+move 28 22
+launch 0 19
+updateChild 9500 2 S U b 17
+updateMap 9500 13 4 P4
+updateChild 9600 7 S U d 15
+movePaintball 9600 9618 blue 22.000000 20.000000 21.000000 19.954545
+movePaintball 9618 9636 blue 21.000000 19.954545 20.000000 19.909091
+movePaintball 9636 9654 blue 20.000000 19.909091 19.000000 19.863636
+movePaintball 9654 9672 blue 19.000000 19.863636 18.000000 19.818182
+updateChild 9672 5 S U b 0
+updateMap 9672 18 21 P3
+paintballHit 9672 blue 18 20
+updateChild 9672 5 S U b 0
+alert 9466 5 "Move blocked"
+moveChild 9600 9733 0 4 11 4 10
+moveChild 9600 9733 6 28 25 28 24
+moveChild 9600 9800 1 14 2 15 3
+moveChild 9733 9866 0 4 10 4 9
+moveChild 9733 9866 6 28 24 28 23
+moveChild 9866 10000 0 4 9 4 8
+moveChild 9866 10000 6 28 23 28 22
+moveChild 9800 10000 1 15 3 16 3
+moveChild 9600 10000 4 26 24 25 24
+moveChild 9600 10000 3 1 6 0 6
+snap 10000 37 37
+moveReport 10000
+move 4 5
+drop 16 4 12
+launch 29 0
+launch 0 0
+drop 25 25 2
+move 17 18
+move 30 23
+move 21 22
+updateChild 10000 4 C U b 14
+updateMap 10000 25 25 P2
+updateChild 10000 1 S U b 23
+updateMap 10000 16 4 P12
+updateChild 10100 2 S U b 16
+updateChild 10100 3 S U b 22
+movePaintball 10100 10123 red 12.000000 4.000000 13.000000 3.764706
+movePaintball 10123 10147 red 13.000000 3.764706 14.000000 3.529412
+movePaintball 10100 10166 red 0.000000 6.000000 0.000000 5.000000
+movePaintball 10147 10170 red 14.000000 3.529412 15.000000 3.294118
+movePaintball 10170 10194 red 15.000000 3.294118 16.000000 3.058824
+updateChild 10194 1 S U b 18
+updateMap 10194 16 4 P17
+paintballHit 10194 red 16 3
+updateChild 10194 1 S U b 18
+movePaintball 10166 10233 red 0.000000 5.000000 0.000000 4.000000
+moveChild 10100 10233 0 4 8 4 7
+movePaintball 10233 10300 red 0.000000 4.000000 0.000000 3.000000
+moveChild 10100 10300 5 18 20 17 19
+moveChild 10100 10300 6 28 22 29 23
+moveChild 10100 10300 7 22 20 21 21
+movePaintball 10300 10366 red 0.000000 3.000000 0.000000 2.000000
+moveChild 10233 10366 0 4 7 4 6
+movePaintball 10366 10433 red 0.000000 2.000000 0.000000 1.000000
+alert 10233 0 "Move blocked"
+movePaintball 10433 10500 red 0.000000 1.000000 0.000000 0.000000
+moveChild 10300 10500 5 17 19 17 18
+moveChild 10300 10500 6 29 23 30 23
+moveChild 10300 10500 7 21 21 21 22
+snap 10500 26 37
+alert 10500 1 "must try to drop at least one paintball"
+alert 10500 6 "must try to drop at least one paintball"
+moveReport 10500
+move 5 4
+idle
+pickup 13 4
+drop 1 6 7
+pickup 25 25
+move 16 16
+idle
+move 23 21
+updateChild 10500 3 S U b 15
+updateMap 10500 1 6 P7
+updateChild 10550 4 C U b 16
+updateMap 10550 25 25 .
+updateChild 10550 2 S U b 20
+updateMap 10550 13 4 .
+moveChild 10600 10800 0 4 6 5 5
+moveChild 10600 10800 5 17 18 16 17
+moveChild 10600 10800 7 21 22 22 21
+moveChild 10800 11000 0 5 5 5 4
+moveChild 10800 11000 5 16 17 16 16
+moveChild 10800 11000 7 22 21 23 21
+snap 11000 26 37
+moveReport 11000
+move 5 1
+move 16 0
+move 15 4
+move 0 9
+move 25 23
+plant 17 17
+move 28 24
+defend
+updateChild 11050 7 S D d 15
+alert 11100 5 "child does not have enough paintballs to plant a flag"
+moveChild 11100 11233 0 5 4 5 3
+moveChild 11100 11233 1 16 3 16 2
+moveChild 11100 11233 2 12 4 13 4
+moveChild 11100 11233 3 0 6 0 7
+moveChild 11100 11300 6 30 23 29 24
+moveChild 11233 11366 0 5 3 5 2
+moveChild 11233 11366 1 16 2 16 1
+moveChild 11233 11366 2 13 4 14 4
+moveChild 11233 11366 3 0 7 0 8
+alert 11233 0 "Move blocked"
+moveChild 11366 11500 1 16 1 16 0
+moveChild 11366 11500 2 14 4 15 4
+moveChild 11366 11500 3 0 8 0 9
+moveChild 11300 11500 6 29 24 28 24
+moveChild 11100 11500 4 25 24 25 23
+snap 11500 26 37
+moveReport 11500
+move 6 4
+move 19 0
+pickup 16 4
+launch 0 15
+launch 30 23
+move 18 16
+move 27 22
+defend
+updateChild 11550 2 S U b 37
+updateMap 11550 16 4 .
+updateChild 11550 7 S D d 15
+alert 11600 4 "child must be standing to launch"
+updateChild 11600 3 S U b 14
+movePaintball 11600 11666 red 0.000000 9.000000 0.000000 10.000000
+movePaintball 11666 11733 red 0.000000 10.000000 0.000000 11.000000
+moveChild 11600 11733 1 16 0 17 0
+movePaintball 11733 11800 red 0.000000 11.000000 0.000000 12.000000
+moveChild 11600 11800 0 5 2 6 3
+moveChild 11600 11800 5 16 16 17 16
+moveChild 11600 11800 6 28 24 27 23
+movePaintball 11800 11866 red 0.000000 12.000000 0.000000 13.000000
+moveChild 11733 11866 1 17 0 18 0
+movePaintball 11866 11933 red 0.000000 13.000000 0.000000 14.000000
+movePaintball 11933 12000 red 0.000000 14.000000 0.000000 15.000000
+moveChild 11866 12000 1 18 0 19 0
+moveChild 11800 12000 0 6 3 6 4
+moveChild 11800 12000 5 17 16 18 16
+moveChild 11800 12000 6 27 23 27 22
+snap 12000 26 37
+moveReport 12000
+move 6 7
+launch 28 15
+move 13 5
+move 0 12
+move 25 24
+move 18 13
+move 28 20
+defend
+updateChild 12050 7 S D d 15
+updateChild 12100 1 S U b 17
+movePaintball 12100 12126 red 19.000000 0.000000 19.600000 1.000000
+movePaintball 12126 12153 red 19.600000 1.000000 20.200000 2.000000
+movePaintball 12153 12180 red 20.200000 2.000000 20.800000 3.000000
+movePaintball 12180 12206 red 20.800000 3.000000 21.400000 4.000000
+movePaintball 12206 12233 red 21.400000 4.000000 22.000000 5.000000
+moveChild 12100 12233 0 6 4 6 5
+moveChild 12100 12233 5 18 16 18 15
+moveChild 12100 12233 3 0 9 0 10
+movePaintball 12233 12260 red 22.000000 5.000000 22.600000 6.000000
+movePaintball 12260 12286 red 22.600000 6.000000 23.200000 7.000000
+moveChild 12100 12300 2 15 4 14 5
+moveChild 12100 12300 6 27 22 28 21
+movePaintball 12286 12313 red 23.200000 7.000000 23.800000 8.000000
+movePaintball 12313 12340 red 23.800000 8.000000 24.400000 9.000000
+movePaintball 12340 12366 red 24.400000 9.000000 25.000000 10.000000
+moveChild 12233 12366 0 6 5 6 6
+moveChild 12233 12366 5 18 15 18 14
+moveChild 12233 12366 3 0 10 0 11
+movePaintball 12366 12393 red 25.000000 10.000000 25.600000 11.000000
+movePaintball 12393 12420 red 25.600000 11.000000 26.200000 12.000000
+movePaintball 12420 12446 red 26.200000 12.000000 26.800000 13.000000
+movePaintball 12446 12473 red 26.800000 13.000000 27.400000 14.000000
+movePaintball 12473 12500 red 27.400000 14.000000 28.000000 15.000000
+moveChild 12366 12500 0 6 6 6 7
+moveChild 12366 12500 5 18 14 18 13
+moveChild 12366 12500 3 0 11 0 12
+moveChild 12300 12500 2 14 5 13 5
+moveChild 12300 12500 6 28 21 28 20
+moveChild 12100 12500 4 25 23 25 24
+snap 12500 26 37
+moveReport 12500
+move 7 5
+move 18 2
+move 13 8
+drop 0 13 4
+move 25 23
+move 17 12
+launch 30 30
+launch 30 9
+updateChild 12500 3 S U b 10
+updateMap 12500 0 13 P4
+updateChild 12600 6 S U b 20
+alert 12600 7 "child may not be defending when launching"
+movePaintball 12600 12640 blue 28.000000 20.000000 28.200000 21.000000
+movePaintball 12640 12680 blue 28.200000 21.000000 28.400000 22.000000
+movePaintball 12680 12720 blue 28.400000 22.000000 28.600000 23.000000
+moveChild 12600 12733 2 13 5 13 6
+movePaintball 12720 12760 blue 28.600000 23.000000 28.800000 24.000000
+movePaintball 12760 12800 blue 28.800000 24.000000 29.000000 25.000000
+moveChild 12600 12800 0 6 7 7 6
+moveChild 12600 12800 1 19 0 18 1
+movePaintball 12800 12840 blue 29.000000 25.000000 29.200000 26.000000
+moveChild 12733 12866 2 13 6 13 7
+movePaintball 12840 12880 blue 29.200000 26.000000 29.400000 27.000000
+movePaintball 12880 12920 blue 29.400000 27.000000 29.600000 28.000000
+movePaintball 12920 12960 blue 29.600000 28.000000 29.800000 29.000000
+movePaintball 12960 13000 blue 29.800000 29.000000 30.000000 30.000000
+moveChild 12866 13000 2 13 7 13 8
+moveChild 12800 13000 0 7 6 7 5
+moveChild 12800 13000 1 18 1 18 2
+moveChild 12600 13000 4 25 24 25 23
+moveChild 12600 13000 5 18 13 17 12
+snap 13000 26 37
+moveReport 13000
+move 7 2
+crouch
+launch 5 0
+pickup 0 13
+move 26 23
+launch 3 22
+move 30 20
+move 21 21
+updateChild 13050 3 S U b 14
+updateMap 13050 0 13 .
+updateChild 13050 1 C U b 17
+alert 13100 5 "child is out of paintballs"
+updateChild 13100 2 S U b 36
+movePaintball 13100 13150 red 13.000000 8.000000 12.000000 7.000000
+movePaintball 13150 13200 red 12.000000 7.000000 11.000000 6.000000
+moveChild 13100 13233 0 7 5 7 4
+movePaintball 13200 13250 red 11.000000 6.000000 10.000000 5.000000
+movePaintball 13250 13300 red 10.000000 5.000000 9.000000 4.000000
+moveChild 13100 13300 6 28 20 29 20
+moveChild 13100 13300 7 23 21 22 21
+movePaintball 13300 13350 red 9.000000 4.000000 8.000000 3.000000
+moveChild 13233 13366 0 7 4 7 3
+movePaintball 13350 13400 red 8.000000 3.000000 7.000000 2.000000
+movePaintball 13400 13450 red 7.000000 2.000000 6.000000 1.000000
+movePaintball 13450 13500 red 6.000000 1.000000 5.000000 0.000000
+moveChild 13366 13500 0 7 3 7 2
+moveChild 13300 13500 6 29 20 30 20
+moveChild 13300 13500 7 22 21 21 21
+moveChild 13100 13500 4 25 23 26 23
+snap 13500 26 37
+alert 13500 3 "must move somewhere"
+moveReport 13500
+defend
+move 18 1
+move 13 5
+idle
+drop 26 22 6
+move 14 12
+drop 29 20 1
+move 21 19
+updateChild 13500 4 C U b 10
+updateMap 13500 26 22 P6
+updateChild 13500 6 S U b 19
+updateMap 13500 29 20 P1
+updateChild 13550 0 S D d 0
+moveChild 13600 13733 5 17 12 16 12
+moveChild 13600 13733 2 13 8 13 7
+moveChild 13600 13800 7 21 21 21 20
+moveChild 13733 13866 5 16 12 15 12
+moveChild 13733 13866 2 13 7 13 6
+alert 13600 7 "Move blocked"
+moveChild 13866 14000 5 15 12 14 12
+moveChild 13866 14000 2 13 6 13 5
+moveChild 13600 14000 1 18 2 18 1
+snap 14000 26 37
+alert 14000 3 "must move somewhere"
+moveReport 14000
+move 9 2
+launch 7 14
+move 13 2
+idle
+launch 30 30
+launch 18 0
+move 27 20
+launch 26 1
+alert 14100 4 "child must be standing to launch"
+alert 14100 1 "child must be standing to launch"
+alert 14100 5 "child is out of paintballs"
+alert 14100 7 "child may not be defending when launching"
+alert 13966 6 "Move blocked"
+moveChild 14100 14233 2 13 5 13 4
+moveChild 14100 14300 0 7 2 8 2
+moveChild 14233 14366 2 13 4 13 3
+moveChild 14366 14500 2 13 3 13 2
+moveChild 14300 14500 0 8 2 9 2
+snap 14500 26 37
+moveReport 14500
+move 9 0
+move 17 1
+move 14 3
+crouch
+pickup 26 22
+launch 25 25
+plant 30 21
+move 19 20
+updateChild 14550 4 C U b 16
+updateMap 14550 26 22 .
+updateChild 14550 3 C U b 14
+alert 14600 6 "child does not have enough paintballs to plant a flag"
+alert 14600 5 "child is out of paintballs"
+alert 14400 7 "Move blocked"
+moveChild 14600 14800 0 9 2 9 1
+moveChild 14800 15000 0 9 1 9 0
+moveChild 14600 15000 1 18 1 17 1
+moveChild 14600 15000 2 13 2 14 3
+snap 15000 26 37
+moveReport 15000
+move 11 0
+launch 20 0
+move 12 4
+move 0 11
+move 26 22
+move 14 15
+launch 23 30
+undefend
+updateChild 15050 7 S U d 15
+alert 15100 1 "child must be standing to launch"
+updateChild 15100 6 S U b 18
+movePaintball 15100 15140 blue 30.000000 20.000000 29.300000 21.000000
+movePaintball 15140 15180 blue 29.300000 21.000000 28.600000 22.000000
+movePaintball 15180 15220 blue 28.600000 22.000000 27.900000 23.000000
+moveChild 15100 15233 5 14 12 14 13
+movePaintball 15220 15260 blue 27.900000 23.000000 27.200000 24.000000
+movePaintball 15260 15300 blue 27.200000 24.000000 26.500000 25.000000
+moveChild 15100 15300 0 9 0 10 0
+moveChild 15100 15300 2 14 3 13 4
+movePaintball 15300 15340 blue 26.500000 25.000000 25.800000 26.000000
+moveChild 15233 15366 5 14 13 14 14
+movePaintball 15340 15380 blue 25.800000 26.000000 25.100000 27.000000
+movePaintball 15380 15420 blue 25.100000 27.000000 24.400000 28.000000
+movePaintball 15420 15460 blue 24.400000 28.000000 23.700000 29.000000
+movePaintball 15460 15500 blue 23.700000 29.000000 23.000000 30.000000
+moveChild 15366 15500 5 14 14 14 15
+moveChild 15300 15500 0 10 0 11 0
+moveChild 15300 15500 2 13 4 12 4
+moveChild 15100 15500 4 26 23 26 22
+moveChild 15100 15500 3 0 12 0 11
+snap 15500 26 37
+moveReport 15500
+move 10 1
+move 17 0
+launch 1 17
+move 1 11
+drop 25 22 6
+move 15 13
+pickup 29 20
+move 22 18
+alert 15500 4 "cannot drop item there"
+updateChild 15550 6 S U b 19
+updateMap 15550 29 20 .
+updateChild 15600 2 S U b 35
+movePaintball 15600 15630 red 12.000000 4.000000 11.153846 5.000000
+movePaintball 15630 15661 red 11.153846 5.000000 10.307692 6.000000
+movePaintball 15661 15692 red 10.307692 6.000000 9.461538 7.000000
+movePaintball 15692 15723 red 9.461538 7.000000 8.615385 8.000000
+movePaintball 15723 15753 red 8.615385 8.000000 7.769231 9.000000
+movePaintball 15753 15784 red 7.769231 9.000000 6.923077 10.000000
+moveChild 15600 15800 5 14 15 15 14
+moveChild 15600 15800 7 21 20 22 19
+movePaintball 15784 15815 red 6.923077 10.000000 6.076923 11.000000
+movePaintball 15815 15846 red 6.076923 11.000000 5.230769 12.000000
+movePaintball 15846 15876 red 5.230769 12.000000 4.384615 13.000000
+movePaintball 15876 15907 red 4.384615 13.000000 3.538462 14.000000
+movePaintball 15907 15938 red 3.538462 14.000000 2.692308 15.000000
+movePaintball 15938 15969 red 2.692308 15.000000 1.846154 16.000000
+alert 15600 5 "Move blocked"
+movePaintball 15969 16000 red 1.846154 16.000000 1.000000 17.000000
+moveChild 15800 16000 7 22 19 22 18
+moveChild 15600 16000 0 11 0 10 1
+moveChild 15600 16000 1 17 1 17 0
+moveChild 15600 16000 3 0 11 1 11
+snap 16000 26 37
+alert 16000 7 "must try to drop at least one paintball"
+moveReport 16000
+defend
+plant 16 0
+move 15 4
+plant 0 10
+move 27 22
+plant 16 15
+move 30 23
+idle
+updateChild 16050 0 S D d 0
+alert 16100 1 "must be standing to plant a flag"
+alert 16100 5 "child does not have enough paintballs to plant a flag"
+alert 16100 3 "must be standing to plant a flag"
+moveChild 16100 16233 2 12 4 13 4
+moveChild 16100 16233 6 30 20 30 21
+moveChild 16233 16366 2 13 4 14 4
+moveChild 16233 16366 6 30 21 30 22
+moveChild 16366 16500 2 14 4 15 4
+moveChild 16366 16500 6 30 22 30 23
+moveChild 16100 16500 4 26 22 27 22
+snap 16500 26 37
+moveReport 16500
+move 8 1
+launch 13 20
+move 14 6
+launch 10 0
+move 26 22
+move 17 13
+launch 21 8
+move 22 15
+alert 16600 1 "child must be standing to launch"
+updateChild 16600 6 S U b 18
+alert 16600 3 "child must be standing to launch"
+movePaintball 16600 16626 blue 30.000000 23.000000 29.400000 22.000000
+movePaintball 16626 16653 blue 29.400000 22.000000 28.800000 21.000000
+movePaintball 16653 16680 blue 28.800000 21.000000 28.200000 20.000000
+movePaintball 16680 16706 blue 28.200000 20.000000 27.600000 19.000000
+movePaintball 16706 16733 blue 27.600000 19.000000 27.000000 18.000000
+moveChild 16600 16733 7 22 18 22 17
+movePaintball 16733 16760 blue 27.000000 18.000000 26.400000 17.000000
+movePaintball 16760 16786 blue 26.400000 17.000000 25.800000 16.000000
+moveChild 16600 16800 0 10 1 9 1
+moveChild 16600 16800 5 15 14 16 13
+moveChild 16600 16800 2 15 4 14 5
+movePaintball 16786 16813 blue 25.800000 16.000000 25.200000 15.000000
+movePaintball 16813 16840 blue 25.200000 15.000000 24.600000 14.000000
+movePaintball 16840 16866 blue 24.600000 14.000000 24.000000 13.000000
+moveChild 16733 16866 7 22 17 22 16
+movePaintball 16866 16893 blue 24.000000 13.000000 23.400000 12.000000
+movePaintball 16893 16920 blue 23.400000 12.000000 22.800000 11.000000
+movePaintball 16920 16946 blue 22.800000 11.000000 22.200000 10.000000
+movePaintball 16946 16973 blue 22.200000 10.000000 21.600000 9.000000
+movePaintball 16973 17000 blue 21.600000 9.000000 21.000000 8.000000
+moveChild 16866 17000 7 22 16 22 15
+moveChild 16800 17000 0 9 1 8 1
+moveChild 16800 17000 5 16 13 17 13
+moveChild 16800 17000 2 14 5 14 6
+moveChild 16600 17000 4 27 22 26 22
+snap 17000 26 37
+moveReport 17000
+move 7 2
+move 17 1
+pickup 15 6
+move 2 11
+move 25 22
+launch 30 7
+launch 30 5
+move 21 17
+updateChild 17050 2 S U e 35
+updateMap 17050 15 6 .
+alert 17100 5 "child is out of paintballs"
+updateChild 17100 6 S U b 17
+movePaintball 17100 17122 blue 30.000000 23.000000 30.000000 22.000000
+movePaintball 17122 17144 blue 30.000000 22.000000 30.000000 21.000000
+movePaintball 17144 17166 blue 30.000000 21.000000 30.000000 20.000000
+movePaintball 17166 17188 blue 30.000000 20.000000 30.000000 19.000000
+movePaintball 17188 17211 blue 30.000000 19.000000 30.000000 18.000000
+movePaintball 17211 17233 blue 30.000000 18.000000 30.000000 17.000000
+movePaintball 17233 17255 blue 30.000000 17.000000 30.000000 16.000000
+movePaintball 17255 17277 blue 30.000000 16.000000 30.000000 15.000000
+movePaintball 17277 17300 blue 30.000000 15.000000 30.000000 14.000000
+moveChild 17100 17300 7 22 15 21 16
+movePaintball 17300 17322 blue 30.000000 14.000000 30.000000 13.000000
+movePaintball 17322 17344 blue 30.000000 13.000000 30.000000 12.000000
+movePaintball 17344 17366 blue 30.000000 12.000000 30.000000 11.000000
+movePaintball 17366 17388 blue 30.000000 11.000000 30.000000 10.000000
+movePaintball 17388 17411 blue 30.000000 10.000000 30.000000 9.000000
+movePaintball 17411 17433 blue 30.000000 9.000000 30.000000 8.000000
+movePaintball 17433 17455 blue 30.000000 8.000000 30.000000 7.000000
+movePaintball 17455 17477 blue 30.000000 7.000000 30.000000 6.000000
+alert 16700 4 "Move blocked"
+movePaintball 17477 17500 blue 30.000000 6.000000 30.000000 5.000000
+moveChild 17300 17500 7 21 16 21 17
+moveChild 17100 17500 0 8 1 7 2
+moveChild 17100 17500 1 17 0 17 1
+moveChild 17100 17500 3 1 11 2 11
+snap 17500 26 37
+moveReport 17500
+launch 30 1
+move 17 0
+move 17 6
+move 3 11
+move 26 21
+move 14 13
+plant 30 24
+launch 8 6
+alert 17600 6 "child does not have enough paintballs to plant a flag"
+alert 17600 0 "child may not be defending when launching"
+updateChild 17600 7 S U d 14
+movePaintball 17600 17630 blue 21.000000 17.000000 20.000000 16.153846
+movePaintball 17630 17661 blue 20.000000 16.153846 19.000000 15.307692
+paintballHit 17661 blue 19 15
+moveChild 17600 17733 5 17 13 16 13
+moveChild 17600 17733 2 14 6 15 6
+alert 17600 5 "Move blocked"
+moveChild 17733 17866 2 15 6 16 6
+moveChild 17866 18000 2 16 6 17 6
+moveChild 17600 18000 4 26 22 26 21
+moveChild 17600 18000 1 17 1 17 0
+moveChild 17600 18000 3 2 11 3 11
+snap 18000 26 37
+moveReport 18000
+launch 0 14
+move 18 0
+move 14 6
+plant 2 10
+plant 27 22
+move 18 14
+launch 26 30
+move 19 18
+alert 18100 4 "must be standing to plant a flag"
+alert 18100 3 "must be standing to plant a flag"
+alert 18100 0 "child may not be defending when launching"
+updateChild 18100 6 S U b 16
+movePaintball 18100 18157 blue 30.000000 23.000000 29.428571 24.000000
+movePaintball 18157 18214 blue 29.428571 24.000000 28.857143 25.000000
+moveChild 18100 18233 2 17 6 16 6
+movePaintball 18214 18271 blue 28.857143 25.000000 28.285714 26.000000
+moveChild 18100 18300 5 16 13 17 14
+moveChild 18100 18300 7 21 17 20 18
+movePaintball 18271 18328 blue 28.285714 26.000000 27.714286 27.000000
+moveChild 18233 18366 2 16 6 15 6
+movePaintball 18328 18385 blue 27.714286 27.000000 27.142857 28.000000
+movePaintball 18385 18442 blue 27.142857 28.000000 26.571429 29.000000
+movePaintball 18442 18500 blue 26.571429 29.000000 26.000000 30.000000
+moveChild 18366 18500 2 15 6 14 6
+moveChild 18300 18500 5 17 14 18 14
+moveChild 18300 18500 7 20 18 19 18
+moveChild 18100 18500 1 17 0 18 0
+snap 18500 26 37
+moveReport 18500
+plant 6 1
+plant 17 0
+move 12 5
+plant 2 10
+plant 27 22
+move 16 13
+drop 30 24 2
+move 19 21
+updateChild 18500 6 S U b 14
+updateMap 18500 30 24 P2
+alert 18600 0 "child does not have enough paintballs to plant a flag"
+alert 18600 4 "must be standing to plant a flag"
+alert 18600 1 "must be standing to plant a flag"
+alert 18600 3 "must be standing to plant a flag"
+alert 18466 7 "Move blocked"
+moveChild 18600 18800 5 18 14 17 13
+moveChild 18600 18800 2 14 6 13 5
+moveChild 18800 19000 5 17 13 16 13
+moveChild 18800 19000 2 13 5 12 5
+snap 19000 26 37
+alert 19000 6 "must try to drop at least one paintball"
+moveReport 19000
+move 9 2
+move 18 1
+move 12 8
+move 4 11
+launch 30 30
+launch 0 18
+idle
+defend
+updateChild 19050 7 S D d 14
+alert 19100 4 "child must be standing to launch"
+alert 19100 5 "child is out of paintballs"
+moveChild 19100 19233 2 12 5 12 6
+moveChild 19100 19300 0 7 2 8 2
+moveChild 19233 19366 2 12 6 12 7
+moveChild 19366 19500 2 12 7 12 8
+moveChild 19300 19500 0 8 2 9 2
+moveChild 19100 19500 1 18 0 18 1
+moveChild 19100 19500 3 3 11 4 11
+snap 19500 26 37
+moveReport 19500
+move 9 4
+plant 17 0
+move 13 6
+plant 3 10
+plant 27 22
+move 13 13
+move 29 25
+launch 30 19
+alert 19600 4 "must be standing to plant a flag"
+alert 19600 1 "must be standing to plant a flag"
+alert 19600 3 "must be standing to plant a flag"
+alert 19600 7 "child may not be defending when launching"
+alert 19466 5 "Move blocked"
+moveChild 19600 19800 0 9 2 9 3
+moveChild 19600 19800 2 12 8 13 7
+moveChild 19600 19800 6 30 23 29 24
+moveChild 19800 20000 0 9 3 9 4
+moveChild 19800 20000 2 13 7 13 6
+moveChild 19800 20000 6 29 24 29 25
+snap 20000 26 37
+moveReport 20000
+move 9 6
+launch 26 17
+drop 14 6 1
+stand
+move 25 21
+move 14 12
+plant 30 26
+launch 5 28
+updateChild 20000 2 S U e 34
+updateMap 20000 14 6 P1
+updateChild 20050 3 S U b 14
+alert 20100 6 "child does not have enough paintballs to plant a flag"
+alert 20100 1 "child must be standing to launch"
+alert 20100 7 "child may not be defending when launching"
+moveChild 20100 20300 0 9 4 9 5
+moveChild 20100 20300 5 16 13 15 12
+moveChild 20300 20500 0 9 5 9 6
+moveChild 20300 20500 5 15 12 14 12
+moveChild 20100 20500 4 26 21 25 21
+snap 20500 26 37
+moveReport 20500
+crouch
+move 17 1
+move 12 7
+launch 0 7
+launch 23 0
+move 17 12
+plant 30 26
+drop 19 17 3
+updateChild 20500 7 S D d 11
+updateMap 20500 19 17 P3
+updateChild 20550 0 C D d 0
+alert 20600 6 "child does not have enough paintballs to plant a flag"
+alert 20600 4 "child must be standing to launch"
+updateChild 20600 3 S U b 13
+movePaintball 20600 20700 red 4.000000 11.000000 3.000000 10.000000
+moveChild 20600 20733 5 14 12 15 12
+movePaintball 20700 20800 red 3.000000 10.000000 2.000000 9.000000
+moveChild 20733 20866 5 15 12 16 12
+movePaintball 20800 20900 red 2.000000 9.000000 1.000000 8.000000
+movePaintball 20900 21000 red 1.000000 8.000000 0.000000 7.000000
+moveChild 20866 21000 5 16 12 17 12
+moveChild 20600 21000 1 18 1 17 1
+moveChild 20600 21000 2 13 6 12 7
+snap 21000 26 37
+moveReport 21000
+move 10 6
+move 17 0
+move 10 8
+move 3 13
+move 24 21
+move 20 12
+move 26 25
+move 20 19
+moveChild 21100 21233 5 17 12 18 12
+moveChild 21100 21233 6 29 25 28 25
+moveChild 21100 21300 2 12 7 11 8
+moveChild 21100 21300 3 4 11 3 12
+moveChild 21233 21366 5 18 12 19 12
+moveChild 21233 21366 6 28 25 27 25
+alert 20700 7 "Move blocked"
+moveChild 21366 21500 5 19 12 20 12
+moveChild 21366 21500 6 27 25 26 25
+moveChild 21300 21500 2 11 8 10 8
+moveChild 21300 21500 3 3 12 3 13
+moveChild 21100 21500 0 9 6 10 6
+moveChild 21100 21500 4 25 21 24 21
+moveChild 21100 21500 1 17 1 17 0
+snap 21500 26 37
+moveReport 21500
+undefend
+move 17 1
+move 13 8
+move 5 14
+launch 30 17
+move 20 15
+move 28 25
+move 19 20
+updateChild 21550 0 C U d 0
+alert 21600 4 "child must be standing to launch"
+moveChild 21600 21733 5 20 12 20 13
+moveChild 21600 21733 2 10 8 11 8
+alert 21400 7 "Move blocked"
+moveChild 21600 21800 6 26 25 27 25
+moveChild 21600 21800 3 3 13 4 14
+moveChild 21733 21866 5 20 13 20 14
+moveChild 21733 21866 2 11 8 12 8
+moveChild 21866 22000 5 20 14 20 15
+moveChild 21866 22000 2 12 8 13 8
+moveChild 21800 22000 6 27 25 28 25
+moveChild 21800 22000 3 4 14 5 14
+moveChild 21600 22000 1 17 0 17 1
+snap 22000 26 37
+moveReport 22000
+defend
+launch 24 18
+launch 5 0 0 9
+move 5 11
+move 24 22
+launch 2 9
+move 26 24
+launch 13 30
+updateChild 22050 0 C D d 0
+alert 22100 1 "child must be standing to launch"
+alert 22100 5 "child is out of paintballs"
+updateChild 22100 2 S U e 31
+alert 22100 7 "child may not be defending when launching"
+movePaintball 22100 22130 red 13.000000 8.000000 12.000000 8.076923
+movePaintball 22100 22136 red 13.000000 8.000000 12.000000 7.636364
+movePaintball 22100 22150 red 13.000000 8.000000 12.000000 7.000000
+movePaintball 22130 22161 red 12.000000 8.076923 11.000000 8.153846
+movePaintball 22136 22172 red 12.000000 7.636364 11.000000 7.272727
+movePaintball 22161 22192 red 11.000000 8.153846 10.000000 8.230769
+movePaintball 22150 22200 red 12.000000 7.000000 11.000000 6.000000
+movePaintball 22172 22209 red 11.000000 7.272727 10.000000 6.909091
+movePaintball 22192 22223 red 10.000000 8.230769 9.000000 8.307692
+moveChild 22100 22233 3 5 14 5 13
+movePaintball 22209 22245 red 10.000000 6.909091 9.000000 6.545455
+movePaintball 22200 22250 red 11.000000 6.000000 10.000000 5.000000
+movePaintball 22223 22253 red 9.000000 8.307692 8.000000 8.384615
+movePaintball 22245 22281 red 9.000000 6.545455 8.000000 6.181818
+movePaintball 22253 22284 red 8.000000 8.384615 7.000000 8.461538
+movePaintball 22250 22300 red 10.000000 5.000000 9.000000 4.000000
+moveChild 22100 22300 6 28 25 27 24
+movePaintball 22284 22315 red 7.000000 8.461538 6.000000 8.538462
+movePaintball 22281 22318 red 8.000000 6.181818 7.000000 5.818182
+movePaintball 22315 22346 red 6.000000 8.538462 5.000000 8.615385
+movePaintball 22300 22350 red 9.000000 4.000000 8.000000 3.000000
+movePaintball 22318 22354 red 7.000000 5.818182 6.000000 5.454545
+moveChild 22233 22366 3 5 13 5 12
+movePaintball 22346 22376 red 5.000000 8.615385 4.000000 8.692308
+movePaintball 22354 22390 red 6.000000 5.454545 5.000000 5.090909
+movePaintball 22350 22400 red 8.000000 3.000000 7.000000 2.000000
+movePaintball 22376 22407 red 4.000000 8.692308 3.000000 8.769231
+movePaintball 22390 22427 red 5.000000 5.090909 4.000000 4.727273
+paintballHit 22407 red 4 5
+movePaintball 22407 22438 red 3.000000 8.769231 2.000000 8.846154
+movePaintball 22400 22450 red 7.000000 2.000000 6.000000 1.000000
+movePaintball 22438 22469 red 2.000000 8.846154 1.000000 8.923077
+movePaintball 22469 22500 red 1.000000 8.923077 0.000000 9.000000
+movePaintball 22450 22500 red 6.000000 1.000000 5.000000 0.000000
+moveChild 22366 22500 3 5 12 5 11
+moveChild 22300 22500 6 27 24 26 24
+moveChild 22100 22500 4 24 21 24 22
+snap 22500 26 37
+moveReport 22500
+launch 0 16
+move 17 2
+move 10 8
+move 3 10
+stand
+move 23 15
+drop 27 24 3
+plant 20 17
+updateChild 22500 6 S U b 11
+updateMap 22500 27 24 P3
+updateChild 22550 4 S U b 16
+alert 22600 7 "child does not have enough paintballs to plant a flag"
+alert 22600 0 "child must be standing to launch"
+moveChild 22600 22733 5 20 15 21 15
+moveChild 22600 22733 2 13 8 12 8
+moveChild 22600 22800 3 5 11 4 10
+moveChild 22733 22866 5 21 15 22 15
+moveChild 22733 22866 2 12 8 11 8
+moveChild 22866 23000 5 22 15 23 15
+moveChild 22866 23000 2 11 8 10 8
+moveChild 22800 23000 3 4 10 3 10
+moveChild 22600 23000 1 17 1 17 2
+snap 23000 26 37
+moveReport 23000
+launch 0 13
+move 16 2
+move 13 8
+move 3 7
+drop 24 21 7
+move 23 12
+move 27 22
+idle
+updateChild 23000 4 S U b 9
+updateMap 23000 24 21 P7
+alert 23100 0 "child must be standing to launch"
+moveChild 23100 23233 5 23 15 23 14
+moveChild 23100 23233 2 10 8 11 8
+moveChild 23100 23233 3 3 10 3 9
+moveChild 23100 23300 6 26 24 27 23
+moveChild 23233 23366 5 23 14 23 13
+moveChild 23233 23366 2 11 8 12 8
+moveChild 23233 23366 3 3 9 3 8
+moveChild 23366 23500 5 23 13 23 12
+moveChild 23366 23500 2 12 8 13 8
+moveChild 23366 23500 3 3 8 3 7
+moveChild 23300 23500 6 27 23 27 22
+moveChild 23100 23500 1 17 2 16 2
+snap 23500 26 37
+moveReport 23500
+launch 0 13
+move 16 1
+move 13 5
+move 0 7
+move 22 21
+move 21 11
+move 30 22
+plant 20 17
+alert 23600 7 "child does not have enough paintballs to plant a flag"
+alert 23600 0 "child must be standing to launch"
+moveChild 23600 23733 2 13 8 13 7
+moveChild 23600 23733 6 27 22 28 22
+moveChild 23600 23733 3 3 7 2 7
+moveChild 23600 23800 4 24 22 23 21
+moveChild 23600 23800 5 23 12 22 11
+moveChild 23733 23866 2 13 7 13 6
+moveChild 23733 23866 6 28 22 29 22
+moveChild 23733 23866 3 2 7 1 7
+moveChild 23866 24000 2 13 6 13 5
+moveChild 23866 24000 6 29 22 30 22
+moveChild 23866 24000 3 1 7 0 7
+moveChild 23800 24000 4 23 21 22 21
+moveChild 23800 24000 5 22 11 21 11
+moveChild 23600 24000 1 16 2 16 1
+snap 24000 26 37
+moveReport 24000
+defend
+move 16 2
+launch 0 8 30 7
+move 1 9
+move 23 19
+move 18 11
+crouch
+move 18 17
+updateChild 24050 0 C D d 0
+updateChild 24050 6 C U b 11
+updateChild 24100 2 S U e 28
+movePaintball 24100 24123 red 13.000000 5.000000 14.000000 5.117647
+movePaintball 24100 24130 red 13.000000 5.000000 12.000000 5.230769
+movePaintball 24123 24147 red 14.000000 5.117647 15.000000 5.235294
+movePaintball 24130 24161 red 12.000000 5.230769 11.000000 5.461538
+movePaintball 24147 24170 red 15.000000 5.235294 16.000000 5.352941
+movePaintball 24161 24192 red 11.000000 5.461538 10.000000 5.692308
+movePaintball 24170 24194 red 16.000000 5.352941 17.000000 5.470588
+movePaintball 24194 24217 red 17.000000 5.470588 18.000000 5.588235
+movePaintball 24192 24223 red 10.000000 5.692308 9.000000 5.923077
+moveChild 24100 24233 5 21 11 20 11
+movePaintball 24217 24241 red 18.000000 5.588235 19.000000 5.705882
+movePaintball 24223 24253 red 9.000000 5.923077 8.000000 6.153846
+movePaintball 24241 24264 red 19.000000 5.705882 20.000000 5.823529
+movePaintball 24253 24284 red 8.000000 6.153846 7.000000 6.384615
+movePaintball 24264 24288 red 20.000000 5.823529 21.000000 5.941176
+moveChild 24100 24300 4 22 21 23 20
+movePaintball 24100 24300 red 13.000000 5.000000 14.000000 6.000000
+moveChild 24100 24300 3 0 7 1 8
+movePaintball 24288 24311 red 21.000000 5.941176 22.000000 6.058824
+movePaintball 24284 24315 red 7.000000 6.384615 6.000000 6.615385
+movePaintball 24311 24335 red 22.000000 6.058824 23.000000 6.176471
+movePaintball 24315 24346 red 6.000000 6.615385 5.000000 6.846154
+movePaintball 24335 24358 red 23.000000 6.176471 24.000000 6.294118
+moveChild 24233 24366 5 20 11 19 11
+movePaintball 24346 24376 red 5.000000 6.846154 4.000000 7.076923
+movePaintball 24358 24382 red 24.000000 6.294118 25.000000 6.411765
+movePaintball 24382 24405 red 25.000000 6.411765 26.000000 6.529412
+movePaintball 24376 24407 red 4.000000 7.076923 3.000000 7.307692
+movePaintball 24405 24429 red 26.000000 6.529412 27.000000 6.647059
+movePaintball 24407 24438 red 3.000000 7.307692 2.000000 7.538462
+movePaintball 24429 24452 red 27.000000 6.647059 28.000000 6.764706
+movePaintball 24438 24469 red 2.000000 7.538462 1.000000 7.769231
+updateChild 24452 3 S U b 8
+updateMap 24452 2 9 P5
+paintballHit 24452 red 1 8
+updateChild 24452 3 S U b 8
+movePaintball 24452 24476 red 28.000000 6.764706 29.000000 6.882353
+movePaintball 24476 24500 red 29.000000 6.882353 30.000000 7.000000
+moveChild 24366 24500 5 19 11 18 11
+moveChild 24300 24500 4 23 20 23 19
+movePaintball 24300 24500 red 14.000000 6.000000 15.000000 7.000000
+moveChild 24300 24500 3 1 8 1 9
+moveChild 24100 24500 1 16 1 16 2
+moveChild 24100 24500 7 19 18 18 17
+snap 24500 15 37
+alert 24500 6 "must move somewhere"
+moveReport 24500
+launch 30 3
+move 16 1
+move 13 3
+move 0 9
+move 22 21
+move 17 10
+idle
+move 20 17
+alert 24600 0 "child must be standing to launch"
+alert 24400 7 "Move blocked"
+moveChild 24600 24800 4 23 19 22 20
+moveChild 24600 24800 2 13 5 13 4
+moveChild 24800 25000 4 22 20 22 21
+moveChild 24800 25000 2 13 4 13 3
+moveChild 24600 25000 1 16 2 16 1
+moveChild 24600 25000 5 18 11 17 10
+moveChild 24600 25000 3 1 9 0 9
+snap 25000 15 37
+alert 25000 6 "must move somewhere"
+moveReport 25000
+move 11 6
+stand
+drop 13 4 10
+move 2 10
+move 23 23
+move 14 10
+idle
+move 16 17
+updateChild 25000 2 S U e 18
+updateMap 25000 13 4 P10
+updateChild 25050 1 S U b 17
+moveChild 25100 25233 5 17 10 16 10
+moveChild 25100 25300 4 22 21 23 22
+moveChild 25100 25300 3 0 9 1 10
+moveChild 25100 25300 7 18 17 17 17
+moveChild 25233 25366 5 16 10 15 10
+moveChild 25366 25500 5 15 10 14 10
+moveChild 25300 25500 4 23 22 23 23
+moveChild 25300 25500 3 1 10 2 10
+moveChild 25300 25500 7 17 17 16 17
+moveChild 25100 25500 0 10 6 11 6
+snap 25500 15 37
+moveReport 25500
+move 11 7
+launch 30 0
+move 13 6
+move 4 9
+move 25 22
+move 17 10
+stand
+move 14 17
+updateChild 25550 6 S U b 11
+updateChild 25600 1 S U b 16
+movePaintball 25600 25628 red 16.000000 1.000000 17.000000 0.928571
+movePaintball 25628 25657 red 17.000000 0.928571 18.000000 0.857143
+movePaintball 25657 25685 red 18.000000 0.857143 19.000000 0.785714
+movePaintball 25685 25714 red 19.000000 0.785714 20.000000 0.714286
+alert 25466 2 "Move blocked"
+moveChild 25600 25733 5 14 10 15 10
+movePaintball 25714 25742 red 20.000000 0.714286 21.000000 0.642857
+movePaintball 25742 25771 red 21.000000 0.642857 22.000000 0.571429
+alert 25400 7 "Move blocked"
+movePaintball 25771 25800 red 22.000000 0.571429 23.000000 0.500000
+moveChild 25600 25800 4 23 23 24 22
+moveChild 25600 25800 3 2 10 3 9
+movePaintball 25800 25828 red 23.000000 0.500000 24.000000 0.428571
+movePaintball 25828 25857 red 24.000000 0.428571 25.000000 0.357143
+moveChild 25733 25866 5 15 10 16 10
+movePaintball 25857 25885 red 25.000000 0.357143 26.000000 0.285714
+movePaintball 25885 25914 red 26.000000 0.285714 27.000000 0.214286
+movePaintball 25914 25942 red 27.000000 0.214286 28.000000 0.142857
+movePaintball 25942 25971 red 28.000000 0.142857 29.000000 0.071429
+alert 25600 4 "Move blocked"
+movePaintball 25971 26000 red 29.000000 0.071429 30.000000 0.000000
+moveChild 25866 26000 5 16 10 17 10
+moveChild 25800 26000 3 3 9 4 9
+moveChild 25600 26000 0 11 6 11 7
+snap 26000 15 37
+moveReport 26000
+launch 14 0
+plant 15 0
+move 14 5
+launch 0 0
+move 27 22
+move 18 8
+move 27 22
+plant 17 18
+alert 26100 1 "child does not have enough paintballs to plant a flag"
+alert 26100 7 "child does not have enough paintballs to plant a flag"
+alert 26100 0 "child must be standing to launch"
+updateChild 26100 3 S U b 7
+movePaintball 26100 26144 red 4.000000 9.000000 3.555556 8.000000
+movePaintball 26144 26188 red 3.555556 8.000000 3.111111 7.000000
+alert 25966 4 "Move blocked"
+movePaintball 26188 26233 red 3.111111 7.000000 2.666667 6.000000
+moveChild 26100 26233 6 30 22 29 22
+movePaintball 26233 26277 red 2.666667 6.000000 2.222222 5.000000
+moveChild 26100 26300 5 17 10 18 9
+moveChild 26100 26300 2 13 3 14 4
+movePaintball 26277 26322 red 2.222222 5.000000 1.777778 4.000000
+movePaintball 26322 26366 red 1.777778 4.000000 1.333333 3.000000
+moveChild 26233 26366 6 29 22 28 22
+movePaintball 26366 26411 red 1.333333 3.000000 0.888889 2.000000
+movePaintball 26411 26455 red 0.888889 2.000000 0.444444 1.000000
+movePaintball 26455 26500 red 0.444444 1.000000 0.000000 0.000000
+moveChild 26366 26500 6 28 22 27 22
+moveChild 26300 26500 5 18 9 18 8
+moveChild 26300 26500 2 14 4 14 5
+snap 26500 15 37
+moveReport 26500
+move 11 8
+move 16 4
+pickup 13 4
+move 4 12
+move 26 23
+move 18 11
+move 26 20
+move 16 15
+updateChild 26550 2 S U e 28
+updateMap 26550 13 4 .
+moveChild 26600 26733 1 16 1 16 2
+moveChild 26600 26733 5 18 8 18 9
+moveChild 26600 26733 3 4 9 4 10
+moveChild 26600 26800 4 24 22 25 23
+moveChild 26600 26800 6 27 22 26 21
+moveChild 26600 26800 7 16 17 16 16
+moveChild 26733 26866 1 16 2 16 3
+moveChild 26733 26866 5 18 9 18 10
+moveChild 26733 26866 3 4 10 4 11
+moveChild 26866 27000 1 16 3 16 4
+moveChild 26866 27000 5 18 10 18 11
+moveChild 26866 27000 3 4 11 4 12
+moveChild 26800 27000 4 25 23 26 23
+moveChild 26800 27000 6 26 21 26 20
+moveChild 26800 27000 7 16 16 16 15
+moveChild 26600 27000 0 11 7 11 8
+snap 27000 15 37
+moveReport 27000
+launch 15 28
+move 13 4
+pickup 14 6
+move 5 10
+launch 19 30
+launch 22 30
+move 29 20
+launch 0 7
+updateChild 27050 2 S U e 29
+updateMap 27050 14 6 .
+alert 27100 0 "child must be standing to launch"
+updateChild 27100 4 S U b 8
+alert 27100 5 "child is out of paintballs"
+alert 27100 7 "child may not be defending when launching"
+movePaintball 27100 27157 blue 26.000000 23.000000 25.000000 24.000000
+movePaintball 27157 27214 blue 25.000000 24.000000 24.000000 25.000000
+moveChild 27100 27233 1 16 4 15 4
+moveChild 27100 27233 6 26 20 27 20
+movePaintball 27214 27271 blue 24.000000 25.000000 23.000000 26.000000
+moveChild 27100 27300 3 4 12 5 11
+movePaintball 27271 27328 blue 23.000000 26.000000 22.000000 27.000000
+moveChild 27233 27366 1 15 4 14 4
+moveChild 27233 27366 6 27 20 28 20
+movePaintball 27328 27385 blue 22.000000 27.000000 21.000000 28.000000
+movePaintball 27385 27442 blue 21.000000 28.000000 20.000000 29.000000
+movePaintball 27442 27500 blue 20.000000 29.000000 19.000000 30.000000
+moveChild 27366 27500 1 14 4 13 4
+moveChild 27366 27500 6 28 20 29 20
+moveChild 27300 27500 3 5 11 5 10
+snap 27500 15 37
+moveReport 27500
+move 10 8
+move 12 6
+drop 14 6 12
+move 5 7
+launch 30 30
+move 16 12
+launch 30 30
+move 18 15
+updateChild 27500 2 S U e 17
+updateMap 27500 14 6 P12
+updateChild 27600 4 S U b 7
+updateChild 27600 6 S U b 10
+movePaintball 27600 27640 blue 29.000000 20.000000 29.100000 21.000000
+movePaintball 27600 27657 blue 26.000000 23.000000 26.571429 24.000000
+movePaintball 27640 27680 blue 29.100000 21.000000 29.200000 22.000000
+movePaintball 27657 27714 blue 26.571429 24.000000 27.142857 25.000000
+movePaintball 27680 27720 blue 29.200000 22.000000 29.300000 23.000000
+moveChild 27600 27733 3 5 10 5 9
+movePaintball 27720 27760 blue 29.300000 23.000000 29.400000 24.000000
+movePaintball 27714 27771 blue 27.142857 25.000000 27.714286 26.000000
+movePaintball 27760 27800 blue 29.400000 24.000000 29.500000 25.000000
+moveChild 27600 27800 1 13 4 12 5
+moveChild 27600 27800 5 18 11 17 12
+moveChild 27600 27800 7 16 15 17 15
+movePaintball 27771 27828 blue 27.714286 26.000000 28.285714 27.000000
+movePaintball 27800 27840 blue 29.500000 25.000000 29.600000 26.000000
+moveChild 27733 27866 3 5 9 5 8
+movePaintball 27840 27880 blue 29.600000 26.000000 29.700000 27.000000
+movePaintball 27828 27885 blue 28.285714 27.000000 28.857143 28.000000
+movePaintball 27880 27920 blue 29.700000 27.000000 29.800000 28.000000
+movePaintball 27885 27942 blue 28.857143 28.000000 29.428571 29.000000
+movePaintball 27920 27960 blue 29.800000 28.000000 29.900000 29.000000
+movePaintball 27960 28000 blue 29.900000 29.000000 30.000000 30.000000
+movePaintball 27942 28000 blue 29.428571 29.000000 30.000000 30.000000
+moveChild 27866 28000 3 5 8 5 7
+moveChild 27800 28000 1 12 5 12 6
+moveChild 27800 28000 5 17 12 16 12
+moveChild 27800 28000 7 17 15 18 15
+moveChild 27600 28000 0 11 8 10 8
+snap 28000 15 37
+moveReport 28000
+stand
+move 12 9
+plant 13 4
+move 7 8
+move 27 21
+launch 25 0
+move 30 22
+drop 18 14 3
+updateChild 28000 7 S D d 8
+updateMap 28000 18 14 P3
+updateChild 28050 0 S D d 0
+alert 28100 2 "child does not have enough paintballs to plant a flag"
+alert 28100 5 "child is out of paintballs"
+moveChild 28100 28233 1 12 6 12 7
+moveChild 28100 28300 4 26 23 27 22
+moveChild 28100 28300 6 29 20 30 21
+moveChild 28100 28300 3 5 7 6 8
+moveChild 28233 28366 1 12 7 12 8
+moveChild 28366 28500 1 12 8 12 9
+moveChild 28300 28500 4 27 22 27 21
+moveChild 28300 28500 6 30 21 30 22
+moveChild 28300 28500 3 6 8 7 8
+snap 28500 15 37
+moveReport 28500
+plant 9 7
+launch 0 0
+move 17 5
+move 8 10
+move 26 23
+move 16 15
+move 30 25
+pickup 18 14
+updateChild 28550 7 S D d 11
+updateMap 28550 18 14 .
+alert 28600 0 "child does not have enough paintballs to plant a flag"
+updateChild 28600 1 S U b 15
+movePaintball 28600 28633 red 12.000000 9.000000 11.000000 8.250000
+movePaintball 28633 28666 red 11.000000 8.250000 10.000000 7.500000
+movePaintball 28666 28700 red 10.000000 7.500000 9.000000 6.750000
+movePaintball 28700 28733 red 9.000000 6.750000 8.000000 6.000000
+moveChild 28600 28733 5 16 12 16 13
+moveChild 28600 28733 2 14 5 15 5
+moveChild 28600 28733 6 30 22 30 23
+movePaintball 28733 28766 red 8.000000 6.000000 7.000000 5.250000
+movePaintball 28766 28800 red 7.000000 5.250000 6.000000 4.500000
+moveChild 28600 28800 4 27 21 26 22
+moveChild 28600 28800 3 7 8 8 9
+movePaintball 28800 28833 red 6.000000 4.500000 5.000000 3.750000
+alert 28600 6 "Move blocked"
+movePaintball 28833 28866 red 5.000000 3.750000 4.000000 3.000000
+moveChild 28733 28866 5 16 13 16 14
+moveChild 28733 28866 2 15 5 16 5
+movePaintball 28866 28900 red 4.000000 3.000000 3.000000 2.250000
+movePaintball 28900 28933 red 3.000000 2.250000 2.000000 1.500000
+movePaintball 28933 28966 red 2.000000 1.500000 1.000000 0.750000
+movePaintball 28966 29000 red 1.000000 0.750000 0.000000 0.000000
+moveChild 28866 29000 5 16 14 16 15
+moveChild 28866 29000 2 16 5 17 5
+moveChild 28800 29000 4 26 22 26 23
+moveChild 28800 29000 3 8 9 8 10
+snap 29000 15 37
+moveReport 29000
+move 8 8
+move 9 9
+move 18 3
+move 9 8
+launch 26 0
+move 15 13
+pickup 30 24
+move 18 13
+updateChild 29050 6 S U b 12
+updateMap 29050 30 24 .
+updateChild 29100 4 S U b 6
+movePaintball 29100 29117 blue 26.000000 23.000000 26.000000 22.000000
+movePaintball 29117 29134 blue 26.000000 22.000000 26.000000 21.000000
+movePaintball 29134 29152 blue 26.000000 21.000000 26.000000 20.000000
+movePaintball 29152 29169 blue 26.000000 20.000000 26.000000 19.000000
+movePaintball 29169 29186 blue 26.000000 19.000000 26.000000 18.000000
+movePaintball 29186 29204 blue 26.000000 18.000000 26.000000 17.000000
+movePaintball 29204 29221 blue 26.000000 17.000000 26.000000 16.000000
+alert 28966 1 "Move blocked"
+movePaintball 29221 29239 blue 26.000000 16.000000 26.000000 15.000000
+movePaintball 29239 29256 blue 26.000000 15.000000 26.000000 14.000000
+movePaintball 29256 29273 blue 26.000000 14.000000 26.000000 13.000000
+movePaintball 29273 29291 blue 26.000000 13.000000 26.000000 12.000000
+moveChild 29100 29300 0 10 8 9 8
+moveChild 29100 29300 5 16 15 15 14
+moveChild 29100 29300 2 17 5 18 4
+moveChild 29100 29300 3 8 10 9 9
+moveChild 29100 29300 7 18 15 18 14
+movePaintball 29291 29308 blue 26.000000 12.000000 26.000000 11.000000
+movePaintball 29308 29326 blue 26.000000 11.000000 26.000000 10.000000
+movePaintball 29326 29343 blue 26.000000 10.000000 26.000000 9.000000
+movePaintball 29343 29360 blue 26.000000 9.000000 26.000000 8.000000
+movePaintball 29360 29378 blue 26.000000 8.000000 26.000000 7.000000
+movePaintball 29378 29395 blue 26.000000 7.000000 26.000000 6.000000
+movePaintball 29395 29413 blue 26.000000 6.000000 26.000000 5.000000
+movePaintball 29413 29430 blue 26.000000 5.000000 26.000000 4.000000
+movePaintball 29430 29447 blue 26.000000 4.000000 26.000000 3.000000
+movePaintball 29447 29465 blue 26.000000 3.000000 26.000000 2.000000
+movePaintball 29465 29482 blue 26.000000 2.000000 26.000000 1.000000
+alert 29100 5 "Move blocked"
+movePaintball 29482 29500 blue 26.000000 1.000000 26.000000 0.000000
+moveChild 29300 29500 0 9 8 8 8
+moveChild 29300 29500 2 18 4 18 3
+moveChild 29300 29500 3 9 9 9 8
+moveChild 29300 29500 7 18 14 18 13
+snap 29500 15 37
+moveReport 29500
+plant 7 7
+move 11 11
+move 21 3
+move 10 6
+move 29 23
+move 17 15
+move 30 20
+move 20 13
+alert 29600 0 "child does not have enough paintballs to plant a flag"
+moveChild 29600 29733 4 26 23 27 23
+moveChild 29600 29733 2 18 3 19 3
+moveChild 29600 29733 6 30 23 30 22
+alert 29400 1 "Move blocked"
+moveChild 29600 29800 5 15 14 16 15
+moveChild 29600 29800 3 9 8 10 7
+moveChild 29600 29800 7 18 13 19 13
+moveChild 29733 29866 4 27 23 28 23
+moveChild 29733 29866 2 19 3 20 3
+moveChild 29733 29866 6 30 22 30 21
+moveChild 29866 30000 4 28 23 29 23
+moveChild 29866 30000 2 20 3 21 3
+moveChild 29866 30000 6 30 21 30 20
+moveChild 29800 30000 5 16 15 17 15
+moveChild 29800 30000 3 10 7 10 6
+moveChild 29800 30000 7 19 13 20 13
+snap 30000 15 37
+moveReport 30000
+move 8 10
+move 15 9
+move 23 4
+move 10 4
+move 30 24
+move 17 12
+move 29 18
+move 21 14
+moveChild 30100 30233 1 12 9 13 9
+moveChild 30100 30233 5 17 15 17 14
+moveChild 30100 30300 0 8 8 8 9
+moveChild 30100 30300 2 21 3 22 4
+moveChild 30100 30300 6 30 20 29 19
+moveChild 30100 30300 3 10 6 10 5
+moveChild 30233 30366 1 13 9 14 9
+moveChild 30233 30366 5 17 14 17 13
+moveChild 30366 30500 1 14 9 15 9
+moveChild 30366 30500 5 17 13 17 12
+moveChild 30300 30500 0 8 9 8 10
+moveChild 30300 30500 2 22 4 23 4
+moveChild 30300 30500 6 29 19 29 18
+moveChild 30300 30500 3 10 5 10 4
+moveChild 30100 30500 4 29 23 30 24
+moveChild 30100 30500 7 20 13 21 14
+snap 30500 15 37
+moveReport 30500
+plant 7 9
+drop 15 8 1
+launch 7 0 21 0
+move 9 2
+move 28 25
+move 20 12
+launch 27 30
+launch 30 17
+updateChild 30500 1 S U b 14
+updateMap 30500 15 8 P1
+alert 30600 0 "child does not have enough paintballs to plant a flag"
+updateChild 30600 2 S U e 14
+updateChild 30600 6 S U b 11
+alert 30600 7 "child may not be defending when launching"
+movePaintball 30600 30625 red 23.000000 4.000000 22.000000 3.750000
+movePaintball 30600 30633 blue 29.000000 18.000000 28.833333 19.000000
+movePaintball 30600 30644 red 23.000000 4.000000 22.000000 3.555556
+movePaintball 30625 30650 red 22.000000 3.750000 21.000000 3.500000
+movePaintball 30633 30666 blue 28.833333 19.000000 28.666667 20.000000
+movePaintball 30650 30675 red 21.000000 3.500000 20.000000 3.250000
+movePaintball 30644 30688 red 22.000000 3.555556 21.000000 3.111111
+movePaintball 30675 30700 red 20.000000 3.250000 19.000000 3.000000
+movePaintball 30666 30700 blue 28.666667 20.000000 28.500000 21.000000
+movePaintball 30600 30700 red 23.000000 4.000000 22.500000 3.000000
+movePaintball 30700 30725 red 19.000000 3.000000 18.000000 2.750000
+movePaintball 30700 30733 blue 28.500000 21.000000 28.333333 22.000000
+movePaintball 30688 30733 red 21.000000 3.111111 20.000000 2.666667
+moveChild 30600 30733 5 17 12 18 12
+movePaintball 30725 30750 red 18.000000 2.750000 17.000000 2.500000
+movePaintball 30733 30766 blue 28.333333 22.000000 28.166667 23.000000
+movePaintball 30750 30775 red 17.000000 2.500000 16.000000 2.250000
+movePaintball 30733 30777 red 20.000000 2.666667 19.000000 2.222222
+movePaintball 30775 30800 red 16.000000 2.250000 15.000000 2.000000
+movePaintball 30766 30800 blue 28.166667 23.000000 28.000000 24.000000
+movePaintball 30700 30800 red 22.500000 3.000000 22.000000 2.000000
+moveChild 30600 30800 4 30 24 29 25
+moveChild 30600 30800 3 10 4 9 3
+movePaintball 30777 30822 red 19.000000 2.222222 18.000000 1.777778
+movePaintball 30800 30825 red 15.000000 2.000000 14.000000 1.750000
+movePaintball 30800 30833 blue 28.000000 24.000000 27.833333 25.000000
+movePaintball 30825 30850 red 14.000000 1.750000 13.000000 1.500000
+movePaintball 30833 30866 blue 27.833333 25.000000 27.666667 26.000000
+movePaintball 30822 30866 red 18.000000 1.777778 17.000000 1.333333
+moveChild 30733 30866 5 18 12 19 12
+movePaintball 30850 30875 red 13.000000 1.500000 12.000000 1.250000
+movePaintball 30875 30900 red 12.000000 1.250000 11.000000 1.000000
+movePaintball 30866 30900 blue 27.666667 26.000000 27.500000 27.000000
+movePaintball 30800 30900 red 22.000000 2.000000 21.500000 1.000000
+movePaintball 30866 30911 red 17.000000 1.333333 16.000000 0.888889
+movePaintball 30900 30925 red 11.000000 1.000000 10.000000 0.750000
+movePaintball 30900 30933 blue 27.500000 27.000000 27.333333 28.000000
+movePaintball 30925 30950 red 10.000000 0.750000 9.000000 0.500000
+movePaintball 30911 30955 red 16.000000 0.888889 15.000000 0.444444
+movePaintball 30933 30966 blue 27.333333 28.000000 27.166667 29.000000
+movePaintball 30950 30975 red 9.000000 0.500000 8.000000 0.250000
+movePaintball 30975 31000 red 8.000000 0.250000 7.000000 0.000000
+movePaintball 30966 31000 blue 27.166667 29.000000 27.000000 30.000000
+movePaintball 30955 31000 red 15.000000 0.444444 14.000000 0.000000
+movePaintball 30900 31000 red 21.500000 1.000000 21.000000 0.000000
+moveChild 30866 31000 5 19 12 20 12
+moveChild 30800 31000 4 29 25 28 25
+moveChild 30800 31000 3 9 3 9 2
+snap 31000 15 37
+moveReport 31000
+undefend
+move 16 7
+plant 22 3
+move 6 2
+launch 30 17
+move 17 12
+launch 19 4
+move 20 13
+updateChild 31050 0 S U d 0
+alert 31100 2 "child does not have enough paintballs to plant a flag"
+updateChild 31100 4 S U b 5
+updateChild 31100 6 S U b 10
+movePaintball 31100 31128 blue 29.000000 18.000000 28.285714 17.000000
+movePaintball 31100 31150 blue 28.000000 25.000000 28.250000 24.000000
+movePaintball 31128 31157 blue 28.285714 17.000000 27.571429 16.000000
+movePaintball 31157 31185 blue 27.571429 16.000000 26.857143 15.000000
+movePaintball 31150 31200 blue 28.250000 24.000000 28.500000 23.000000
+movePaintball 31185 31214 blue 26.857143 15.000000 26.142857 14.000000
+moveChild 31100 31233 5 20 12 19 12
+moveChild 31100 31233 3 9 2 8 2
+movePaintball 31214 31242 blue 26.142857 14.000000 25.428571 13.000000
+movePaintball 31200 31250 blue 28.500000 23.000000 28.750000 22.000000
+movePaintball 31242 31271 blue 25.428571 13.000000 24.714286 12.000000
+movePaintball 31271 31300 blue 24.714286 12.000000 24.000000 11.000000
+movePaintball 31250 31300 blue 28.750000 22.000000 29.000000 21.000000
+moveChild 31100 31300 1 15 9 16 8
+movePaintball 31300 31328 blue 24.000000 11.000000 23.285714 10.000000
+movePaintball 31300 31350 blue 29.000000 21.000000 29.250000 20.000000
+movePaintball 31328 31357 blue 23.285714 10.000000 22.571429 9.000000
+moveChild 31233 31366 5 19 12 18 12
+moveChild 31233 31366 3 8 2 7 2
+movePaintball 31357 31385 blue 22.571429 9.000000 21.857143 8.000000
+movePaintball 31350 31400 blue 29.250000 20.000000 29.500000 19.000000
+movePaintball 31385 31414 blue 21.857143 8.000000 21.142857 7.000000
+movePaintball 31414 31442 blue 21.142857 7.000000 20.428571 6.000000
+movePaintball 31400 31450 blue 29.500000 19.000000 29.750000 18.000000
+movePaintball 31442 31471 blue 20.428571 6.000000 19.714286 5.000000
+movePaintball 31471 31500 blue 19.714286 5.000000 19.000000 4.000000
+movePaintball 31450 31500 blue 29.750000 18.000000 30.000000 17.000000
+moveChild 31366 31500 5 18 12 17 12
+moveChild 31366 31500 3 7 2 6 2
+moveChild 31300 31500 1 16 8 16 7
+moveChild 31100 31500 7 21 14 20 13
+snap 31500 15 37
+moveReport 31500
+move 10 11
+launch 30 12
+move 25 5
+move 9 2
+move 28 23
+move 17 10
+launch 18 30
+move 19 12
+updateChild 31600 1 S U b 13
+updateChild 31600 6 S U b 9
+movePaintball 31600 31628 red 16.000000 7.000000 17.000000 7.357143
+movePaintball 31600 31633 blue 29.000000 18.000000 28.083333 19.000000
+movePaintball 31628 31657 red 17.000000 7.357143 18.000000 7.714286
+movePaintball 31633 31666 blue 28.083333 19.000000 27.166667 20.000000
+movePaintball 31657 31685 red 18.000000 7.714286 19.000000 8.071429
+movePaintball 31666 31700 blue 27.166667 20.000000 26.250000 21.000000
+movePaintball 31685 31714 red 19.000000 8.071429 20.000000 8.428571
+movePaintball 31700 31733 blue 26.250000 21.000000 25.333333 22.000000
+moveChild 31600 31733 3 6 2 7 2
+movePaintball 31714 31742 red 20.000000 8.428571 21.000000 8.785714
+movePaintball 31733 31766 blue 25.333333 22.000000 24.416667 23.000000
+movePaintball 31742 31771 red 21.000000 8.785714 22.000000 9.142857
+alert 31400 0 "Move blocked"
+movePaintball 31771 31800 red 22.000000 9.142857 23.000000 9.500000
+movePaintball 31766 31800 blue 24.416667 23.000000 23.500000 24.000000
+moveChild 31600 31800 4 28 25 28 24
+moveChild 31600 31800 5 17 12 17 11
+moveChild 31600 31800 2 23 4 24 5
+movePaintball 31800 31828 red 23.000000 9.500000 24.000000 9.857143
+movePaintball 31800 31833 blue 23.500000 24.000000 22.583333 25.000000
+movePaintball 31828 31857 red 24.000000 9.857143 25.000000 10.214286
+movePaintball 31833 31866 blue 22.583333 25.000000 21.666667 26.000000
+moveChild 31733 31866 3 7 2 8 2
+movePaintball 31857 31885 red 25.000000 10.214286 26.000000 10.571429
+movePaintball 31866 31900 blue 21.666667 26.000000 20.750000 27.000000
+movePaintball 31885 31914 red 26.000000 10.571429 27.000000 10.928571
+movePaintball 31900 31933 blue 20.750000 27.000000 19.833333 28.000000
+movePaintball 31914 31942 red 27.000000 10.928571 28.000000 11.285714
+movePaintball 31933 31966 blue 19.833333 28.000000 18.916667 29.000000
+movePaintball 31942 31971 red 28.000000 11.285714 29.000000 11.642857
+movePaintball 31971 32000 red 29.000000 11.642857 30.000000 12.000000
+movePaintball 31966 32000 blue 18.916667 29.000000 18.000000 30.000000
+moveChild 31866 32000 3 8 2 9 2
+moveChild 31800 32000 4 28 24 28 23
+moveChild 31800 32000 5 17 11 17 10
+moveChild 31800 32000 2 24 5 25 5
+moveChild 31600 32000 7 20 13 19 12
+snap 32000 15 37
+moveReport 32000
+crouch
+move 17 9
+move 26 7
+move 8 0
+pickup 27 24
+move 15 9
+plant 30 19
+launch 30 19
+updateChild 32050 4 S U b 8
+updateMap 32050 27 24 .
+updateChild 32050 0 C U d 0
+alert 32100 6 "child does not have enough paintballs to plant a flag"
+alert 32100 7 "child may not be defending when launching"
+moveChild 32100 32300 1 16 7 17 8
+moveChild 32100 32300 5 17 10 16 9
+moveChild 32100 32300 2 25 5 26 6
+moveChild 32100 32300 3 9 2 8 1
+moveChild 32300 32500 1 17 8 17 9
+moveChild 32300 32500 5 16 9 15 9
+moveChild 32300 32500 2 26 6 26 7
+moveChild 32300 32500 3 8 1 8 0
+snap 32500 15 37
+moveReport 32500
+move 9 10
+move 15 10
+move 25 6
+launch 10 0
+move 25 23
+pickup 15 8
+move 29 21
+plant 20 13
+updateChild 32550 5 S U b 1
+updateMap 32550 15 8 .
+alert 32600 7 "child does not have enough paintballs to plant a flag"
+updateChild 32600 3 S U b 6
+moveChild 32600 32733 4 28 23 27 23
+moveChild 32600 32733 6 29 18 29 19
+moveChild 32600 32800 1 17 9 16 10
+movePaintball 32600 32800 red 8.000000 0.000000 9.000000 0.000000
+moveChild 32733 32866 4 27 23 26 23
+moveChild 32733 32866 6 29 19 29 20
+moveChild 32866 33000 4 26 23 25 23
+moveChild 32866 33000 6 29 20 29 21
+moveChild 32800 33000 1 16 10 15 10
+movePaintball 32800 33000 red 9.000000 0.000000 10.000000 0.000000
+moveChild 32600 33000 0 8 10 9 10
+moveChild 32600 33000 2 26 7 25 6
+snap 33000 15 37
+alert 33000 6 "must try to drop at least one paintball"
+moveReport 33000
+pickup 10 10
+move 18 10
+plant 24 5
+launch 30 0
+move 26 21
+move 15 12
+idle
+move 19 14
+updateChild 33050 0 C U d 50
+updateMap 33050 10 10 .
+alert 33100 2 "child does not have enough paintballs to plant a flag"
+updateChild 33100 3 S U b 5
+movePaintball 33100 33118 red 8.000000 0.000000 9.000000 0.000000
+movePaintball 33118 33136 red 9.000000 0.000000 10.000000 0.000000
+movePaintball 33136 33154 red 10.000000 0.000000 11.000000 0.000000
+movePaintball 33154 33172 red 11.000000 0.000000 12.000000 0.000000
+movePaintball 33172 33190 red 12.000000 0.000000 13.000000 0.000000
+movePaintball 33190 33209 red 13.000000 0.000000 14.000000 0.000000
+movePaintball 33209 33227 red 14.000000 0.000000 15.000000 0.000000
+moveChild 33100 33233 1 15 10 16 10
+moveChild 33100 33233 5 15 9 15 10
+movePaintball 33227 33245 red 15.000000 0.000000 16.000000 0.000000
+movePaintball 33245 33263 red 16.000000 0.000000 17.000000 0.000000
+movePaintball 33263 33281 red 17.000000 0.000000 18.000000 0.000000
+movePaintball 33281 33300 red 18.000000 0.000000 19.000000 0.000000
+moveChild 33100 33300 4 25 23 26 22
+moveChild 33100 33300 7 19 12 19 13
+movePaintball 33300 33318 red 19.000000 0.000000 20.000000 0.000000
+movePaintball 33318 33336 red 20.000000 0.000000 21.000000 0.000000
+movePaintball 33336 33354 red 21.000000 0.000000 22.000000 0.000000
+moveChild 33233 33366 1 16 10 17 10
+moveChild 33233 33366 5 15 10 15 11
+movePaintball 33354 33372 red 22.000000 0.000000 23.000000 0.000000
+movePaintball 33372 33390 red 23.000000 0.000000 24.000000 0.000000
+movePaintball 33390 33409 red 24.000000 0.000000 25.000000 0.000000
+movePaintball 33409 33427 red 25.000000 0.000000 26.000000 0.000000
+movePaintball 33427 33445 red 26.000000 0.000000 27.000000 0.000000
+movePaintball 33445 33463 red 27.000000 0.000000 28.000000 0.000000
+movePaintball 33463 33481 red 28.000000 0.000000 29.000000 0.000000
+movePaintball 33481 33500 red 29.000000 0.000000 30.000000 0.000000
+moveChild 33366 33500 1 17 10 18 10
+moveChild 33366 33500 5 15 11 15 12
+moveChild 33300 33500 4 26 22 26 21
+moveChild 33300 33500 7 19 13 19 14
+snap 33500 15 37
+moveReport 33500
+move 10 10
+crouch
+move 27 7
+move 6 0
+move 29 21
+move 17 13
+plant 30 22
+move 19 12
+updateChild 33550 1 C U b 13
+alert 33600 6 "child does not have enough paintballs to plant a flag"
+moveChild 33600 33733 4 26 21 27 21
+moveChild 33600 33800 5 15 12 16 13
+moveChild 33600 33800 2 25 6 26 7
+moveChild 33600 33800 3 8 0 7 0
+moveChild 33600 33800 7 19 14 19 13
+moveChild 33733 33866 4 27 21 28 21
+alert 33733 4 "Move blocked"
+moveChild 33800 34000 5 16 13 17 13
+moveChild 33800 34000 2 26 7 27 7
+moveChild 33800 34000 3 7 0 6 0
+moveChild 33800 34000 7 19 13 19 12
+moveChild 33600 34000 0 9 10 10 10
+snap 34000 15 37
+moveReport 34000
+defend
+move 19 10
+move 25 7
+move 9 0
+move 28 18
+move 17 10
+move 27 22
+move 19 10
+updateChild 34050 0 C D d 50
+moveChild 34100 34233 4 28 21 28 20
+moveChild 34100 34233 5 17 13 17 12
+moveChild 34100 34233 3 6 0 7 0
+moveChild 34100 34300 2 27 7 26 7
+moveChild 34100 34300 6 29 21 28 22
+moveChild 34100 34300 7 19 12 19 11
+moveChild 34233 34366 4 28 20 28 19
+moveChild 34233 34366 5 17 12 17 11
+moveChild 34233 34366 3 7 0 8 0
+alert 34100 7 "Move blocked"
+alert 33700 1 "Move blocked"
+moveChild 34366 34500 4 28 19 28 18
+moveChild 34366 34500 5 17 11 17 10
+moveChild 34366 34500 3 8 0 9 0
+moveChild 34300 34500 2 26 7 25 7
+moveChild 34300 34500 6 28 22 27 22
+snap 34500 15 37
+moveReport 34500
+stand
+move 17 10
+move 24 9
+move 12 0
+idle
+move 15 11
+launch 28 30
+move 18 10
+updateChild 34550 0 S D d 50
+updateChild 34600 6 S U b 8
+movePaintball 34600 34650 blue 27.000000 22.000000 27.125000 23.000000
+movePaintball 34650 34700 blue 27.125000 23.000000 27.250000 24.000000
+moveChild 34600 34733 3 9 0 10 0
+movePaintball 34700 34750 blue 27.250000 24.000000 27.375000 25.000000
+movePaintball 34750 34800 blue 27.375000 25.000000 27.500000 26.000000
+moveChild 34600 34800 5 17 10 16 11
+moveChild 34600 34800 2 25 7 24 8
+movePaintball 34800 34850 blue 27.500000 26.000000 27.625000 27.000000
+moveChild 34733 34866 3 10 0 11 0
+movePaintball 34850 34900 blue 27.625000 27.000000 27.750000 28.000000
+movePaintball 34900 34950 blue 27.750000 28.000000 27.875000 29.000000
+paintballHit 34950 blue 28 29
+moveChild 34866 35000 3 11 0 12 0
+moveChild 34800 35000 5 16 11 15 11
+moveChild 34800 35000 2 24 8 24 9
+moveChild 34600 35000 1 18 10 17 10
+moveChild 34600 35000 7 19 11 18 10
+snap 35000 15 67
+alert 35000 3 "must move somewhere"
+moveReport 35000
+move 8 10
+launch 30 0
+move 25 11
+idle
+launch 30 17
+move 15 14
+move 29 21
+move 17 11
+updateChild 35100 4 S U b 7
+alert 35100 1 "child must be standing to launch"
+moveChild 35100 35233 5 15 11 15 12
+moveChild 35100 35300 0 10 10 9 10
+movePaintball 35100 35300 blue 28.000000 18.000000 29.000000 17.500000
+moveChild 35100 35300 2 24 9 25 10
+moveChild 35100 35300 6 27 22 28 21
+alert 35100 5 "Move blocked"
+moveChild 35300 35500 0 9 10 8 10
+movePaintball 35300 35500 blue 29.000000 17.500000 30.000000 17.000000
+moveChild 35300 35500 2 25 10 25 11
+moveChild 35300 35500 6 28 21 29 21
+moveChild 35100 35500 7 18 10 17 11
+snap 35500 15 67
+moveReport 35500
+move 9 11
+launch 30 9
+drop 26 11 3
+launch 17 19
+move 30 18
+crouch
+move 30 19
+undefend
+updateChild 35500 2 S U e 11
+updateMap 35500 26 11 P3
+updateChild 35550 5 C U b 1
+updateChild 35550 7 S U d 11
+alert 35600 1 "child must be standing to launch"
+updateChild 35600 3 S U b 4
+movePaintball 35600 35621 red 12.000000 0.000000 12.263158 1.000000
+movePaintball 35621 35642 red 12.263158 1.000000 12.526316 2.000000
+movePaintball 35642 35663 red 12.526316 2.000000 12.789474 3.000000
+movePaintball 35663 35684 red 12.789474 3.000000 13.052632 4.000000
+movePaintball 35684 35705 red 13.052632 4.000000 13.315789 5.000000
+movePaintball 35705 35726 red 13.315789 5.000000 13.578947 6.000000
+movePaintball 35726 35747 red 13.578947 6.000000 13.842105 7.000000
+movePaintball 35747 35768 red 13.842105 7.000000 14.105263 8.000000
+movePaintball 35768 35789 red 14.105263 8.000000 14.368421 9.000000
+moveChild 35600 35800 4 28 18 29 18
+moveChild 35600 35800 6 29 21 30 20
+movePaintball 35789 35810 red 14.368421 9.000000 14.631579 10.000000
+movePaintball 35810 35831 red 14.631579 10.000000 14.894737 11.000000
+movePaintball 35831 35852 red 14.894737 11.000000 15.157895 12.000000
+movePaintball 35852 35873 red 15.157895 12.000000 15.421053 13.000000
+paintballHit 35873 red 15 13
+alert 35200 0 "Move blocked"
+moveChild 35800 36000 4 29 18 30 18
+moveChild 35800 36000 6 30 20 30 19
+snap 36000 15 67
+moveReport 36000
+undefend
+launch 0 10
+launch 30 28 30 0
+move 13 0
+move 28 19
+move 15 13
+plant 30 20
+launch 2 20
+updateChild 36050 0 S U d 50
+alert 36100 6 "child does not have enough paintballs to plant a flag"
+alert 36100 1 "child must be standing to launch"
+updateChild 36100 2 S U e 8
+updateChild 36100 7 S U d 10
+movePaintball 36100 36123 red 25.000000 11.000000 25.294118 12.000000
+movePaintball 36100 36126 blue 17.000000 11.000000 16.000000 11.600000
+movePaintball 36100 36136 red 25.000000 11.000000 25.454545 10.000000
+movePaintball 36123 36147 red 25.294118 12.000000 25.588235 13.000000
+movePaintball 36126 36153 blue 16.000000 11.600000 15.000000 12.200000
+movePaintball 36147 36170 red 25.588235 13.000000 25.882353 14.000000
+movePaintball 36136 36172 red 25.454545 10.000000 25.909091 9.000000
+movePaintball 36153 36180 blue 15.000000 12.200000 14.000000 12.800000
+movePaintball 36100 36180 red 25.000000 11.000000 26.000000 11.600000
+movePaintball 36170 36194 red 25.882353 14.000000 26.176471 15.000000
+movePaintball 36180 36206 blue 14.000000 12.800000 13.000000 13.400000
+movePaintball 36172 36209 red 25.909091 9.000000 26.363636 8.000000
+movePaintball 36194 36217 red 26.176471 15.000000 26.470588 16.000000
+movePaintball 36206 36233 blue 13.000000 13.400000 12.000000 14.000000
+movePaintball 36217 36241 red 26.470588 16.000000 26.764706 17.000000
+movePaintball 36209 36245 red 26.363636 8.000000 26.818182 7.000000
+movePaintball 36233 36260 blue 12.000000 14.000000 11.000000 14.600000
+movePaintball 36180 36260 red 26.000000 11.600000 27.000000 12.200000
+paintballHit 36241 blue 11 15
+movePaintball 36241 36264 red 26.764706 17.000000 27.058824 18.000000
+movePaintball 36245 36281 red 26.818182 7.000000 27.272727 6.000000
+movePaintball 36264 36288 red 27.058824 18.000000 27.352941 19.000000
+moveChild 36100 36300 4 30 18 29 19
+movePaintball 36288 36311 red 27.352941 19.000000 27.647059 20.000000
+movePaintball 36281 36318 red 27.272727 6.000000 27.727273 5.000000
+movePaintball 36311 36335 red 27.647059 20.000000 27.941176 21.000000
+movePaintball 36260 36340 red 27.000000 12.200000 28.000000 12.800000
+movePaintball 36318 36354 red 27.727273 5.000000 28.181818 4.000000
+movePaintball 36335 36358 red 27.941176 21.000000 28.235294 22.000000
+movePaintball 36358 36382 red 28.235294 22.000000 28.529412 23.000000
+movePaintball 36354 36390 red 28.181818 4.000000 28.636364 3.000000
+movePaintball 36382 36405 red 28.529412 23.000000 28.823529 24.000000
+movePaintball 36340 36420 red 28.000000 12.800000 29.000000 13.400000
+movePaintball 36390 36427 red 28.636364 3.000000 29.090909 2.000000
+movePaintball 36405 36429 red 28.823529 24.000000 29.117647 25.000000
+movePaintball 36429 36452 red 29.117647 25.000000 29.411765 26.000000
+movePaintball 36427 36463 red 29.090909 2.000000 29.545455 1.000000
+movePaintball 36452 36476 red 29.411765 26.000000 29.705882 27.000000
+alert 35700 5 "Move blocked"
+movePaintball 36476 36500 red 29.705882 27.000000 30.000000 28.000000
+movePaintball 36463 36500 red 29.545455 1.000000 30.000000 0.000000
+movePaintball 36420 36500 red 29.000000 13.400000 30.000000 14.000000
+moveChild 36300 36500 4 29 19 28 19
+moveChild 36100 36500 3 12 0 13 0
+snap 36500 15 67
+moveReport 36500
+move 8 12
+launch 5 0
+plant 24 12
+move 16 0
+crouch
+idle
+move 30 21
+move 19 12
+updateChild 36550 4 C U b 7
+alert 36600 2 "child does not have enough paintballs to plant a flag"
+alert 36600 1 "child must be standing to launch"
+moveChild 36600 36733 3 13 0 14 0
+moveChild 36600 36800 0 8 10 8 11
+moveChild 36600 36800 6 30 19 30 20
+moveChild 36600 36800 7 17 11 18 12
+moveChild 36733 36866 3 14 0 15 0
+moveChild 36866 37000 3 15 0 16 0
+moveChild 36800 37000 0 8 11 8 12
+moveChild 36800 37000 6 30 20 30 21
+moveChild 36800 37000 7 18 12 19 12
+snap 37000 15 67
+moveReport 37000
+idle
+move 18 10
+move 23 12
+launch 2 0
+launch 30 20
+move 15 11
+move 29 19
+drop 18 12 3
+updateChild 37000 7 S U d 7
+updateMap 37000 18 12 P3
+alert 37100 4 "child must be standing to launch"
+updateChild 37100 3 S U b 3
+movePaintball 37100 37128 red 16.000000 0.000000 15.000000 0.000000
+movePaintball 37128 37157 red 15.000000 0.000000 14.000000 0.000000
+movePaintball 37157 37185 red 14.000000 0.000000 13.000000 0.000000
+movePaintball 37185 37214 red 13.000000 0.000000 12.000000 0.000000
+movePaintball 37214 37242 red 12.000000 0.000000 11.000000 0.000000
+movePaintball 37242 37271 red 11.000000 0.000000 10.000000 0.000000
+movePaintball 37271 37300 red 10.000000 0.000000 9.000000 0.000000
+moveChild 37100 37300 2 25 11 24 12
+moveChild 37100 37300 6 30 21 29 20
+movePaintball 37300 37328 red 9.000000 0.000000 8.000000 0.000000
+movePaintball 37328 37357 red 8.000000 0.000000 7.000000 0.000000
+movePaintball 37357 37385 red 7.000000 0.000000 6.000000 0.000000
+movePaintball 37385 37414 red 6.000000 0.000000 5.000000 0.000000
+movePaintball 37414 37442 red 5.000000 0.000000 4.000000 0.000000
+movePaintball 37442 37471 red 4.000000 0.000000 3.000000 0.000000
+movePaintball 37471 37500 red 3.000000 0.000000 2.000000 0.000000
+moveChild 37300 37500 2 24 12 23 12
+moveChild 37300 37500 6 29 20 29 19
+moveChild 37100 37500 1 17 10 18 10
+moveChild 37100 37500 5 15 12 15 11
+snap 37500 15 67
+moveReport 37500
+move 11 12
+launch 3 19
+move 26 12
+move 15 2
+launch 6 17
+launch 30 15
+plant 30 20
+launch 4 21
+alert 37600 6 "child does not have enough paintballs to plant a flag"
+alert 37600 4 "child must be standing to launch"
+alert 37600 1 "child must be standing to launch"
+alert 37600 5 "child must be standing to launch"
+updateChild 37600 7 S U d 6
+movePaintball 37600 37626 blue 19.000000 12.000000 18.000000 12.600000
+movePaintball 37626 37653 blue 18.000000 12.600000 17.000000 13.200000
+movePaintball 37653 37680 blue 17.000000 13.200000 16.000000 13.800000
+movePaintball 37680 37706 blue 16.000000 13.800000 15.000000 14.400000
+movePaintball 37706 37733 blue 15.000000 14.400000 14.000000 15.000000
+moveChild 37600 37733 0 8 12 9 12
+moveChild 37600 37733 2 23 12 24 12
+movePaintball 37733 37760 blue 14.000000 15.000000 13.000000 15.600000
+movePaintball 37760 37786 blue 13.000000 15.600000 12.000000 16.200000
+moveChild 37600 37800 3 16 0 15 1
+movePaintball 37786 37813 blue 12.000000 16.200000 11.000000 16.800000
+movePaintball 37813 37840 blue 11.000000 16.800000 10.000000 17.400000
+movePaintball 37840 37866 blue 10.000000 17.400000 9.000000 18.000000
+moveChild 37733 37866 0 9 12 10 12
+moveChild 37733 37866 2 24 12 25 12
+movePaintball 37866 37893 blue 9.000000 18.000000 8.000000 18.600000
+movePaintball 37893 37920 blue 8.000000 18.600000 7.000000 19.200000
+movePaintball 37920 37946 blue 7.000000 19.200000 6.000000 19.800000
+movePaintball 37946 37973 blue 6.000000 19.800000 5.000000 20.400000
+movePaintball 37973 38000 blue 5.000000 20.400000 4.000000 21.000000
+moveChild 37866 38000 0 10 12 11 12
+moveChild 37866 38000 2 25 12 26 12
+moveChild 37800 38000 3 15 1 15 2
+snap 38000 15 67
+moveReport 38000
+move 12 14
+move 18 11
+move 27 13
+plant 14 1
+move 28 18
+launch 24 26
+launch 30 30
+drop 18 12 1
+updateChild 38000 7 S U d 5
+updateMap 38000 18 12 P4
+alert 38100 3 "child does not have enough paintballs to plant a flag"
+alert 38100 5 "child must be standing to launch"
+updateChild 38100 6 S U b 7
+movePaintball 38100 38136 blue 29.000000 19.000000 29.090909 20.000000
+movePaintball 38136 38172 blue 29.090909 20.000000 29.181818 21.000000
+movePaintball 38172 38209 blue 29.181818 21.000000 29.272727 22.000000
+movePaintball 38209 38245 blue 29.272727 22.000000 29.363636 23.000000
+movePaintball 38245 38281 blue 29.363636 23.000000 29.454545 24.000000
+moveChild 38100 38300 0 11 12 12 13
+movePaintball 38281 38318 blue 29.454545 24.000000 29.545455 25.000000
+movePaintball 38318 38354 blue 29.545455 25.000000 29.636364 26.000000
+movePaintball 38354 38390 blue 29.636364 26.000000 29.727273 27.000000
+movePaintball 38390 38427 blue 29.727273 27.000000 29.818182 28.000000
+movePaintball 38427 38463 blue 29.818182 28.000000 29.909091 29.000000
+movePaintball 38463 38500 blue 29.909091 29.000000 30.000000 30.000000
+moveChild 38300 38500 0 12 13 12 14
+moveChild 38100 38500 4 28 19 28 18
+moveChild 38100 38500 1 18 10 18 11
+moveChild 38100 38500 2 26 12 27 13
+snap 38500 15 67
+moveReport 38500
+plant 11 13
+plant 17 10
+launch 8 8 17 27
+move 16 4
+move 27 18
+move 14 11
+move 26 19
+move 21 12
+updateChild 38600 0 S U d 25
+updateMap 38600 11 13 R
+alert 38600 1 "must be standing to plant a flag"
+updateChild 38600 2 S U e 5
+movePaintball 38600 38621 red 27.000000 13.000000 26.000000 12.736842
+movePaintball 38600 38626 red 27.000000 13.000000 26.000000 13.266667
+movePaintball 38600 38628 red 27.000000 13.000000 26.285714 14.000000
+movePaintball 38621 38642 red 26.000000 12.736842 25.000000 12.473684
+movePaintball 38626 38653 red 26.000000 13.266667 25.000000 13.533333
+movePaintball 38628 38657 red 26.285714 14.000000 25.571429 15.000000
+movePaintball 38642 38663 red 25.000000 12.473684 24.000000 12.210526
+movePaintball 38653 38680 red 25.000000 13.533333 24.000000 13.800000
+movePaintball 38663 38684 red 24.000000 12.210526 23.000000 11.947368
+movePaintball 38657 38685 red 25.571429 15.000000 24.857143 16.000000
+movePaintball 38684 38705 red 23.000000 11.947368 22.000000 11.684211
+movePaintball 38680 38706 red 24.000000 13.800000 23.000000 14.066667
+movePaintball 38685 38714 red 24.857143 16.000000 24.142857 17.000000
+movePaintball 38705 38726 red 22.000000 11.684211 21.000000 11.421053
+movePaintball 38706 38733 red 23.000000 14.066667 22.000000 14.333333
+moveChild 38600 38733 6 29 19 28 19
+movePaintball 38714 38742 red 24.142857 17.000000 23.428571 18.000000
+movePaintball 38726 38747 red 21.000000 11.421053 20.000000 11.157895
+movePaintball 38733 38760 red 22.000000 14.333333 21.000000 14.600000
+movePaintball 38747 38768 red 20.000000 11.157895 19.000000 10.894737
+movePaintball 38742 38771 red 23.428571 18.000000 22.714286 19.000000
+movePaintball 38760 38786 red 21.000000 14.600000 20.000000 14.866667
+movePaintball 38768 38789 red 19.000000 10.894737 18.000000 10.631579
+movePaintball 38771 38800 red 22.714286 19.000000 22.000000 20.000000
+moveChild 38600 38800 3 15 2 16 3
+moveChild 38600 38800 7 19 12 20 12
+movePaintball 38789 38810 red 18.000000 10.631579 17.000000 10.368421
+movePaintball 38786 38813 red 20.000000 14.866667 19.000000 15.133333
+paintballHit 38800 red 19 15
+movePaintball 38800 38828 red 22.000000 20.000000 21.285714 21.000000
+movePaintball 38810 38831 red 17.000000 10.368421 16.000000 10.105263
+movePaintball 38831 38852 red 16.000000 10.105263 15.000000 9.842105
+movePaintball 38828 38857 red 21.285714 21.000000 20.571429 22.000000
+moveChild 38733 38866 6 28 19 27 19
+movePaintball 38852 38873 red 15.000000 9.842105 14.000000 9.578947
+movePaintball 38857 38885 red 20.571429 22.000000 19.857143 23.000000
+movePaintball 38873 38894 red 14.000000 9.578947 13.000000 9.315789
+movePaintball 38885 38914 red 19.857143 23.000000 19.142857 24.000000
+movePaintball 38894 38915 red 13.000000 9.315789 12.000000 9.052632
+movePaintball 38915 38936 red 12.000000 9.052632 11.000000 8.789474
+paintballHit 38914 red 11 9
+movePaintball 38914 38942 red 19.142857 24.000000 18.428571 25.000000
+movePaintball 38942 38971 red 18.428571 25.000000 17.714286 26.000000
+movePaintball 38971 39000 red 17.714286 26.000000 17.000000 27.000000
+moveChild 38866 39000 6 27 19 26 19
+moveChild 38800 39000 3 16 3 16 4
+moveChild 38800 39000 7 20 12 21 12
+moveChild 38600 39000 4 28 18 27 18
+moveChild 38600 39000 5 15 11 14 11
+snap 39000 27 67
+moveReport 39000
+move 15 14
+plant 17 10
+crouch
+plant 15 3
+move 27 17
+move 14 10
+plant 27 20
+move 24 12
+updateChild 39050 2 C U e 5
+alert 39100 1 "must be standing to plant a flag"
+alert 39100 6 "child does not have enough paintballs to plant a flag"
+alert 39100 3 "child does not have enough paintballs to plant a flag"
+moveChild 39100 39233 0 12 14 13 14
+moveChild 39100 39233 7 21 12 22 12
+moveChild 39233 39366 0 13 14 14 14
+moveChild 39233 39366 7 22 12 23 12
+moveChild 39366 39500 0 14 14 15 14
+moveChild 39366 39500 7 23 12 24 12
+moveChild 39100 39500 4 27 18 27 17
+moveChild 39100 39500 5 14 11 14 10
+snap 39500 27 67
+moveReport 39500
+plant 14 13
+drop 19 11 4
+launch 19 0 18 0
+launch 30 10
+launch 14 28
+plant 15 11
+move 25 17
+move 21 12
+updateChild 39500 1 C U b 9
+updateMap 39500 19 11 P4
+updateChild 39600 0 S U d 0
+updateMap 39600 14 13 R
+alert 39600 5 "must be standing to plant a flag"
+alert 39600 4 "child must be standing to launch"
+alert 39600 2 "child must be standing to launch"
+updateChild 39600 3 S U b 2
+movePaintball 39600 39628 red 16.000000 4.000000 17.000000 4.428571
+movePaintball 39628 39657 red 17.000000 4.428571 18.000000 4.857143
+movePaintball 39657 39685 red 18.000000 4.857143 19.000000 5.285714
+movePaintball 39685 39714 red 19.000000 5.285714 20.000000 5.714286
+moveChild 39600 39733 7 24 12 23 12
+movePaintball 39714 39742 red 20.000000 5.714286 21.000000 6.142857
+movePaintball 39742 39771 red 21.000000 6.142857 22.000000 6.571429
+movePaintball 39771 39800 red 22.000000 6.571429 23.000000 7.000000
+moveChild 39600 39800 6 26 19 25 18
+movePaintball 39800 39828 red 23.000000 7.000000 24.000000 7.428571
+movePaintball 39828 39857 red 24.000000 7.428571 25.000000 7.857143
+moveChild 39733 39866 7 23 12 22 12
+movePaintball 39857 39885 red 25.000000 7.857143 26.000000 8.285714
+movePaintball 39885 39914 red 26.000000 8.285714 27.000000 8.714286
+movePaintball 39914 39942 red 27.000000 8.714286 28.000000 9.142857
+movePaintball 39942 39971 red 28.000000 9.142857 29.000000 9.571429
+movePaintball 39971 40000 red 29.000000 9.571429 30.000000 10.000000
+moveChild 39866 40000 7 22 12 21 12
+moveChild 39800 40000 6 25 18 25 17
+snap 40000 39 67
+moveReport 40000
+launch 0 5
+move 18 10
+move 28 13
+launch 0 4
+plant 28 18
+move 13 10
+launch 29 0
+move 21 9
+alert 40100 4 "must be standing to plant a flag"
+alert 40100 0 "child is out of paintballs"
+updateChild 40100 6 S U b 6
+updateChild 40100 3 S U b 1
+movePaintball 40100 40123 blue 25.000000 17.000000 25.235294 16.000000
+movePaintball 40100 40125 red 16.000000 4.000000 15.000000 4.000000
+movePaintball 40123 40147 blue 25.235294 16.000000 25.470588 15.000000
+movePaintball 40125 40150 red 15.000000 4.000000 14.000000 4.000000
+movePaintball 40147 40170 blue 25.470588 15.000000 25.705882 14.000000
+movePaintball 40150 40175 red 14.000000 4.000000 13.000000 4.000000
+movePaintball 40170 40194 blue 25.705882 14.000000 25.941176 13.000000
+movePaintball 40175 40200 red 13.000000 4.000000 12.000000 4.000000
+movePaintball 40194 40217 blue 25.941176 13.000000 26.176471 12.000000
+movePaintball 40200 40225 red 12.000000 4.000000 11.000000 4.000000
+moveChild 40100 40233 7 21 12 21 11
+movePaintball 40217 40241 blue 26.176471 12.000000 26.411765 11.000000
+movePaintball 40225 40250 red 11.000000 4.000000 10.000000 4.000000
+movePaintball 40241 40264 blue 26.411765 11.000000 26.647059 10.000000
+movePaintball 40250 40275 red 10.000000 4.000000 9.000000 4.000000
+movePaintball 40264 40288 blue 26.647059 10.000000 26.882353 9.000000
+movePaintball 40275 40300 red 9.000000 4.000000 8.000000 4.000000
+movePaintball 40288 40311 blue 26.882353 9.000000 27.117647 8.000000
+movePaintball 40300 40325 red 8.000000 4.000000 7.000000 4.000000
+movePaintball 40311 40335 blue 27.117647 8.000000 27.352941 7.000000
+movePaintball 40325 40350 red 7.000000 4.000000 6.000000 4.000000
+movePaintball 40335 40358 blue 27.352941 7.000000 27.588235 6.000000
+moveChild 40233 40366 7 21 11 21 10
+movePaintball 40350 40375 red 6.000000 4.000000 5.000000 4.000000
+movePaintball 40358 40382 blue 27.588235 6.000000 27.823529 5.000000
+movePaintball 40375 40400 red 5.000000 4.000000 4.000000 4.000000
+movePaintball 40382 40405 blue 27.823529 5.000000 28.058824 4.000000
+movePaintball 40400 40425 red 4.000000 4.000000 3.000000 4.000000
+movePaintball 40405 40429 blue 28.058824 4.000000 28.294118 3.000000
+movePaintball 40425 40450 red 3.000000 4.000000 2.000000 4.000000
+movePaintball 40429 40452 blue 28.294118 3.000000 28.529412 2.000000
+movePaintball 40450 40475 red 2.000000 4.000000 1.000000 4.000000
+movePaintball 40452 40476 blue 28.529412 2.000000 28.764706 1.000000
+movePaintball 40476 40500 blue 28.764706 1.000000 29.000000 0.000000
+movePaintball 40475 40500 red 1.000000 4.000000 0.000000 4.000000
+moveChild 40366 40500 7 21 10 21 9
+moveChild 40100 40500 1 18 11 18 10
+moveChild 40100 40500 5 14 10 13 10
+moveChild 40100 40500 2 27 13 28 13
+snap 40500 39 67
+moveReport 40500
+move 17 15
+launch 30 5
+move 27 13
+move 18 5
+move 26 17
+move 12 10
+move 25 14
+move 21 12
+alert 40600 1 "child must be standing to launch"
+moveChild 40600 40733 6 25 17 25 16
+moveChild 40600 40733 7 21 9 21 10
+moveChild 40600 40800 0 15 14 16 15
+moveChild 40600 40800 3 16 4 17 5
+moveChild 40733 40866 6 25 16 25 15
+moveChild 40733 40866 7 21 10 21 11
+moveChild 40866 41000 6 25 15 25 14
+moveChild 40866 41000 7 21 11 21 12
+moveChild 40800 41000 0 16 15 17 15
+moveChild 40800 41000 3 17 5 18 5
+moveChild 40600 41000 4 27 17 26 17
+moveChild 40600 41000 5 13 10 12 10
+moveChild 40600 41000 2 28 13 27 13
+snap 41000 39 67
+moveReport 41000
+move 17 12
+pickup 19 11
+move 28 13
+move 18 8
+move 26 16
+move 11 10
+move 23 13
+move 20 10
+updateChild 41050 1 C U b 13
+updateMap 41050 19 11 .
+moveChild 41100 41233 0 17 15 17 14
+moveChild 41100 41233 3 18 5 18 6
+moveChild 41100 41300 6 25 14 24 13
+moveChild 41100 41300 7 21 12 20 11
+moveChild 41233 41366 0 17 14 17 13
+moveChild 41233 41366 3 18 6 18 7
+alert 40700 5 "Move blocked"
+moveChild 41366 41500 0 17 13 17 12
+moveChild 41366 41500 3 18 7 18 8
+moveChild 41300 41500 6 24 13 23 13
+moveChild 41300 41500 7 20 11 20 10
+moveChild 41100 41500 4 26 17 26 16
+moveChild 41100 41500 2 27 13 28 13
+snap 41500 39 67
+moveReport 41500
+pickup 18 12
+move 17 10
+launch 23 0 20 29
+move 16 7
+move 26 15
+launch 0 16
+move 24 11
+move 17 10
+updateChild 41550 0 S U d 4
+updateMap 41550 18 12 .
+alert 41600 5 "child must be standing to launch"
+alert 41600 2 "child must be standing to launch"
+moveChild 41600 41733 7 20 10 19 10
+moveChild 41600 41800 6 23 13 24 12
+moveChild 41600 41800 3 18 8 17 7
+alert 41600 7 "Move blocked"
+moveChild 41800 42000 6 24 12 24 11
+moveChild 41800 42000 3 17 7 16 7
+moveChild 41600 42000 4 26 16 26 15
+moveChild 41600 42000 1 18 10 17 10
+snap 42000 39 67
+alert 42000 6 "must try to drop at least one paintball"
+moveReport 42000
+launch 11 30
+move 16 10
+move 28 14
+move 14 8
+move 26 14
+plant 13 11
+idle
+move 18 8
+alert 42100 5 "must be standing to plant a flag"
+updateChild 42100 0 S U d 3
+movePaintball 42100 42122 red 17.000000 12.000000 16.666667 13.000000
+movePaintball 42122 42144 red 16.666667 13.000000 16.333333 14.000000
+movePaintball 42144 42166 red 16.333333 14.000000 16.000000 15.000000
+movePaintball 42166 42188 red 16.000000 15.000000 15.666667 16.000000
+movePaintball 42188 42211 red 15.666667 16.000000 15.333333 17.000000
+paintballHit 42211 red 15 17
+moveChild 42100 42300 3 16 7 15 8
+moveChild 42100 42300 7 19 10 18 9
+moveChild 42300 42500 3 15 8 14 8
+moveChild 42300 42500 7 18 9 18 8
+moveChild 42100 42500 4 26 15 26 14
+moveChild 42100 42500 1 17 10 16 10
+moveChild 42100 42500 2 28 13 28 14
+snap 42500 39 67
+moveReport 42500
+move 17 15
+drop 15 10 2
+launch 22 30 30 10
+move 15 6
+stand
+plant 13 11
+move 24 8
+move 19 6
+updateChild 42500 1 C U b 11
+updateMap 42500 15 10 P2
+updateChild 42550 4 S U b 7
+alert 42600 5 "must be standing to plant a flag"
+alert 42600 2 "child must be standing to launch"
+alert 42466 6 "Move blocked"
+moveChild 42600 42733 0 17 12 17 13
+moveChild 42600 42800 3 14 8 15 7
+moveChild 42600 42800 7 18 8 19 7
+moveChild 42733 42866 0 17 13 17 14
+moveChild 42866 43000 0 17 14 17 15
+moveChild 42800 43000 3 15 7 15 6
+moveChild 42800 43000 7 19 7 19 6
+snap 43000 39 67
+moveReport 43000
+launch 0 8
+plant 15 9
+move 29 14
+crouch
+launch 30 0
+move 12 9
+move 25 9
+launch 1 12
+updateChild 43050 3 C U b 1
+alert 43100 1 "must be standing to plant a flag"
+updateChild 43100 0 S U d 2
+updateChild 43100 4 S U b 6
+updateChild 43100 7 S U d 4
+movePaintball 43100 43122 blue 19.000000 6.000000 18.000000 6.333333
+movePaintball 43100 43123 red 17.000000 15.000000 16.000000 14.588235
+movePaintball 43100 43128 blue 26.000000 14.000000 26.285714 13.000000
+movePaintball 43122 43144 blue 18.000000 6.333333 17.000000 6.666667
+movePaintball 43123 43147 red 16.000000 14.588235 15.000000 14.176471
+movePaintball 43128 43157 blue 26.285714 13.000000 26.571429 12.000000
+movePaintball 43144 43166 blue 17.000000 6.666667 16.000000 7.000000
+movePaintball 43147 43170 red 15.000000 14.176471 14.000000 13.764706
+movePaintball 43157 43185 blue 26.571429 12.000000 26.857143 11.000000
+movePaintball 43166 43188 blue 16.000000 7.000000 15.000000 7.333333
+movePaintball 43170 43194 red 14.000000 13.764706 13.000000 13.352941
+movePaintball 43188 43211 blue 15.000000 7.333333 14.000000 7.666667
+movePaintball 43185 43214 blue 26.857143 11.000000 27.142857 10.000000
+movePaintball 43194 43217 red 13.000000 13.352941 12.000000 12.941176
+movePaintball 43211 43233 blue 14.000000 7.666667 13.000000 8.000000
+movePaintball 43217 43241 red 12.000000 12.941176 11.000000 12.529412
+movePaintball 43214 43242 blue 27.142857 10.000000 27.428571 9.000000
+movePaintball 43233 43255 blue 13.000000 8.000000 12.000000 8.333333
+movePaintball 43241 43264 red 11.000000 12.529412 10.000000 12.117647
+movePaintball 43242 43271 blue 27.428571 9.000000 27.714286 8.000000
+movePaintball 43255 43277 blue 12.000000 8.333333 11.000000 8.666667
+movePaintball 43264 43288 red 10.000000 12.117647 9.000000 11.705882
+movePaintball 43277 43300 blue 11.000000 8.666667 10.000000 9.000000
+movePaintball 43271 43300 blue 27.714286 8.000000 28.000000 7.000000
+moveChild 43100 43300 6 24 11 25 10
+movePaintball 43288 43311 red 9.000000 11.705882 8.000000 11.294118
+movePaintball 43300 43322 blue 10.000000 9.000000 9.000000 9.333333
+movePaintball 43300 43328 blue 28.000000 7.000000 28.285714 6.000000
+movePaintball 43311 43335 red 8.000000 11.294118 7.000000 10.882353
+movePaintball 43322 43344 blue 9.000000 9.333333 8.000000 9.666667
+movePaintball 43328 43357 blue 28.285714 6.000000 28.571429 5.000000
+movePaintball 43335 43358 red 7.000000 10.882353 6.000000 10.470588
+movePaintball 43344 43366 blue 8.000000 9.666667 7.000000 10.000000
+movePaintball 43358 43382 red 6.000000 10.470588 5.000000 10.058824
+movePaintball 43357 43385 blue 28.571429 5.000000 28.857143 4.000000
+movePaintball 43366 43388 blue 7.000000 10.000000 6.000000 10.333333
+movePaintball 43382 43405 red 5.000000 10.058824 4.000000 9.647059
+movePaintball 43388 43411 blue 6.000000 10.333333 5.000000 10.666667
+movePaintball 43385 43414 blue 28.857143 4.000000 29.142857 3.000000
+movePaintball 43405 43429 red 4.000000 9.647059 3.000000 9.235294
+movePaintball 43411 43433 blue 5.000000 10.666667 4.000000 11.000000
+movePaintball 43414 43442 blue 29.142857 3.000000 29.428571 2.000000
+movePaintball 43429 43452 red 3.000000 9.235294 2.000000 8.823529
+movePaintball 43433 43455 blue 4.000000 11.000000 3.000000 11.333333
+movePaintball 43442 43471 blue 29.428571 2.000000 29.714286 1.000000
+movePaintball 43452 43476 red 2.000000 8.823529 1.000000 8.411765
+movePaintball 43455 43477 blue 3.000000 11.333333 2.000000 11.666667
+movePaintball 43477 43500 blue 2.000000 11.666667 1.000000 12.000000
+movePaintball 43476 43500 red 1.000000 8.411765 0.000000 8.000000
+movePaintball 43471 43500 blue 29.714286 1.000000 30.000000 0.000000
+moveChild 43300 43500 6 25 10 25 9
+moveChild 43100 43500 5 12 10 12 9
+moveChild 43100 43500 2 28 14 29 14
+snap 43500 39 67
+moveReport 43500
+launch 3 5
+move 16 9
+move 30 14
+move 14 6
+move 26 11
+move 12 8
+pickup 24 10
+crouch
+updateChild 43550 6 S U d 6
+updateMap 43550 24 10 .
+updateChild 43550 7 C U d 4
+updateChild 43600 0 S U d 1
+movePaintball 43600 43628 red 17.000000 15.000000 16.000000 14.285714
+movePaintball 43628 43657 red 16.000000 14.285714 15.000000 13.571429
+movePaintball 43657 43685 red 15.000000 13.571429 14.000000 12.857143
+movePaintball 43685 43714 red 14.000000 12.857143 13.000000 12.142857
+moveChild 43600 43733 4 26 14 26 13
+movePaintball 43714 43742 red 13.000000 12.142857 12.000000 11.428571
+movePaintball 43742 43771 red 12.000000 11.428571 11.000000 10.714286
+movePaintball 43771 43800 red 11.000000 10.714286 10.000000 10.000000
+movePaintball 43800 43828 red 10.000000 10.000000 9.000000 9.285714
+movePaintball 43828 43857 red 9.000000 9.285714 8.000000 8.571429
+moveChild 43733 43866 4 26 13 26 12
+movePaintball 43857 43885 red 8.000000 8.571429 7.000000 7.857143
+movePaintball 43885 43914 red 7.000000 7.857143 6.000000 7.142857
+movePaintball 43914 43942 red 6.000000 7.142857 5.000000 6.428571
+movePaintball 43942 43971 red 5.000000 6.428571 4.000000 5.714286
+alert 43733 4 "Move blocked"
+alert 43200 3 "Move blocked"
+movePaintball 43971 44000 red 4.000000 5.714286 3.000000 5.000000
+moveChild 43600 44000 1 16 10 16 9
+moveChild 43600 44000 5 12 9 12 8
+moveChild 43600 44000 2 29 14 30 14
+snap 44000 39 67
+alert 44000 2 "must move somewhere"
+moveReport 44000
+move 18 17
+launch 27 22
+idle
+pickup 14 6
+move 24 13
+plant 13 9
+move 25 12
+move 19 7
+updateChild 44050 3 C U b 13
+updateMap 44050 14 6 .
+alert 44100 5 "must be standing to plant a flag"
+alert 44100 1 "child must be standing to launch"
+moveChild 44100 44233 6 25 9 25 10
+moveChild 44100 44300 0 17 15 18 16
+moveChild 44100 44300 4 26 12 25 13
+moveChild 44233 44366 6 25 10 25 11
+moveChild 44366 44500 6 25 11 25 12
+moveChild 44300 44500 0 18 16 18 17
+moveChild 44300 44500 4 25 13 24 13
+moveChild 44100 44500 7 19 6 19 7
+snap 44500 39 67
+alert 44500 2 "must move somewhere"
+moveReport 44500
+move 17 19
+move 17 9
+idle
+idle
+move 26 14
+move 13 8
+defend
+move 20 7
+updateChild 44550 6 S D d 6
+moveChild 44600 44800 0 18 17 17 18
+moveChild 44600 44800 4 24 13 25 14
+moveChild 44800 45000 0 17 18 17 19
+moveChild 44800 45000 4 25 14 26 14
+moveChild 44600 45000 1 16 9 17 9
+moveChild 44600 45000 5 12 8 13 8
+moveChild 44600 45000 7 19 7 20 7
+snap 45000 39 67
+moveReport 45000
+move 17 22
+move 17 10
+move 29 14
+move 14 6
+plant 27 15
+plant 14 9
+defend
+move 20 8
+updateChild 45050 6 S D d 6
+alert 45100 4 "child does not have enough paintballs to plant a flag"
+alert 45100 5 "must be standing to plant a flag"
+moveChild 45100 45233 0 17 19 17 20
+moveChild 45233 45366 0 17 20 17 21
+moveChild 45366 45500 0 17 21 17 22
+moveChild 45100 45500 1 17 9 17 10
+moveChild 45100 45500 2 30 14 29 14
+moveChild 45100 45500 3 15 6 14 6
+moveChild 45100 45500 7 20 7 20 8
+snap 45500 39 67
+moveReport 45500
+pickup 18 21
+move 17 9
+stand
+move 13 6
+move 24 13
+move 13 9
+move 24 13
+move 20 9
+updateChild 45550 0 S U d 4
+updateMap 45550 18 21 .
+updateChild 45550 2 S U e 5
+moveChild 45600 45800 4 26 14 25 13
+alert 45600 4 "Move blocked"
+alert 45200 6 "Move blocked"
+moveChild 45600 46000 1 17 10 17 9
+moveChild 45600 46000 5 13 8 13 9
+moveChild 45600 46000 3 14 6 13 6
+moveChild 45600 46000 7 20 8 20 9
+snap 46000 39 67
+moveReport 46000
+move 15 21
+move 18 9
+move 29 11
+stand
+move 24 15
+idle
+launch 30 27
+defend
+updateChild 46050 3 S U b 13
+updateChild 46050 7 C D d 4
+alert 46100 6 "child may not be defending when launching"
+moveChild 46100 46233 2 29 14 29 13
+moveChild 46100 46300 0 17 22 16 21
+moveChild 46100 46300 4 25 13 24 14
+moveChild 46233 46366 2 29 13 29 12
+alert 46100 4 "Move blocked"
+moveChild 46366 46500 2 29 12 29 11
+moveChild 46300 46500 0 16 21 15 21
+moveChild 46100 46500 1 17 9 18 9
+snap 46500 39 67
+moveReport 46500
+launch 16 0
+plant 17 8
+idle
+drop 13 7 3
+move 21 14
+stand
+undefend
+launch 16 0
+updateChild 46500 3 S U b 10
+updateMap 46500 13 7 P3
+updateChild 46550 5 S U b 1
+updateChild 46550 6 S U d 6
+alert 46600 1 "must be standing to plant a flag"
+updateChild 46600 0 S U d 3
+alert 46600 7 "child must be standing to launch"
+movePaintball 46600 46619 red 15.000000 21.000000 15.047619 20.000000
+movePaintball 46619 46638 red 15.047619 20.000000 15.095238 19.000000
+movePaintball 46638 46657 red 15.095238 19.000000 15.142857 18.000000
+movePaintball 46657 46676 red 15.142857 18.000000 15.190476 17.000000
+paintballHit 46676 red 15 17
+moveChild 46600 46733 4 24 14 23 14
+moveChild 46733 46866 4 23 14 22 14
+moveChild 46866 47000 4 22 14 21 14
+snap 47000 39 67
+alert 47000 2 "must try to drop at least one paintball"
+moveReport 47000
+plant 14 20
+plant 17 8
+idle
+launch 15 0
+launch 0 13
+move 13 12
+move 23 11
+move 20 10
+alert 47100 0 "child does not have enough paintballs to plant a flag"
+alert 47100 1 "must be standing to plant a flag"
+updateChild 47100 4 S U b 5
+updateChild 47100 3 S U b 9
+movePaintball 47100 47119 blue 21.000000 14.000000 20.000000 13.952381
+movePaintball 47119 47138 blue 20.000000 13.952381 19.000000 13.904762
+movePaintball 47138 47157 blue 19.000000 13.904762 18.000000 13.857143
+movePaintball 47100 47166 red 13.000000 6.000000 13.333333 5.000000
+movePaintball 47157 47176 blue 18.000000 13.857143 17.000000 13.809524
+movePaintball 47176 47195 blue 17.000000 13.809524 16.000000 13.761905
+movePaintball 47195 47214 blue 16.000000 13.761905 15.000000 13.714286
+movePaintball 47214 47233 blue 15.000000 13.714286 14.000000 13.666667
+movePaintball 47166 47233 red 13.333333 5.000000 13.666667 4.000000
+moveChild 47100 47233 5 13 9 13 10
+movePaintball 47233 47252 blue 14.000000 13.666667 13.000000 13.619048
+movePaintball 47252 47271 blue 13.000000 13.619048 12.000000 13.571429
+movePaintball 47271 47290 blue 12.000000 13.571429 11.000000 13.523810
+movePaintball 47233 47300 red 13.666667 4.000000 14.000000 3.000000
+moveChild 47100 47300 6 25 12 24 11
+movePaintball 47290 47309 blue 11.000000 13.523810 10.000000 13.476190
+movePaintball 47309 47328 blue 10.000000 13.476190 9.000000 13.428571
+movePaintball 47328 47347 blue 9.000000 13.428571 8.000000 13.380952
+movePaintball 47347 47366 blue 8.000000 13.380952 7.000000 13.333333
+movePaintball 47300 47366 red 14.000000 3.000000 14.333333 2.000000
+moveChild 47233 47366 5 13 10 13 11
+movePaintball 47366 47385 blue 7.000000 13.333333 6.000000 13.285714
+movePaintball 47385 47404 blue 6.000000 13.285714 5.000000 13.238095
+movePaintball 47404 47423 blue 5.000000 13.238095 4.000000 13.190476
+movePaintball 47366 47433 red 14.333333 2.000000 14.666667 1.000000
+movePaintball 47423 47442 blue 4.000000 13.190476 3.000000 13.142857
+movePaintball 47442 47461 blue 3.000000 13.142857 2.000000 13.095238
+movePaintball 47461 47480 blue 2.000000 13.095238 1.000000 13.047619
+movePaintball 47480 47500 blue 1.000000 13.047619 0.000000 13.000000
+movePaintball 47433 47500 red 14.666667 1.000000 15.000000 0.000000
+moveChild 47366 47500 5 13 11 13 12
+moveChild 47300 47500 6 24 11 23 11
+moveChild 47100 47500 7 20 9 20 10
+snap 47500 39 67
+moveReport 47500
+move 17 21
+move 18 8
+move 30 12
+move 10 6
+move 19 15
+move 12 10
+launch 30 19
+move 21 10
+updateChild 47600 6 S U d 5
+movePaintball 47600 47650 blue 23.000000 11.000000 23.875000 12.000000
+movePaintball 47650 47700 blue 23.875000 12.000000 24.750000 13.000000
+moveChild 47600 47733 3 13 6 12 6
+movePaintball 47700 47750 blue 24.750000 13.000000 25.625000 14.000000
+movePaintball 47750 47800 blue 25.625000 14.000000 26.500000 15.000000
+moveChild 47600 47800 0 15 21 16 21
+moveChild 47600 47800 4 21 14 20 15
+moveChild 47600 47800 5 13 12 12 11
+movePaintball 47800 47850 blue 26.500000 15.000000 27.375000 16.000000
+moveChild 47733 47866 3 12 6 11 6
+movePaintball 47850 47900 blue 27.375000 16.000000 28.250000 17.000000
+movePaintball 47900 47950 blue 28.250000 17.000000 29.125000 18.000000
+alert 47600 4 "Move blocked"
+movePaintball 47950 48000 blue 29.125000 18.000000 30.000000 19.000000
+moveChild 47866 48000 3 11 6 10 6
+moveChild 47800 48000 0 16 21 17 21
+moveChild 47800 48000 5 12 11 12 10
+moveChild 47600 48000 1 18 9 18 8
+moveChild 47600 48000 2 29 11 30 12
+moveChild 47600 48000 7 20 10 21 10
+snap 48000 39 67
+moveReport 48000
+move 18 19
+move 19 8
+move 30 15
+move 11 8
+move 20 18
+idle
+move 23 8
+drop 21 9 1
+updateChild 48000 7 C D d 3
+updateMap 48000 21 9 P1
+moveChild 48100 48233 4 20 15 20 16
+moveChild 48100 48233 2 30 12 30 13
+moveChild 48100 48233 6 23 11 23 10
+moveChild 48100 48300 0 17 21 18 20
+moveChild 48100 48300 3 10 6 11 7
+moveChild 48233 48366 4 20 16 20 17
+moveChild 48233 48366 2 30 13 30 14
+moveChild 48233 48366 6 23 10 23 9
+moveChild 48366 48500 4 20 17 20 18
+moveChild 48366 48500 2 30 14 30 15
+moveChild 48366 48500 6 23 9 23 8
+moveChild 48300 48500 0 18 20 18 19
+moveChild 48300 48500 3 11 7 11 8
+moveChild 48100 48500 1 18 8 19 8
+snap 48500 39 67
+moveReport 48500
+move 15 19
+stand
+launch 30 30 30 15
+move 11 5
+crouch
+move 11 12
+move 20 8
+stand
+updateChild 48550 4 C U b 5
+updateChild 48550 1 S U b 11
+updateChild 48550 7 S D d 3
+alert 48600 2 "spread destination must be to somewhere"
+updateChild 48600 2 S U e 5
+moveChild 48600 48733 0 18 19 17 19
+moveChild 48600 48733 6 23 8 22 8
+moveChild 48600 48733 3 11 8 11 7
+alert 48400 5 "Move blocked"
+moveChild 48733 48866 0 17 19 16 19
+moveChild 48733 48866 6 22 8 21 8
+moveChild 48733 48866 3 11 7 11 6
+moveChild 48866 49000 0 16 19 15 19
+moveChild 48866 49000 6 21 8 20 8
+moveChild 48866 49000 3 11 6 11 5
+snap 49000 39 67
+moveReport 49000
+launch 26 6
+drop 20 8 1
+launch 6 15 19 2
+move 11 8
+pickup 19 17
+launch 10 0
+move 20 6
+pickup 21 9
+alert 49000 1 "destination is occupied"
+updateChild 49050 4 C U b 8
+updateMap 49050 19 17 .
+updateChild 49050 7 S D d 4
+updateMap 49050 21 9 .
+updateChild 49100 0 S U d 2
+updateChild 49100 5 S U b 0
+updateChild 49100 2 S U e 2
+movePaintball 49100 49116 red 30.000000 15.000000 29.000000 15.000000
+movePaintball 49100 49122 red 30.000000 15.000000 29.000000 14.611111
+movePaintball 49100 49130 red 15.000000 19.000000 15.846154 18.000000
+movePaintball 49100 49130 red 30.000000 15.000000 29.153846 14.000000
+movePaintball 49116 49133 red 29.000000 15.000000 28.000000 15.000000
+paintballHit 49100 red 28 15
+movePaintball 49100 49140 blue 12.000000 10.000000 11.800000 9.000000
+movePaintball 49122 49144 red 29.000000 14.611111 28.000000 14.222222
+movePaintball 49130 49161 red 15.846154 18.000000 16.692308 17.000000
+movePaintball 49130 49161 red 29.153846 14.000000 28.307692 13.000000
+movePaintball 49144 49166 red 28.000000 14.222222 27.000000 13.833333
+movePaintball 49140 49180 blue 11.800000 9.000000 11.600000 8.000000
+movePaintball 49166 49188 red 27.000000 13.833333 26.000000 13.444444
+movePaintball 49161 49192 red 16.692308 17.000000 17.538462 16.000000
+movePaintball 49161 49192 red 28.307692 13.000000 27.461538 12.000000
+movePaintball 49188 49211 red 26.000000 13.444444 25.000000 13.055556
+movePaintball 49180 49220 blue 11.600000 8.000000 11.400000 7.000000
+movePaintball 49192 49223 red 17.538462 16.000000 18.384615 15.000000
+movePaintball 49192 49223 red 27.461538 12.000000 26.615385 11.000000
+movePaintball 49211 49233 red 25.000000 13.055556 24.000000 12.666667
+moveChild 49100 49233 3 11 5 11 6
+movePaintball 49223 49253 red 18.384615 15.000000 19.230769 14.000000
+movePaintball 49223 49253 red 26.615385 11.000000 25.769231 10.000000
+movePaintball 49233 49255 red 24.000000 12.666667 23.000000 12.277778
+movePaintball 49220 49260 blue 11.400000 7.000000 11.200000 6.000000
+updateChild 49250 3 S U b 4
+updateMap 49250 12 5 P5
+paintballHit 49250 blue 11 6
+updateChild 49250 3 S U b 4
+movePaintball 49255 49277 red 23.000000 12.277778 22.000000 11.888889
+movePaintball 49253 49284 red 19.230769 14.000000 20.076923 13.000000
+movePaintball 49253 49284 red 25.769231 10.000000 24.923077 9.000000
+movePaintball 49277 49300 red 22.000000 11.888889 21.000000 11.500000
+moveChild 49100 49300 6 20 8 20 7
+movePaintball 49284 49315 red 20.076923 13.000000 20.923077 12.000000
+movePaintball 49284 49315 red 24.923077 9.000000 24.076923 8.000000
+movePaintball 49300 49322 red 21.000000 11.500000 20.000000 11.111111
+movePaintball 49322 49344 red 20.000000 11.111111 19.000000 10.722222
+movePaintball 49315 49346 red 20.923077 12.000000 21.769231 11.000000
+movePaintball 49315 49346 red 24.076923 8.000000 23.230769 7.000000
+movePaintball 49344 49366 red 19.000000 10.722222 18.000000 10.333333
+moveChild 49233 49366 3 11 6 11 7
+movePaintball 49346 49376 red 21.769231 11.000000 22.615385 10.000000
+movePaintball 49346 49376 red 23.230769 7.000000 22.384615 6.000000
+movePaintball 49366 49388 red 18.000000 10.333333 17.000000 9.944444
+movePaintball 49376 49407 red 22.615385 10.000000 23.461538 9.000000
+movePaintball 49376 49407 red 22.384615 6.000000 21.538462 5.000000
+movePaintball 49388 49411 red 17.000000 9.944444 16.000000 9.555556
+movePaintball 49411 49433 red 16.000000 9.555556 15.000000 9.166667
+movePaintball 49407 49438 red 23.461538 9.000000 24.307692 8.000000
+movePaintball 49407 49438 red 21.538462 5.000000 20.692308 4.000000
+movePaintball 49433 49455 red 15.000000 9.166667 14.000000 8.777778
+movePaintball 49438 49469 red 24.307692 8.000000 25.153846 7.000000
+movePaintball 49438 49469 red 20.692308 4.000000 19.846154 3.000000
+movePaintball 49455 49477 red 14.000000 8.777778 13.000000 8.388889
+movePaintball 49477 49500 red 13.000000 8.388889 12.000000 8.000000
+movePaintball 49469 49500 red 25.153846 7.000000 26.000000 6.000000
+movePaintball 49469 49500 red 19.846154 3.000000 19.000000 2.000000
+moveChild 49366 49500 3 11 7 11 8
+moveChild 49300 49500 6 20 7 20 6
+snap 49500 39 97
+moveReport 49500
+move 14 17
+plant 18 7
+move 30 16
+move 8 8
+stand
+move 12 13
+plant 21 7
+move 22 11
+updateChild 49550 4 S U b 8
+alert 49600 1 "child does not have enough paintballs to plant a flag"
+alert 49600 6 "child does not have enough paintballs to plant a flag"
+moveChild 49600 49733 5 12 10 12 11
+moveChild 49600 49733 3 11 8 10 8
+moveChild 49600 49800 0 15 19 14 18
+moveChild 49733 49866 5 12 11 12 12
+moveChild 49733 49866 3 10 8 9 8
+moveChild 49866 50000 5 12 12 12 13
+moveChild 49866 50000 3 9 8 8 8
+moveChild 49800 50000 0 14 18 14 17
+moveChild 49600 50000 2 30 15 30 16
+moveChild 49600 50000 7 21 10 22 11
+snap 50000 39 97
+alert 50000 2 "must try to drop at least one paintball"
+alert 50000 7 "must try to drop at least one paintball"
+moveReport 50000
+move 14 14
+move 17 9
+idle
+drop 8 7 1
+move 22 17
+plant 13 14
+crouch
+idle
+updateChild 50000 3 S U b 3
+updateMap 50000 8 7 P1
+updateChild 50050 6 C U d 5
+alert 50100 5 "child does not have enough paintballs to plant a flag"
+moveChild 50100 50233 0 14 17 14 16
+moveChild 50100 50300 4 20 18 21 17
+moveChild 50100 50300 1 19 8 18 9
+moveChild 50233 50366 0 14 16 14 15
+moveChild 50366 50500 0 14 15 14 14
+moveChild 50300 50500 4 21 17 22 17
+moveChild 50300 50500 1 18 9 17 9
+snap 50500 39 97
+moveReport 50500
+move 12 13
+move 16 11
+launch 17 5 30 12
+launch 0 9
+move 22 20
+plant 13 14
+move 21 6
+launch 30 13
+alert 50600 5 "child does not have enough paintballs to plant a flag"
+alert 50600 2 "child does not have enough paintballs for rapid fire"
+updateChild 50600 3 S U b 2
+alert 50600 7 "child may not be defending when launching"
+movePaintball 50600 50650 red 8.000000 8.000000 7.000000 8.125000
+movePaintball 50650 50700 red 7.000000 8.125000 6.000000 8.250000
+moveChild 50600 50733 4 22 17 22 18
+movePaintball 50700 50750 red 6.000000 8.250000 5.000000 8.375000
+movePaintball 50750 50800 red 5.000000 8.375000 4.000000 8.500000
+moveChild 50600 50800 0 14 14 13 13
+moveChild 50600 50800 1 17 9 16 10
+movePaintball 50800 50850 red 4.000000 8.500000 3.000000 8.625000
+moveChild 50733 50866 4 22 18 22 19
+movePaintball 50850 50900 red 3.000000 8.625000 2.000000 8.750000
+movePaintball 50900 50950 red 2.000000 8.750000 1.000000 8.875000
+alert 50600 0 "Move blocked"
+movePaintball 50950 51000 red 1.000000 8.875000 0.000000 9.000000
+moveChild 50866 51000 4 22 19 22 20
+moveChild 50800 51000 1 16 10 16 11
+moveChild 50600 51000 6 20 6 21 6
+snap 51000 39 97
+alert 51000 2 "must try to drop at least one paintball"
+moveReport 51000
+move 16 13
+move 17 9
+idle
+pickup 8 7
+move 20 21
+move 13 15
+move 21 5
+undefend
+updateChild 51050 3 S U b 3
+updateMap 51050 8 7 .
+updateChild 51050 7 S U d 4
+alert 50966 0 "Move blocked"
+moveChild 51100 51300 4 22 20 21 21
+moveChild 51100 51300 1 16 11 17 10
+moveChild 51100 51300 5 12 13 13 14
+moveChild 51300 51500 4 21 21 20 21
+moveChild 51300 51500 1 17 10 17 9
+moveChild 51300 51500 5 13 14 13 15
+moveChild 51100 51500 6 21 6 21 5
+snap 51500 39 97
+moveReport 51500
+move 16 13
+move 18 11
+move 29 15
+move 6 7
+pickup 20 20
+move 14 13
+move 21 4
+move 25 11
+updateChild 51550 4 S U b 58
+updateMap 51550 20 20 .
+alert 51466 0 "Move blocked"
+moveChild 51600 51733 7 22 11 23 11
+moveChild 51600 51800 1 17 9 18 10
+moveChild 51600 51800 5 13 15 14 14
+moveChild 51600 51800 3 8 8 7 7
+moveChild 51733 51866 7 23 11 24 11
+alert 51600 5 "Move blocked"
+moveChild 51866 52000 7 24 11 25 11
+moveChild 51800 52000 1 18 10 18 11
+moveChild 51800 52000 3 7 7 6 7
+moveChild 51600 52000 2 30 16 29 15
+moveChild 51600 52000 6 21 5 21 4
+snap 52000 39 97
+alert 52000 1 "must try to drop at least one paintball"
+moveReport 52000
+plant 12 12
+idle
+idle
+launch 0 24
+drop 20 22 15
+move 15 16
+move 21 3
+pickup 26 11
+updateChild 52000 4 S U b 43
+updateMap 52000 20 22 P15
+updateChild 52050 7 S U d 7
+updateMap 52050 26 11 .
+alert 52100 0 "child does not have enough paintballs to plant a flag"
+updateChild 52100 3 S U b 2
+movePaintball 52100 52123 red 6.000000 7.000000 5.647059 8.000000
+movePaintball 52123 52147 red 5.647059 8.000000 5.294118 9.000000
+movePaintball 52147 52170 red 5.294118 9.000000 4.941176 10.000000
+movePaintball 52170 52194 red 4.941176 10.000000 4.588235 11.000000
+movePaintball 52194 52217 red 4.588235 11.000000 4.235294 12.000000
+movePaintball 52217 52241 red 4.235294 12.000000 3.882353 13.000000
+movePaintball 52241 52264 red 3.882353 13.000000 3.529412 14.000000
+movePaintball 52264 52288 red 3.529412 14.000000 3.176471 15.000000
+alert 51900 5 "Move blocked"
+movePaintball 52288 52311 red 3.176471 15.000000 2.823529 16.000000
+movePaintball 52311 52335 red 2.823529 16.000000 2.470588 17.000000
+movePaintball 52335 52358 red 2.470588 17.000000 2.117647 18.000000
+movePaintball 52358 52382 red 2.117647 18.000000 1.764706 19.000000
+movePaintball 52382 52405 red 1.764706 19.000000 1.411765 20.000000
+movePaintball 52405 52429 red 1.411765 20.000000 1.058824 21.000000
+movePaintball 52429 52452 red 1.058824 21.000000 0.705882 22.000000
+movePaintball 52452 52476 red 0.705882 22.000000 0.352941 23.000000
+movePaintball 52476 52500 red 0.352941 23.000000 0.000000 24.000000
+moveChild 52100 52500 6 21 4 21 3
+snap 52500 39 97
+alert 52500 3 "must try to drop at least one paintball"
+moveReport 52500
+move 10 13
+idle
+idle
+idle
+plant 21 22
+launch 30 21
+stand
+plant 26 12
+updateChild 52550 6 S U d 5
+updateChild 52600 4 S U b 18
+updateMap 52600 21 22 B
+alert 52600 7 "child does not have enough paintballs to plant a flag"
+alert 52600 5 "child is out of paintballs"
+moveChild 52600 52733 0 13 13 12 13
+alert 52600 0 "Move blocked"
+snap 53000 39 109
+alert 53000 2 "must try to drop at least one paintball"
+moveReport 53000
+move 11 11
+move 15 11
+idle
+move 7 9
+move 22 21
+move 15 13
+crouch
+idle
+updateChild 53050 6 C U d 5
+moveChild 53100 53233 1 18 11 17 11
+moveChild 53100 53300 0 12 13 11 12
+moveChild 53100 53300 4 20 21 21 21
+moveChild 53100 53300 3 6 7 7 8
+moveChild 53233 53366 1 17 11 16 11
+alert 53100 0 "Move blocked"
+alert 52700 5 "Move blocked"
+moveChild 53366 53500 1 16 11 15 11
+moveChild 53300 53500 4 21 21 22 21
+moveChild 53300 53500 3 7 8 7 9
+snap 53500 39 109
+moveReport 53500
+idle
+move 17 11
+launch 22 0 30 30
+move 6 11
+plant 23 22
+move 14 17
+move 21 4
+move 22 11
+alert 53600 4 "child does not have enough paintballs to plant a flag"
+alert 53600 2 "child does not have enough paintballs for rapid fire"
+moveChild 53600 53733 5 14 14 14 15
+moveChild 53600 53733 7 25 11 24 11
+moveChild 53600 53800 1 15 11 16 11
+moveChild 53600 53800 3 7 9 6 10
+moveChild 53733 53866 5 14 15 14 16
+moveChild 53733 53866 7 24 11 23 11
+moveChild 53866 54000 5 14 16 14 17
+moveChild 53866 54000 7 23 11 22 11
+moveChild 53800 54000 1 16 11 17 11
+moveChild 53800 54000 3 6 10 6 11
+moveChild 53600 54000 6 21 3 21 4
+snap 54000 39 109
+alert 54000 2 "must try to drop at least one paintball"
+moveReport 54000
+move 11 15
+drop 17 12 1
+idle
+move 5 13
+idle
+move 13 15
+move 22 4
+move 23 9
+updateChild 54000 1 S U b 10
+updateMap 54000 17 12 P1
+alert 53966 0 "Move blocked"
+moveChild 54100 54300 5 14 17 13 16
+moveChild 54100 54300 3 6 11 5 12
+moveChild 54100 54300 7 22 11 23 10
+moveChild 54300 54500 5 13 16 13 15
+moveChild 54300 54500 3 5 12 5 13
+moveChild 54300 54500 7 23 10 23 9
+moveChild 54100 54500 6 21 4 22 4
+snap 54500 39 109
+moveReport 54500
+idle
+pickup 17 12
+plant 28 14
+launch 0 4
+move 21 20
+move 15 16
+move 22 5
+move 23 6
+updateChild 54550 1 S U b 11
+updateMap 54550 17 12 .
+alert 54600 2 "child does not have enough paintballs to plant a flag"
+updateChild 54600 3 S U b 1
+movePaintball 54600 54644 red 5.000000 13.000000 4.444444 12.000000
+movePaintball 54644 54688 red 4.444444 12.000000 3.888889 11.000000
+movePaintball 54688 54733 red 3.888889 11.000000 3.333333 10.000000
+moveChild 54600 54733 7 23 9 23 8
+movePaintball 54733 54777 red 3.333333 10.000000 2.777778 9.000000
+moveChild 54600 54800 5 13 15 14 16
+movePaintball 54777 54822 red 2.777778 9.000000 2.222222 8.000000
+movePaintball 54822 54866 red 2.222222 8.000000 1.666667 7.000000
+moveChild 54733 54866 7 23 8 23 7
+movePaintball 54866 54911 red 1.666667 7.000000 1.111111 6.000000
+movePaintball 54911 54955 red 1.111111 6.000000 0.555556 5.000000
+movePaintball 54955 55000 red 0.555556 5.000000 0.000000 4.000000
+moveChild 54866 55000 7 23 7 23 6
+moveChild 54800 55000 5 14 16 15 16
+moveChild 54600 55000 4 22 21 21 20
+moveChild 54600 55000 6 22 4 22 5
+snap 55000 39 109
+moveReport 55000
+defend
+launch 25 0
+launch 30 15 7 17
+move 3 14
+move 21 17
+move 12 16
+plant 23 6
+move 23 8
+updateChild 55050 0 S D d 2
+alert 55100 6 "must be standing to plant a flag"
+updateChild 55100 1 S U b 10
+alert 55100 2 "child does not have enough paintballs for rapid fire"
+movePaintball 55100 55136 red 17.000000 11.000000 17.727273 10.000000
+movePaintball 55136 55172 red 17.727273 10.000000 18.454545 9.000000
+movePaintball 55172 55209 red 18.454545 9.000000 19.181818 8.000000
+alert 54966 4 "Move blocked"
+moveChild 55100 55233 5 15 16 14 16
+movePaintball 55209 55245 red 19.181818 8.000000 19.909091 7.000000
+movePaintball 55245 55281 red 19.909091 7.000000 20.636364 6.000000
+moveChild 55100 55300 3 5 13 4 14
+moveChild 55100 55300 7 23 6 23 7
+movePaintball 55281 55318 red 20.636364 6.000000 21.363636 5.000000
+movePaintball 55318 55354 red 21.363636 5.000000 22.090909 4.000000
+moveChild 55233 55366 5 14 16 13 16
+movePaintball 55354 55390 red 22.090909 4.000000 22.818182 3.000000
+movePaintball 55390 55427 red 22.818182 3.000000 23.545455 2.000000
+movePaintball 55427 55463 red 23.545455 2.000000 24.272727 1.000000
+movePaintball 55463 55500 red 24.272727 1.000000 25.000000 0.000000
+moveChild 55366 55500 5 13 16 12 16
+moveChild 55300 55500 3 4 14 3 14
+moveChild 55300 55500 7 23 7 23 8
+snap 55500 39 109
+moveReport 55500
+move 10 13
+move 16 13
+move 30 14
+launch 0 14
+launch 18 30
+move 11 18
+move 23 5
+launch 12 0
+updateChild 55600 4 S U b 17
+updateChild 55600 3 S U b 0
+updateChild 55600 7 S U d 6
+movePaintball 55600 55636 blue 23.000000 8.000000 22.000000 7.272727
+movePaintball 55600 55640 blue 21.000000 20.000000 20.700000 21.000000
+movePaintball 55636 55672 blue 22.000000 7.272727 21.000000 6.545455
+movePaintball 55640 55680 blue 20.700000 21.000000 20.400000 22.000000
+movePaintball 55672 55709 blue 21.000000 6.545455 20.000000 5.818182
+movePaintball 55680 55720 blue 20.400000 22.000000 20.100000 23.000000
+movePaintball 55600 55733 red 3.000000 14.000000 2.000000 14.000000
+movePaintball 55709 55745 blue 20.000000 5.818182 19.000000 5.090909
+movePaintball 55720 55760 blue 20.100000 23.000000 19.800000 24.000000
+movePaintball 55745 55781 blue 19.000000 5.090909 18.000000 4.363636
+movePaintball 55760 55800 blue 19.800000 24.000000 19.500000 25.000000
+moveChild 55600 55800 1 17 11 16 12
+moveChild 55600 55800 5 12 16 11 17
+movePaintball 55781 55818 blue 18.000000 4.363636 17.000000 3.636364
+movePaintball 55800 55840 blue 19.500000 25.000000 19.200000 26.000000
+movePaintball 55818 55854 blue 17.000000 3.636364 16.000000 2.909091
+movePaintball 55733 55866 red 2.000000 14.000000 1.000000 14.000000
+movePaintball 55840 55880 blue 19.200000 26.000000 18.900000 27.000000
+movePaintball 55854 55890 blue 16.000000 2.909091 15.000000 2.181818
+movePaintball 55880 55920 blue 18.900000 27.000000 18.600000 28.000000
+movePaintball 55890 55927 blue 15.000000 2.181818 14.000000 1.454545
+movePaintball 55920 55960 blue 18.600000 28.000000 18.300000 29.000000
+movePaintball 55927 55963 blue 14.000000 1.454545 13.000000 0.727273
+movePaintball 55963 56000 blue 13.000000 0.727273 12.000000 0.000000
+movePaintball 55960 56000 blue 18.300000 29.000000 18.000000 30.000000
+movePaintball 55866 56000 red 1.000000 14.000000 0.000000 14.000000
+moveChild 55800 56000 1 16 12 16 13
+moveChild 55800 56000 5 11 17 11 18
+moveChild 55600 56000 0 11 12 10 13
+moveChild 55600 56000 2 29 15 30 14
+moveChild 55600 56000 6 22 5 23 5
+snap 56000 39 109
+alert 56000 4 "must try to drop at least one paintball"
+moveReport 56000
+move 11 14
+launch 8 0
+move 28 13
+move 3 17
+idle
+move 11 21
+stand
+drop 24 8 1
+updateChild 56000 7 S U d 5
+updateMap 56000 24 8 P1
+updateChild 56050 6 S U d 5
+updateChild 56100 1 S U b 9
+movePaintball 56100 56130 red 16.000000 13.000000 15.384615 12.000000
+movePaintball 56130 56161 red 15.384615 12.000000 14.769231 11.000000
+movePaintball 56161 56192 red 14.769231 11.000000 14.153846 10.000000
+movePaintball 56192 56223 red 14.153846 10.000000 13.538462 9.000000
+moveChild 56100 56233 5 11 18 11 19
+moveChild 56100 56233 3 3 14 3 15
+movePaintball 56223 56253 red 13.538462 9.000000 12.923077 8.000000
+movePaintball 56253 56284 red 12.923077 8.000000 12.307692 7.000000
+moveChild 56100 56300 2 30 14 29 13
+movePaintball 56284 56315 red 12.307692 7.000000 11.692308 6.000000
+movePaintball 56315 56346 red 11.692308 6.000000 11.076923 5.000000
+moveChild 56233 56366 5 11 19 11 20
+moveChild 56233 56366 3 3 15 3 16
+movePaintball 56346 56376 red 11.076923 5.000000 10.461538 4.000000
+movePaintball 56376 56407 red 10.461538 4.000000 9.846154 3.000000
+movePaintball 56407 56438 red 9.846154 3.000000 9.230769 2.000000
+movePaintball 56438 56469 red 9.230769 2.000000 8.615385 1.000000
+movePaintball 56469 56500 red 8.615385 1.000000 8.000000 0.000000
+moveChild 56366 56500 5 11 20 11 21
+moveChild 56366 56500 3 3 16 3 17
+moveChild 56300 56500 2 29 13 28 13
+moveChild 56100 56500 0 10 13 11 14
+snap 56500 39 109
+alert 56500 7 "must try to drop at least one paintball"
+moveReport 56500
+plant 10 13
+crouch
+launch 30 15 5 12
+launch 3 30
+move 23 21
+move 13 20
+drop 23 4 1
+idle
+updateChild 56500 6 S U d 4
+updateMap 56500 23 4 P1
+updateChild 56550 1 C U b 9
+alert 56600 0 "child does not have enough paintballs to plant a flag"
+alert 56600 2 "child does not have enough paintballs for rapid fire"
+alert 56600 3 "child is out of paintballs"
+moveChild 56600 56800 4 21 20 22 21
+moveChild 56600 56800 5 11 21 12 20
+moveChild 56800 57000 4 22 21 23 21
+moveChild 56800 57000 5 12 20 13 20
+snap 57000 39 109
+alert 57000 2 "must try to drop at least one paintball"
+moveReport 57000
+move 11 16
+launch 0 16
+idle
+move 3 20
+move 25 20
+move 15 21
+launch 7 13
+pickup 24 8
+updateChild 57050 7 S U d 6
+updateMap 57050 24 8 .
+alert 57100 1 "child must be standing to launch"
+updateChild 57100 6 S U d 3
+movePaintball 57100 57125 blue 23.000000 5.000000 22.000000 5.500000
+movePaintball 57125 57150 blue 22.000000 5.500000 21.000000 6.000000
+movePaintball 57150 57175 blue 21.000000 6.000000 20.000000 6.500000
+movePaintball 57175 57200 blue 20.000000 6.500000 19.000000 7.000000
+movePaintball 57200 57225 blue 19.000000 7.000000 18.000000 7.500000
+moveChild 57100 57233 3 3 17 3 18
+movePaintball 57225 57250 blue 18.000000 7.500000 17.000000 8.000000
+movePaintball 57250 57275 blue 17.000000 8.000000 16.000000 8.500000
+alert 56900 0 "Move blocked"
+movePaintball 57275 57300 blue 16.000000 8.500000 15.000000 9.000000
+moveChild 57100 57300 4 23 21 24 20
+moveChild 57100 57300 5 13 20 14 21
+movePaintball 57300 57325 blue 15.000000 9.000000 14.000000 9.500000
+movePaintball 57325 57350 blue 14.000000 9.500000 13.000000 10.000000
+moveChild 57233 57366 3 3 18 3 19
+movePaintball 57350 57375 blue 13.000000 10.000000 12.000000 10.500000
+movePaintball 57375 57400 blue 12.000000 10.500000 11.000000 11.000000
+paintballHit 57400 blue 11 11
+moveChild 57366 57500 3 3 19 3 20
+moveChild 57300 57500 4 24 20 25 20
+moveChild 57300 57500 5 14 21 15 21
+snap 57500 39 109
+moveReport 57500
+move 9 14
+move 17 13
+idle
+move 1 21
+launch 30 16
+plant 16 22
+pickup 23 4
+move 21 7
+updateChild 57550 6 S U d 4
+updateMap 57550 23 4 .
+alert 57600 5 "child does not have enough paintballs to plant a flag"
+updateChild 57600 4 S U b 16
+movePaintball 57600 57680 blue 25.000000 20.000000 26.000000 19.200000
+movePaintball 57680 57760 blue 26.000000 19.200000 27.000000 18.400000
+moveChild 57600 57800 0 11 14 10 14
+moveChild 57600 57800 3 3 20 2 21
+moveChild 57600 57800 7 23 8 22 7
+movePaintball 57760 57840 blue 27.000000 18.400000 28.000000 17.600000
+movePaintball 57840 57920 blue 28.000000 17.600000 29.000000 16.800000
+movePaintball 57920 58000 blue 29.000000 16.800000 30.000000 16.000000
+moveChild 57800 58000 0 10 14 9 14
+moveChild 57800 58000 3 2 21 1 21
+moveChild 57800 58000 7 22 7 21 7
+moveChild 57600 58000 1 16 13 17 13
+snap 58000 39 109
+moveReport 58000
+move 7 14
+launch 30 8
+move 29 11
+move 0 19
+launch 23 0
+launch 21 30
+move 21 4
+move 21 10
+updateChild 58100 4 S U b 15
+alert 58100 1 "child must be standing to launch"
+alert 58100 5 "child is out of paintballs"
+movePaintball 58100 58120 blue 25.000000 20.000000 24.900000 19.000000
+movePaintball 58120 58140 blue 24.900000 19.000000 24.800000 18.000000
+movePaintball 58140 58160 blue 24.800000 18.000000 24.700000 17.000000
+movePaintball 58160 58180 blue 24.700000 17.000000 24.600000 16.000000
+movePaintball 58180 58200 blue 24.600000 16.000000 24.500000 15.000000
+paintballHit 58200 blue 24 15
+moveChild 58100 58233 7 21 7 21 8
+moveChild 58100 58300 0 9 14 8 14
+moveChild 58100 58300 2 28 13 29 12
+moveChild 58100 58300 6 23 5 22 4
+moveChild 58100 58300 3 1 21 0 20
+moveChild 58233 58366 7 21 8 21 9
+moveChild 58366 58500 7 21 9 21 10
+moveChild 58300 58500 0 8 14 7 14
+moveChild 58300 58500 2 29 12 29 11
+moveChild 58300 58500 6 22 4 21 4
+moveChild 58300 58500 3 0 20 0 19
+snap 58500 39 109
+alert 58500 3 "must move somewhere"
+moveReport 58500
+move 6 13
+stand
+launch 30 15 8 8
+idle
+launch 18 30
+plant 16 22
+launch 0 3
+launch 26 29
+updateChild 58550 1 S U b 9
+alert 58600 5 "child does not have enough paintballs to plant a flag"
+updateChild 58600 4 S U b 14
+alert 58600 2 "child does not have enough paintballs for rapid fire"
+updateChild 58600 6 S U d 3
+updateChild 58600 7 S U d 5
+movePaintball 58600 58619 blue 21.000000 4.000000 20.000000 3.952381
+movePaintball 58600 58621 blue 21.000000 10.000000 21.263158 11.000000
+movePaintball 58619 58638 blue 20.000000 3.952381 19.000000 3.904762
+movePaintball 58600 58640 blue 25.000000 20.000000 24.300000 21.000000
+movePaintball 58621 58642 blue 21.263158 11.000000 21.526316 12.000000
+movePaintball 58638 58657 blue 19.000000 3.904762 18.000000 3.857143
+movePaintball 58642 58663 blue 21.526316 12.000000 21.789474 13.000000
+movePaintball 58657 58676 blue 18.000000 3.857143 17.000000 3.809524
+movePaintball 58640 58680 blue 24.300000 21.000000 23.600000 22.000000
+movePaintball 58663 58684 blue 21.789474 13.000000 22.052632 14.000000
+movePaintball 58676 58695 blue 17.000000 3.809524 16.000000 3.761905
+movePaintball 58684 58705 blue 22.052632 14.000000 22.315789 15.000000
+movePaintball 58695 58714 blue 16.000000 3.761905 15.000000 3.714286
+movePaintball 58680 58720 blue 23.600000 22.000000 22.900000 23.000000
+movePaintball 58705 58726 blue 22.315789 15.000000 22.578947 16.000000
+movePaintball 58714 58733 blue 15.000000 3.714286 14.000000 3.666667
+movePaintball 58726 58747 blue 22.578947 16.000000 22.842105 17.000000
+movePaintball 58733 58752 blue 14.000000 3.666667 13.000000 3.619048
+movePaintball 58720 58760 blue 22.900000 23.000000 22.200000 24.000000
+movePaintball 58747 58768 blue 22.842105 17.000000 23.105263 18.000000
+movePaintball 58752 58771 blue 13.000000 3.619048 12.000000 3.571429
+movePaintball 58768 58789 blue 23.105263 18.000000 23.368421 19.000000
+movePaintball 58771 58790 blue 12.000000 3.571429 11.000000 3.523810
+movePaintball 58760 58800 blue 22.200000 24.000000 21.500000 25.000000
+movePaintball 58790 58809 blue 11.000000 3.523810 10.000000 3.476190
+movePaintball 58789 58810 blue 23.368421 19.000000 23.631579 20.000000
+movePaintball 58809 58828 blue 10.000000 3.476190 9.000000 3.428571
+movePaintball 58810 58831 blue 23.631579 20.000000 23.894737 21.000000
+movePaintball 58800 58840 blue 21.500000 25.000000 20.800000 26.000000
+movePaintball 58828 58847 blue 9.000000 3.428571 8.000000 3.380952
+movePaintball 58831 58852 blue 23.894737 21.000000 24.157895 22.000000
+movePaintball 58847 58866 blue 8.000000 3.380952 7.000000 3.333333
+movePaintball 58852 58873 blue 24.157895 22.000000 24.421053 23.000000
+movePaintball 58840 58880 blue 20.800000 26.000000 20.100000 27.000000
+paintballHit 58866 blue 20 27
+movePaintball 58866 58885 blue 7.000000 3.333333 6.000000 3.285714
+movePaintball 58873 58894 blue 24.421053 23.000000 24.684211 24.000000
+movePaintball 58885 58904 blue 6.000000 3.285714 5.000000 3.238095
+movePaintball 58894 58915 blue 24.684211 24.000000 24.947368 25.000000
+movePaintball 58904 58923 blue 5.000000 3.238095 4.000000 3.190476
+movePaintball 58915 58936 blue 24.947368 25.000000 25.210526 26.000000
+movePaintball 58923 58942 blue 4.000000 3.190476 3.000000 3.142857
+movePaintball 58936 58957 blue 25.210526 26.000000 25.473684 27.000000
+movePaintball 58942 58961 blue 3.000000 3.142857 2.000000 3.095238
+movePaintball 58957 58978 blue 25.473684 27.000000 25.736842 28.000000
+movePaintball 58961 58980 blue 2.000000 3.095238 1.000000 3.047619
+movePaintball 58980 59000 blue 1.000000 3.047619 0.000000 3.000000
+movePaintball 58978 59000 blue 25.736842 28.000000 26.000000 29.000000
+moveChild 58600 59000 0 7 14 6 13
+snap 59000 39 109
+moveReport 59000
+move 7 14
+move 16 15
+launch 9 7 30 30
+move 0 21
+pickup 24 21
+move 12 21
+launch 30 0
+move 23 9
+updateChild 59050 4 S U b 21
+updateMap 59050 24 21 .
+alert 59100 2 "child does not have enough paintballs for rapid fire"
+updateChild 59100 6 S U d 2
+movePaintball 59100 59144 blue 21.000000 4.000000 22.000000 3.555556
+movePaintball 59144 59188 blue 22.000000 3.555556 23.000000 3.111111
+movePaintball 59188 59233 blue 23.000000 3.111111 24.000000 2.666667
+moveChild 59100 59233 5 15 21 14 21
+movePaintball 59233 59277 blue 24.000000 2.666667 25.000000 2.222222
+moveChild 59100 59300 1 17 13 16 14
+moveChild 59100 59300 3 0 19 0 20
+moveChild 59100 59300 7 21 10 22 9
+movePaintball 59277 59322 blue 25.000000 2.222222 26.000000 1.777778
+movePaintball 59322 59366 blue 26.000000 1.777778 27.000000 1.333333
+moveChild 59233 59366 5 14 21 13 21
+movePaintball 59366 59411 blue 27.000000 1.333333 28.000000 0.888889
+movePaintball 59411 59455 blue 28.000000 0.888889 29.000000 0.444444
+movePaintball 59455 59500 blue 29.000000 0.444444 30.000000 0.000000
+moveChild 59366 59500 5 13 21 12 21
+moveChild 59300 59500 1 16 14 16 15
+moveChild 59300 59500 3 0 20 0 21
+moveChild 59300 59500 7 22 9 23 9
+moveChild 59100 59500 0 6 13 7 14
+snap 59500 39 109
+moveReport 59500
+move 6 15
+move 16 12
+plant 28 10
+move 1 23
+move 22 20
+move 12 18
+defend
+move 22 7
+updateChild 59550 6 S D d 2
+alert 59600 2 "child does not have enough paintballs to plant a flag"
+moveChild 59600 59733 4 25 20 24 20
+moveChild 59600 59733 1 16 15 16 14
+moveChild 59600 59733 5 12 21 12 20
+moveChild 59600 59800 3 0 21 1 22
+moveChild 59600 59800 7 23 9 22 8
+moveChild 59733 59866 4 24 20 23 20
+moveChild 59733 59866 1 16 14 16 13
+moveChild 59733 59866 5 12 20 12 19
+alert 59200 0 "Move blocked"
+moveChild 59866 60000 4 23 20 22 20
+moveChild 59866 60000 1 16 13 16 12
+moveChild 59866 60000 5 12 19 12 18
+moveChild 59800 60000 3 1 22 1 23
+moveChild 59800 60000 7 22 8 22 7
+snap 60000 39 139
+moveReport 60000
+move 5 14
+move 18 13
+move 30 12
+launch 8 30
+move 20 19
+plant 13 19
+defend
+plant 23 8
+updateChild 60050 6 S D d 2
+alert 60100 5 "child does not have enough paintballs to plant a flag"
+alert 60100 7 "child does not have enough paintballs to plant a flag"
+alert 60100 3 "child is out of paintballs"
+alert 59900 4 "Move blocked"
+moveChild 60100 60300 0 7 14 6 14
+moveChild 60100 60300 1 16 12 17 13
+moveChild 60300 60500 0 6 14 5 14
+moveChild 60300 60500 1 17 13 18 13
+moveChild 60100 60500 2 29 11 30 12
+snap 60500 39 139
+alert 60500 0 "must try to drop at least one paintball"
+alert 60500 7 "must try to drop at least one paintball"
+moveReport 60500
+idle
+move 19 14
+plant 29 11
+launch 0 15
+plant 23 21
+move 9 18
+move 19 4
+idle
+alert 60600 4 "child does not have enough paintballs to plant a flag"
+alert 60600 2 "child does not have enough paintballs to plant a flag"
+alert 60600 3 "child is out of paintballs"
+moveChild 60600 60733 5 12 18 11 18
+moveChild 60600 60800 6 21 4 20 4
+moveChild 60733 60866 5 11 18 10 18
+moveChild 60866 61000 5 10 18 9 18
+moveChild 60800 61000 6 20 4 19 4
+moveChild 60600 61000 1 18 13 19 14
+snap 61000 39 139
+alert 61000 1 "must try to drop at least one paintball"
+moveReport 61000
+move 6 13
+idle
+launch 12 18 30 30
+idle
+move 25 20
+launch 20 30
+move 21 4
+crouch
+updateChild 61050 7 C U d 5
+alert 61100 5 "child is out of paintballs"
+alert 61100 2 "child does not have enough paintballs for rapid fire"
+moveChild 61100 61233 4 22 20 23 20
+moveChild 61100 61300 6 19 4 20 4
+moveChild 61233 61366 4 23 20 24 20
+moveChild 61366 61500 4 24 20 25 20
+moveChild 61300 61500 6 20 4 21 4
+moveChild 61100 61500 0 5 14 6 13
+snap 61500 39 139
+alert 61500 1 "must try to drop at least one paintball"
+moveReport 61500
+launch 0 22
+idle
+move 30 15
+move 1 20
+move 27 20
+move 6 18
+undefend
+move 21 7
+updateChild 61550 6 S U d 2
+alert 61600 0 "child may not be defending when launching"
+moveChild 61600 61733 5 9 18 8 18
+moveChild 61600 61733 2 30 12 30 13
+moveChild 61600 61733 3 1 23 1 22
+moveChild 61600 61800 4 25 20 26 20
+moveChild 61733 61866 5 8 18 7 18
+moveChild 61733 61866 2 30 13 30 14
+moveChild 61733 61866 3 1 22 1 21
+moveChild 61866 62000 5 7 18 6 18
+moveChild 61866 62000 2 30 14 30 15
+moveChild 61866 62000 3 1 21 1 20
+moveChild 61800 62000 4 26 20 27 20
+moveChild 61600 62000 7 22 7 21 7
+snap 62000 39 139
+alert 62000 7 "must try to drop at least one paintball"
+moveReport 62000
+idle
+move 19 17
+move 30 17
+move 1 23
+move 25 21
+move 6 15
+idle
+idle
+alert 61966 1 "Move blocked"
+moveChild 62100 62233 5 6 18 6 17
+moveChild 62100 62233 3 1 20 1 21
+moveChild 62100 62300 4 27 20 26 21
+moveChild 62100 62300 2 30 15 30 16
+moveChild 62233 62366 5 6 17 6 16
+moveChild 62233 62366 3 1 21 1 22
+alert 62233 5 "Move blocked"
+moveChild 62366 62500 3 1 22 1 23
+moveChild 62300 62500 4 26 21 25 21
+moveChild 62300 62500 2 30 16 30 17
+snap 62500 39 139
+moveReport 62500
+move 8 13
+move 19 17
+move 27 17
+move 1 26
+move 23 20
+move 5 14
+move 19 4
+move 21 8
+alert 62466 1 "Move blocked"
+moveChild 62600 62733 2 30 17 29 17
+moveChild 62600 62733 3 1 23 1 24
+moveChild 62600 62800 0 6 13 7 13
+moveChild 62600 62800 4 25 21 24 20
+moveChild 62600 62800 5 6 16 5 15
+moveChild 62600 62800 6 21 4 20 4
+moveChild 62733 62866 2 29 17 28 17
+moveChild 62733 62866 3 1 24 1 25
+moveChild 62866 63000 2 28 17 27 17
+moveChild 62866 63000 3 1 25 1 26
+moveChild 62800 63000 0 7 13 8 13
+moveChild 62800 63000 4 24 20 23 20
+moveChild 62800 63000 5 5 15 5 14
+moveChild 62800 63000 6 20 4 19 4
+moveChild 62600 63000 7 21 7 21 8
+snap 63000 39 139
+alert 63000 0 "must try to drop at least one paintball"
+moveReport 63000
+idle
+move 17 13
+move 30 17
+move 0 24
+move 22 22
+move 7 13
+move 16 4
+plant 22 9
+alert 63100 7 "must be standing to plant a flag"
+moveChild 63100 63233 2 27 17 28 17
+moveChild 63100 63233 6 19 4 18 4
+moveChild 63100 63300 4 23 20 22 21
+moveChild 63100 63300 1 19 14 18 13
+moveChild 63100 63300 5 5 14 6 13
+moveChild 63100 63300 3 1 26 0 25
+moveChild 63233 63366 2 28 17 29 17
+moveChild 63233 63366 6 18 4 17 4
+moveChild 63366 63500 2 29 17 30 17
+moveChild 63366 63500 6 17 4 16 4
+moveChild 63300 63500 4 22 21 22 22
+moveChild 63300 63500 1 18 13 17 13
+moveChild 63300 63500 5 6 13 7 13
+moveChild 63300 63500 3 0 25 0 24
+snap 63500 39 139
+moveReport 63500
+launch 7 30
+move 15 13
+move 30 15
+move 0 27
+move 19 22
+plant 8 14
+move 18 5
+launch 9 20
+alert 63600 5 "child does not have enough paintballs to plant a flag"
+alert 63600 0 "child may not be defending when launching"
+alert 63600 7 "child must be standing to launch"
+alert 63466 4 "Move blocked"
+moveChild 63600 63733 3 0 24 0 25
+moveChild 63600 63800 1 17 13 16 13
+moveChild 63600 63800 2 30 17 30 16
+moveChild 63600 63800 6 16 4 17 5
+moveChild 63733 63866 3 0 25 0 26
+alert 63600 1 "Move blocked"
+moveChild 63866 64000 3 0 26 0 27
+moveChild 63800 64000 2 30 16 30 15
+moveChild 63800 64000 6 17 5 18 5
+snap 64000 39 139
+alert 64000 0 "must try to drop at least one paintball"
+moveReport 64000
+idle
+launch 0 10
+crouch
+launch 0 30
+move 22 25
+plant 8 14
+move 18 2
+move 21 7
+updateChild 64050 2 C U e 2
+alert 64100 5 "child does not have enough paintballs to plant a flag"
+updateChild 64100 1 S U b 8
+alert 64100 3 "child is out of paintballs"
+movePaintball 64100 64125 red 16.000000 13.000000 15.000000 12.812500
+paintballHit 64125 red 15 13
+moveChild 64100 64233 4 22 22 22 23
+moveChild 64100 64233 6 18 5 18 4
+moveChild 64233 64366 4 22 23 22 24
+moveChild 64233 64366 6 18 4 18 3
+moveChild 64366 64500 4 22 24 22 25
+moveChild 64366 64500 6 18 3 18 2
+moveChild 64100 64500 7 21 8 21 7
+snap 64500 39 139
+alert 64500 0 "must try to drop at least one paintball"
+alert 64500 6 "must try to drop at least one paintball"
+moveReport 64500
+idle
+launch 6 27
+move 30 14
+move 0 25
+move 25 25
+launch 0 7
+idle
+move 20 7
+updateChild 64600 1 S U b 7
+alert 64600 5 "child is out of paintballs"
+movePaintball 64600 64628 red 16.000000 13.000000 15.285714 14.000000
+movePaintball 64628 64657 red 15.285714 14.000000 14.571429 15.000000
+paintballHit 64657 red 15 15
+alert 64466 4 "Move blocked"
+moveChild 64600 64800 3 0 27 0 26
+moveChild 64800 65000 3 0 26 0 25
+moveChild 64600 65000 2 30 15 30 14
+moveChild 64600 65000 7 21 7 20 7
+snap 65000 39 139
+alert 65000 3 "must move somewhere"
+alert 65000 6 "must try to drop at least one paintball"
+moveReport 65000
+launch 3 0
+move 15 15
+launch 26 0 30 28
+idle
+move 24 26
+move 7 16
+idle
+launch 30 13
+alert 65100 0 "child may not be defending when launching"
+alert 65100 2 "child must be standing to launch"
+alert 65100 7 "child must be standing to launch"
+moveChild 65100 65233 5 7 13 7 14
+alert 64900 4 "Move blocked"
+moveChild 65100 65300 1 16 13 15 14
+moveChild 65233 65366 5 7 14 7 15
+alert 65100 1 "Move blocked"
+moveChild 65366 65500 5 7 15 7 16
+snap 65500 39 139
+moveReport 65500
+idle
+move 16 12
+launch 29 30 30 0
+move 3 25
+pickup 23 26
+move 7 18
+move 19 4
+stand
+updateChild 65550 4 S U b 29
+updateMap 65550 23 26 .
+updateChild 65550 7 S U d 5
+alert 65600 2 "child must be standing to launch"
+moveChild 65600 65733 3 0 25 1 25
+moveChild 65600 65800 1 15 14 16 13
+moveChild 65600 65800 5 7 16 7 17
+moveChild 65600 65800 6 18 2 19 3
+moveChild 65733 65866 3 1 25 2 25
+moveChild 65866 66000 3 2 25 3 25
+moveChild 65800 66000 1 16 13 16 12
+moveChild 65800 66000 5 7 17 7 18
+moveChild 65800 66000 6 19 3 19 4
+snap 66000 39 139
+moveReport 66000
+move 8 11
+plant 15 11
+launch 30 6 30 17
+move 2 23
+move 22 22
+move 10 18
+crouch
+plant 21 8
+updateChild 66050 6 C U d 2
+alert 66100 1 "child does not have enough paintballs to plant a flag"
+alert 66100 7 "child does not have enough paintballs to plant a flag"
+alert 66100 2 "child must be standing to launch"
+moveChild 66100 66233 4 22 25 22 24
+moveChild 66100 66233 5 7 18 8 18
+moveChild 66100 66300 0 8 13 8 12
+moveChild 66100 66300 3 3 25 2 24
+moveChild 66233 66366 4 22 24 22 23
+moveChild 66233 66366 5 8 18 9 18
+moveChild 66366 66500 4 22 23 22 22
+moveChild 66366 66500 5 9 18 10 18
+moveChild 66300 66500 0 8 12 8 11
+moveChild 66300 66500 3 2 24 2 23
+snap 66500 39 139
+moveReport 66500
+move 8 9
+launch 2 2
+plant 29 13
+move 3 21
+move 24 23
+move 9 20
+move 19 5
+launch 30 0
+alert 66600 2 "must be standing to plant a flag"
+updateChild 66600 1 S U b 6
+updateChild 66600 7 S U d 4
+movePaintball 66600 66628 red 16.000000 12.000000 15.000000 11.285714
+movePaintball 66600 66640 blue 20.000000 7.000000 21.000000 6.300000
+movePaintball 66628 66657 red 15.000000 11.285714 14.000000 10.571429
+movePaintball 66640 66680 blue 21.000000 6.300000 22.000000 5.600000
+movePaintball 66657 66685 red 14.000000 10.571429 13.000000 9.857143
+movePaintball 66685 66714 red 13.000000 9.857143 12.000000 9.142857
+movePaintball 66680 66720 blue 22.000000 5.600000 23.000000 4.900000
+movePaintball 66714 66742 red 12.000000 9.142857 11.000000 8.428571
+movePaintball 66720 66760 blue 23.000000 4.900000 24.000000 4.200000
+movePaintball 66742 66771 red 11.000000 8.428571 10.000000 7.714286
+movePaintball 66771 66800 red 10.000000 7.714286 9.000000 7.000000
+movePaintball 66760 66800 blue 24.000000 4.200000 25.000000 3.500000
+moveChild 66600 66800 0 8 11 8 10
+moveChild 66600 66800 4 22 22 23 23
+moveChild 66600 66800 5 10 18 9 19
+moveChild 66600 66800 3 2 23 3 22
+movePaintball 66800 66828 red 9.000000 7.000000 8.000000 6.285714
+movePaintball 66800 66840 blue 25.000000 3.500000 26.000000 2.800000
+movePaintball 66828 66857 red 8.000000 6.285714 7.000000 5.571429
+movePaintball 66840 66880 blue 26.000000 2.800000 27.000000 2.100000
+movePaintball 66857 66885 red 7.000000 5.571429 6.000000 4.857143
+movePaintball 66885 66914 red 6.000000 4.857143 5.000000 4.142857
+movePaintball 66880 66920 blue 27.000000 2.100000 28.000000 1.400000
+movePaintball 66914 66942 red 5.000000 4.142857 4.000000 3.428571
+movePaintball 66920 66960 blue 28.000000 1.400000 29.000000 0.700000
+movePaintball 66942 66971 red 4.000000 3.428571 3.000000 2.714286
+movePaintball 66971 67000 red 3.000000 2.714286 2.000000 2.000000
+movePaintball 66960 67000 blue 29.000000 0.700000 30.000000 0.000000
+moveChild 66800 67000 0 8 10 8 9
+moveChild 66800 67000 4 23 23 24 23
+moveChild 66800 67000 5 9 19 9 20
+moveChild 66800 67000 3 3 22 3 21
+moveChild 66600 67000 6 19 4 19 5
+snap 67000 39 139
+moveReport 67000
+move 8 7
+launch 0 7
+move 30 13
+move 6 21
+move 22 24
+move 12 20
+move 19 6
+move 22 8
+updateChild 67100 1 S U b 5
+movePaintball 67100 67125 red 16.000000 12.000000 15.000000 11.687500
+movePaintball 67125 67150 red 15.000000 11.687500 14.000000 11.375000
+movePaintball 67150 67175 red 14.000000 11.375000 13.000000 11.062500
+movePaintball 67175 67200 red 13.000000 11.062500 12.000000 10.750000
+movePaintball 67200 67225 red 12.000000 10.750000 11.000000 10.437500
+moveChild 67100 67233 5 9 20 10 20
+moveChild 67100 67233 3 3 21 4 21
+movePaintball 67225 67250 red 11.000000 10.437500 10.000000 10.125000
+movePaintball 67250 67275 red 10.000000 10.125000 9.000000 9.812500
+movePaintball 67275 67300 red 9.000000 9.812500 8.000000 9.500000
+moveChild 67100 67300 0 8 9 8 8
+moveChild 67100 67300 4 24 23 23 24
+moveChild 67100 67300 7 20 7 21 8
+movePaintball 67300 67325 red 8.000000 9.500000 7.000000 9.187500
+movePaintball 67325 67350 red 7.000000 9.187500 6.000000 8.875000
+moveChild 67233 67366 5 10 20 11 20
+moveChild 67233 67366 3 4 21 5 21
+movePaintball 67350 67375 red 6.000000 8.875000 5.000000 8.562500
+movePaintball 67375 67400 red 5.000000 8.562500 4.000000 8.250000
+movePaintball 67400 67425 red 4.000000 8.250000 3.000000 7.937500
+movePaintball 67425 67450 red 3.000000 7.937500 2.000000 7.625000
+movePaintball 67450 67475 red 2.000000 7.625000 1.000000 7.312500
+movePaintball 67475 67500 red 1.000000 7.312500 0.000000 7.000000
+moveChild 67366 67500 5 11 20 12 20
+moveChild 67366 67500 3 5 21 6 21
+moveChild 67300 67500 0 8 8 8 7
+moveChild 67300 67500 4 23 24 22 24
+moveChild 67300 67500 7 21 8 22 8
+moveChild 67100 67500 2 30 14 30 13
+moveChild 67100 67500 6 19 5 19 6
+snap 67500 39 139
+alert 67500 2 "must try to drop at least one paintball"
+moveReport 67500
+move 10 7
+move 13 12
+idle
+move 4 22
+move 19 24
+move 12 23
+launch 20 0
+move 21 6
+alert 67600 6 "child must be standing to launch"
+alert 67466 4 "Move blocked"
+moveChild 67600 67733 1 16 12 15 12
+moveChild 67600 67733 5 12 20 12 21
+moveChild 67600 67800 0 8 7 9 7
+moveChild 67600 67800 3 6 21 5 22
+moveChild 67600 67800 7 22 8 21 7
+moveChild 67733 67866 1 15 12 14 12
+moveChild 67733 67866 5 12 21 12 22
+moveChild 67866 68000 1 14 12 13 12
+moveChild 67866 68000 5 12 22 12 23
+moveChild 67800 68000 0 9 7 10 7
+moveChild 67800 68000 3 5 22 4 22
+moveChild 67800 68000 7 21 7 21 6
+snap 68000 39 139
+moveReport 68000
+plant 9 6
+move 14 14
+plant 29 12
+launch 0 30
+drop 22 25 2
+move 11 25
+plant 20 7
+move 21 9
+updateChild 68000 4 S U b 27
+updateMap 68000 22 25 P2
+alert 68100 0 "child does not have enough paintballs to plant a flag"
+alert 68100 2 "must be standing to plant a flag"
+alert 68100 6 "must be standing to plant a flag"
+alert 68100 3 "child is out of paintballs"
+moveChild 68100 68233 7 21 6 21 7
+alert 67900 1 "Move blocked"
+moveChild 68100 68300 5 12 23 11 24
+moveChild 68233 68366 7 21 7 21 8
+moveChild 68366 68500 7 21 8 21 9
+moveChild 68300 68500 5 11 24 11 25
+snap 68500 39 139
+moveReport 68500
+move 12 7
+launch 8 30
+move 29 13
+move 1 22
+crouch
+move 13 25
+launch 30 10
+move 21 6
+updateChild 68550 4 C U b 27
+updateChild 68600 1 S U b 4
+alert 68600 6 "child must be standing to launch"
+movePaintball 68600 68622 red 13.000000 12.000000 12.722222 13.000000
+movePaintball 68622 68644 red 12.722222 13.000000 12.444444 14.000000
+movePaintball 68644 68666 red 12.444444 14.000000 12.166667 15.000000
+movePaintball 68666 68688 red 12.166667 15.000000 11.888889 16.000000
+movePaintball 68688 68711 red 11.888889 16.000000 11.611111 17.000000
+movePaintball 68711 68733 red 11.611111 17.000000 11.333333 18.000000
+moveChild 68600 68733 3 4 22 3 22
+moveChild 68600 68733 7 21 9 21 8
+movePaintball 68733 68755 red 11.333333 18.000000 11.055556 19.000000
+movePaintball 68755 68777 red 11.055556 19.000000 10.777778 20.000000
+movePaintball 68777 68800 red 10.777778 20.000000 10.500000 21.000000
+moveChild 68600 68800 0 10 7 11 7
+moveChild 68600 68800 5 11 25 12 25
+movePaintball 68800 68822 red 10.500000 21.000000 10.222222 22.000000
+movePaintball 68822 68844 red 10.222222 22.000000 9.944444 23.000000
+movePaintball 68844 68866 red 9.944444 23.000000 9.666667 24.000000
+moveChild 68733 68866 3 3 22 2 22
+moveChild 68733 68866 7 21 8 21 7
+movePaintball 68866 68888 red 9.666667 24.000000 9.388889 25.000000
+movePaintball 68888 68911 red 9.388889 25.000000 9.111111 26.000000
+movePaintball 68911 68933 red 9.111111 26.000000 8.833333 27.000000
+movePaintball 68933 68955 red 8.833333 27.000000 8.555556 28.000000
+movePaintball 68955 68977 red 8.555556 28.000000 8.277778 29.000000
+movePaintball 68977 69000 red 8.277778 29.000000 8.000000 30.000000
+moveChild 68866 69000 3 2 22 1 22
+moveChild 68866 69000 7 21 7 21 6
+moveChild 68800 69000 0 11 7 12 7
+moveChild 68800 69000 5 12 25 13 25
+moveChild 68600 69000 2 30 13 29 13
+snap 69000 39 139
+alert 69000 6 "must try to drop at least one paintball"
+alert 69000 7 "must try to drop at least one paintball"
+moveReport 69000
+pickup 13 7
+move 13 15
+move 29 12
+move 0 20
+move 23 24
+move 13 22
+idle
+idle
+updateChild 69050 0 S D d 5
+updateMap 69050 13 7 .
+moveChild 69100 69233 1 13 12 13 13
+moveChild 69100 69233 5 13 25 13 24
+moveChild 69100 69300 3 1 22 0 21
+moveChild 69233 69366 1 13 13 13 14
+moveChild 69233 69366 5 13 24 13 23
+moveChild 69366 69500 1 13 14 13 15
+moveChild 69366 69500 5 13 23 13 22
+moveChild 69300 69500 3 0 21 0 20
+moveChild 69100 69500 4 22 24 23 24
+moveChild 69100 69500 2 29 13 29 12
+snap 69500 39 139
+alert 69500 6 "must try to drop at least one paintball"
+moveReport 69500
+undefend
+move 13 12
+plant 28 11
+launch 0 12
+move 23 25
+move 13 19
+idle
+move 23 5
+updateChild 69550 0 S U d 5
+alert 69600 2 "must be standing to plant a flag"
+alert 69600 3 "child is out of paintballs"
+moveChild 69600 69733 1 13 15 13 14
+moveChild 69600 69733 5 13 22 13 21
+moveChild 69600 69800 7 21 6 22 5
+moveChild 69733 69866 1 13 14 13 13
+moveChild 69733 69866 5 13 21 13 20
+alert 69200 4 "Move blocked"
+moveChild 69866 70000 1 13 13 13 12
+moveChild 69866 70000 5 13 20 13 19
+moveChild 69800 70000 7 22 5 23 5
+snap 70000 39 139
+moveReport 70000
+move 15 7
+move 13 9
+stand
+launch 0 26
+pickup 23 25
+move 12 21
+launch 18 0
+move 20 5
+updateChild 70050 4 C U b 31
+updateMap 70050 23 25 .
+updateChild 70050 2 S U e 2
+alert 70100 6 "child must be standing to launch"
+alert 70100 3 "child is out of paintballs"
+moveChild 70100 70233 0 12 7 13 7
+moveChild 70100 70233 1 13 12 13 11
+moveChild 70100 70233 7 23 5 22 5
+moveChild 70100 70300 5 13 19 12 20
+moveChild 70233 70366 0 13 7 14 7
+moveChild 70233 70366 1 13 11 13 10
+moveChild 70233 70366 7 22 5 21 5
+moveChild 70366 70500 0 14 7 15 7
+moveChild 70366 70500 1 13 10 13 9
+moveChild 70366 70500 7 21 5 20 5
+moveChild 70300 70500 5 12 20 12 21
+snap 70500 39 139
+alert 70500 1 "must try to drop at least one paintball"
+alert 70500 6 "must try to drop at least one paintball"
+alert 70500 7 "must try to drop at least one paintball"
+moveReport 70500
+move 18 7
+idle
+move 29 9
+move 1 18
+launch 18 30
+move 12 24
+idle
+idle
+alert 70600 4 "child must be standing to launch"
+moveChild 70600 70733 0 15 7 16 7
+moveChild 70600 70733 5 12 21 12 22
+moveChild 70600 70733 2 29 12 29 11
+moveChild 70600 70800 3 0 20 1 19
+moveChild 70733 70866 0 16 7 17 7
+moveChild 70733 70866 5 12 22 12 23
+moveChild 70733 70866 2 29 11 29 10
+moveChild 70866 71000 0 17 7 18 7
+moveChild 70866 71000 5 12 23 12 24
+moveChild 70866 71000 2 29 10 29 9
+moveChild 70800 71000 3 1 19 1 18
+snap 71000 39 139
+moveReport 71000
+plant 17 6
+move 15 10
+plant 28 8
+plant 0 17
+move 23 23
+launch 0 30
+move 19 5
+move 22 4
+alert 71100 0 "child does not have enough paintballs to plant a flag"
+alert 71100 2 "child does not have enough paintballs to plant a flag"
+alert 71100 3 "child does not have enough paintballs to plant a flag"
+alert 71100 5 "child is out of paintballs"
+moveChild 71100 71300 1 13 9 14 10
+moveChild 71100 71300 7 20 5 21 4
+alert 71100 1 "Move blocked"
+moveChild 71300 71500 7 21 4 22 4
+moveChild 71100 71500 4 23 24 23 23
+moveChild 71100 71500 6 19 6 19 5
+snap 71500 39 139
+alert 71500 7 "must try to drop at least one paintball"
+moveReport 71500
+move 21 7
+launch 20 28
+move 30 10
+move 0 19
+move 23 24
+move 11 26
+move 18 5
+idle
+updateChild 71600 1 S U b 3
+movePaintball 71600 71622 red 14.000000 10.000000 14.333333 11.000000
+movePaintball 71622 71644 red 14.333333 11.000000 14.666667 12.000000
+movePaintball 71644 71666 red 14.666667 12.000000 15.000000 13.000000
+paintballHit 71666 red 15 13
+moveChild 71600 71733 0 18 7 19 7
+moveChild 71600 71800 5 12 24 11 25
+moveChild 71733 71866 0 19 7 20 7
+moveChild 71866 72000 0 20 7 21 7
+moveChild 71800 72000 5 11 25 11 26
+moveChild 71600 72000 4 23 23 23 24
+moveChild 71600 72000 2 29 9 30 10
+moveChild 71600 72000 6 19 5 18 5
+moveChild 71600 72000 3 1 18 0 19
+snap 72000 39 139
+alert 72000 0 "must try to drop at least one paintball"
+moveReport 72000
+idle
+pickup 15 10
+move 30 11
+move 0 20
+drop 23 25 9
+move 9 25
+move 17 5
+launch 28 22
+updateChild 72000 4 C U b 22
+updateMap 72000 23 25 P9
+updateChild 72050 1 S U b 5
+updateMap 72050 15 10 .
+updateChild 72100 7 S U d 3
+movePaintball 72100 72122 blue 22.000000 4.000000 22.333333 5.000000
+movePaintball 72122 72144 blue 22.333333 5.000000 22.666667 6.000000
+movePaintball 72144 72166 blue 22.666667 6.000000 23.000000 7.000000
+movePaintball 72166 72188 blue 23.000000 7.000000 23.333333 8.000000
+movePaintball 72188 72211 blue 23.333333 8.000000 23.666667 9.000000
+movePaintball 72211 72233 blue 23.666667 9.000000 24.000000 10.000000
+movePaintball 72233 72255 blue 24.000000 10.000000 24.333333 11.000000
+movePaintball 72255 72277 blue 24.333333 11.000000 24.666667 12.000000
+movePaintball 72277 72300 blue 24.666667 12.000000 25.000000 13.000000
+moveChild 72100 72300 5 11 26 10 25
+movePaintball 72300 72322 blue 25.000000 13.000000 25.333333 14.000000
+movePaintball 72322 72344 blue 25.333333 14.000000 25.666667 15.000000
+movePaintball 72344 72366 blue 25.666667 15.000000 26.000000 16.000000
+movePaintball 72366 72388 blue 26.000000 16.000000 26.333333 17.000000
+movePaintball 72388 72411 blue 26.333333 17.000000 26.666667 18.000000
+movePaintball 72411 72433 blue 26.666667 18.000000 27.000000 19.000000
+movePaintball 72433 72455 blue 27.000000 19.000000 27.333333 20.000000
+movePaintball 72455 72477 blue 27.333333 20.000000 27.666667 21.000000
+movePaintball 72477 72500 blue 27.666667 21.000000 28.000000 22.000000
+moveChild 72300 72500 5 10 25 9 25
+moveChild 72100 72500 2 30 10 30 11
+moveChild 72100 72500 6 18 5 17 5
+moveChild 72100 72500 3 0 19 0 20
+snap 72500 39 139
+alert 72500 6 "must try to drop at least one paintball"
+moveReport 72500
+launch 2 12
+launch 0 0
+move 30 8
+launch 2 30
+stand
+move 8 27
+idle
+crouch
+updateChild 72550 4 S U b 22
+updateChild 72550 7 C U d 3
+updateChild 72600 0 S U d 4
+updateChild 72600 1 S U b 4
+alert 72600 3 "child is out of paintballs"
+movePaintball 72600 72621 red 21.000000 7.000000 20.000000 7.263158
+movePaintball 72600 72628 red 14.000000 10.000000 13.000000 9.285714
+movePaintball 72621 72642 red 20.000000 7.263158 19.000000 7.526316
+movePaintball 72628 72657 red 13.000000 9.285714 12.000000 8.571429
+movePaintball 72642 72663 red 19.000000 7.526316 18.000000 7.789474
+movePaintball 72663 72684 red 18.000000 7.789474 17.000000 8.052632
+movePaintball 72657 72685 red 12.000000 8.571429 11.000000 7.857143
+movePaintball 72684 72705 red 17.000000 8.052632 16.000000 8.315789
+movePaintball 72685 72714 red 11.000000 7.857143 10.000000 7.142857
+movePaintball 72705 72726 red 16.000000 8.315789 15.000000 8.578947
+moveChild 72600 72733 2 30 11 30 10
+movePaintball 72714 72742 red 10.000000 7.142857 9.000000 6.428571
+movePaintball 72726 72747 red 15.000000 8.578947 14.000000 8.842105
+movePaintball 72747 72768 red 14.000000 8.842105 13.000000 9.105263
+movePaintball 72742 72771 red 9.000000 6.428571 8.000000 5.714286
+movePaintball 72768 72789 red 13.000000 9.105263 12.000000 9.368421
+movePaintball 72771 72800 red 8.000000 5.714286 7.000000 5.000000
+moveChild 72600 72800 5 9 25 8 26
+movePaintball 72789 72810 red 12.000000 9.368421 11.000000 9.631579
+movePaintball 72800 72828 red 7.000000 5.000000 6.000000 4.285714
+movePaintball 72810 72831 red 11.000000 9.631579 10.000000 9.894737
+movePaintball 72831 72852 red 10.000000 9.894737 9.000000 10.157895
+movePaintball 72828 72857 red 6.000000 4.285714 5.000000 3.571429
+moveChild 72733 72866 2 30 10 30 9
+movePaintball 72852 72873 red 9.000000 10.157895 8.000000 10.421053
+movePaintball 72857 72885 red 5.000000 3.571429 4.000000 2.857143
+movePaintball 72873 72894 red 8.000000 10.421053 7.000000 10.684211
+movePaintball 72885 72914 red 4.000000 2.857143 3.000000 2.142857
+movePaintball 72894 72915 red 7.000000 10.684211 6.000000 10.947368
+movePaintball 72915 72936 red 6.000000 10.947368 5.000000 11.210526
+movePaintball 72914 72942 red 3.000000 2.142857 2.000000 1.428571
+movePaintball 72936 72957 red 5.000000 11.210526 4.000000 11.473684
+movePaintball 72942 72971 red 2.000000 1.428571 1.000000 0.714286
+movePaintball 72957 72978 red 4.000000 11.473684 3.000000 11.736842
+movePaintball 72978 73000 red 3.000000 11.736842 2.000000 12.000000
+movePaintball 72971 73000 red 1.000000 0.714286 0.000000 0.000000
+moveChild 72866 73000 2 30 9 30 8
+moveChild 72800 73000 5 8 26 8 27
+snap 73000 39 139
+moveReport 73000
+move 21 4
+move 16 11
+move 30 11
+move 0 17
+pickup 23 25
+move 5 27
+move 17 6
+defend
+updateChild 73050 4 S U b 31
+updateMap 73050 23 25 .
+updateChild 73050 7 C D d 3
+moveChild 73100 73233 0 21 7 21 6
+moveChild 73100 73233 5 8 27 7 27
+moveChild 73100 73233 2 30 8 30 9
+moveChild 73100 73233 3 0 20 0 19
+moveChild 73100 73300 1 14 10 15 11
+moveChild 73233 73366 0 21 6 21 5
+moveChild 73233 73366 5 7 27 6 27
+moveChild 73233 73366 2 30 9 30 10
+moveChild 73233 73366 3 0 19 0 18
+moveChild 73366 73500 0 21 5 21 4
+moveChild 73366 73500 5 6 27 5 27
+moveChild 73366 73500 2 30 10 30 11
+moveChild 73366 73500 3 0 18 0 17
+moveChild 73300 73500 1 15 11 16 11
+moveChild 73100 73500 6 17 5 17 6
+snap 73500 39 139
+moveReport 73500
+launch 25 24
+move 16 14
+move 30 8
+move 0 14
+move 23 21
+move 8 27
+move 17 7
+launch 5 0
+updateChild 73600 0 S U d 3
+alert 73600 7 "child must be standing to launch"
+movePaintball 73600 73620 red 21.000000 4.000000 21.200000 5.000000
+movePaintball 73620 73640 red 21.200000 5.000000 21.400000 6.000000
+movePaintball 73640 73660 red 21.400000 6.000000 21.600000 7.000000
+movePaintball 73660 73680 red 21.600000 7.000000 21.800000 8.000000
+movePaintball 73680 73700 red 21.800000 8.000000 22.000000 9.000000
+movePaintball 73700 73720 red 22.000000 9.000000 22.200000 10.000000
+moveChild 73600 73733 4 23 24 23 23
+moveChild 73600 73733 1 16 11 16 12
+moveChild 73600 73733 5 5 27 6 27
+moveChild 73600 73733 2 30 11 30 10
+moveChild 73600 73733 3 0 17 0 16
+movePaintball 73720 73740 red 22.200000 10.000000 22.400000 11.000000
+movePaintball 73740 73760 red 22.400000 11.000000 22.600000 12.000000
+movePaintball 73760 73780 red 22.600000 12.000000 22.800000 13.000000
+movePaintball 73780 73800 red 22.800000 13.000000 23.000000 14.000000
+movePaintball 73800 73820 red 23.000000 14.000000 23.200000 15.000000
+movePaintball 73820 73840 red 23.200000 15.000000 23.400000 16.000000
+movePaintball 73840 73860 red 23.400000 16.000000 23.600000 17.000000
+moveChild 73733 73866 4 23 23 23 22
+moveChild 73733 73866 1 16 12 16 13
+moveChild 73733 73866 5 6 27 7 27
+moveChild 73733 73866 2 30 10 30 9
+moveChild 73733 73866 3 0 16 0 15
+movePaintball 73860 73880 red 23.600000 17.000000 23.800000 18.000000
+movePaintball 73880 73900 red 23.800000 18.000000 24.000000 19.000000
+movePaintball 73900 73920 red 24.000000 19.000000 24.200000 20.000000
+movePaintball 73920 73940 red 24.200000 20.000000 24.400000 21.000000
+movePaintball 73940 73960 red 24.400000 21.000000 24.600000 22.000000
+paintballHit 73960 red 25 22
+moveChild 73866 74000 4 23 22 23 21
+moveChild 73866 74000 1 16 13 16 14
+moveChild 73866 74000 5 7 27 8 27
+moveChild 73866 74000 2 30 9 30 8
+moveChild 73866 74000 3 0 15 0 14
+moveChild 73600 74000 6 17 6 17 7
+snap 74000 39 139
+moveReport 74000
+move 20 6
+move 13 14
+plant 29 7
+launch 0 0
+plant 24 22
+plant 9 28
+launch 16 0
+idle
+updateChild 74100 4 S U b 6
+updateMap 74100 24 22 B
+alert 74100 5 "child does not have enough paintballs to plant a flag"
+alert 74100 2 "child does not have enough paintballs to plant a flag"
+alert 74100 6 "child must be standing to launch"
+alert 74100 3 "child is out of paintballs"
+moveChild 74100 74233 1 16 14 15 14
+moveChild 74100 74300 0 21 4 20 5
+moveChild 74233 74366 1 15 14 14 14
+moveChild 74366 74500 1 14 14 13 14
+moveChild 74300 74500 0 20 5 20 6
+snap 74500 69 151
+moveReport 74500
+move 17 6
+move 13 17
+launch 15 17 30 0
+move 3 14
+move 25 20
+move 11 27
+move 16 7
+defend
+updateChild 74550 7 C D d 3
+alert 74600 2 "child does not have enough paintballs for rapid fire"
+moveChild 74600 74733 0 20 6 19 6
+moveChild 74600 74733 1 13 14 13 15
+moveChild 74600 74733 5 8 27 9 27
+moveChild 74600 74733 3 0 14 1 14
+moveChild 74600 74800 4 23 21 24 20
+moveChild 74733 74866 0 19 6 18 6
+moveChild 74733 74866 1 13 15 13 16
+moveChild 74733 74866 5 9 27 10 27
+moveChild 74733 74866 3 1 14 2 14
+moveChild 74866 75000 0 18 6 17 6
+moveChild 74866 75000 1 13 16 13 17
+moveChild 74866 75000 5 10 27 11 27
+moveChild 74866 75000 3 2 14 3 14
+moveChild 74800 75000 4 24 20 25 20
+moveChild 74600 75000 6 17 7 16 7
+snap 75000 69 151
+finalScore blue 89 329 168 253
+end
