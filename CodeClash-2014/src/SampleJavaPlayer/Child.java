@@ -5,27 +5,26 @@ import java.util.Random;
 /**
  * Class that holds the state of a child.
  */
-public class Child
-{
+public class Child{
     // Location of the child.
-    private Point fPos;
+    protected Point fPos;
 
     // True if the child is standing.
-    private boolean fIsStanding;
+    protected boolean fIsStanding;
 
     // True if the child is defending
-    private boolean fIsDefending;
+    protected boolean fIsDefending;
 
     // Side the child is on.
-    private int fColor;
+    protected int fColor;
 
     // What the child is holding.
-    private int fHolding;
+    protected int fHolding;
 
     // Number of paintballs being held by the child
-    private int fPaintballs;
+    protected int fPaintballs;
 
-    private Random fRandomGenerator;
+    protected Random fRandomGenerator;
 
     public Child( int color )
     {
@@ -94,7 +93,7 @@ public class Child
      * work, then we will just default to a move action.
      *
      * @param field the current field
-     *
+     *@Override
      * @return the child's next action
      */
     public Action chooseAction( int[][] field )
